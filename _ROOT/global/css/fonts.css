@@ -1,0 +1,391 @@
+/*FONT FAMILIES*/
+
+
+/*
+
+TYPEKIT
+font-family: "proxima-nova",sans-serif;
+font-family:"proxima-nova-sc-osf-condensed",sans-serif
+*/
+
+.proxima-nova-light {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 100;
+}
+
+.proxima-nova-reg {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+}
+
+.proxima-nova-bold {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+.proxima-nova-black {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+}
+
+.proxima-nova-condensed {
+	font-family: "proxima-nova-sc-osf-condensed", sans-serif
+}
+
+h1, .h1 {
+	font-family: 'proxima-nova', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.h2, .h3, .h4, .h5, .h6, h2, h3, h4, h5, h6 {
+	font-family: 'proxima-nova', sans-serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+.txt-uppercase {
+	text-transform: uppercase;
+}
+
+.txt-inherit {
+	text-transform: inherit;
+}
+
+.txt-shadow {
+	text-shadow: 0 0 100px black, 0 0 20px black
+}
+
+p, .p {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	letter-spacing: 0px;
+}
+
+ul.default li, ul.checkmarks li, ul.starred li {
+	margin: 10px 0;
+	/* not needed, just to add space between the li's */
+	list-style: none;
+	/* Get rid of the default bullet points */
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+ul.default li:before {
+	font-family: 'FontAwesome';
+	content: '\f111';
+	margin: 0 5px 0 -15px;
+	font-size: 6px;
+	top: -4px;
+	position: relative;
+}
+
+ul.checkmarks li:before {
+	font-family: 'FontAwesome';
+	content: '\f00c';
+	margin: 0 5px 0 -15px;
+}
+
+ul.starred li:before {
+	font-family: 'FontAwesome';
+	content: '\f069';
+	margin: 0 5px 0 -15px;
+}
+
+.img-caption-left {
+	position: absolute;
+	bottom: 1vh;
+	left: 3vw;
+	font-size: 12px;
+	color: white;
+	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
+	z-index: 100;
+	font-family: "proxima-nova-sc-osf-condensed", sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.img-caption-right {
+	position: absolute;
+	bottom: 1vh;
+	right: 3vw;
+	font-size: 12px;
+	color: white;
+	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
+	z-index: 100;
+	font-family: "proxima-nova-sc-osf-condensed", sans-serif;
+	text-align: right;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.img-caption-center {
+	position: absolute;
+	bottom: 1vh;
+	left: 50%;
+	font-size: 12px;
+	color: white;
+	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
+	z-index: 100;
+	font-family: "proxima-nova-sc-osf-condensed", sans-serif;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 70vw;
+}
+
+.jumbo-font {
+	font-size: 5.2rem;
+	line-height: 45px;
+}
+
+.h1, h1 {
+	font-size: 3.8rem;
+	line-height: 36px;
+}
+
+.h2, h2 {
+	font-size: 3rem;
+	line-height: 30px;
+}
+
+.h3, h3 {
+	font-size: 2.6rem;
+	line-height: 24px;
+}
+
+.h4, h4 {
+	font-size: 2rem;
+	line-height: 18px;
+}
+
+.h5, h5 {
+	font-size: 1.4rem;
+	line-height: inherit;
+}
+
+.h6, h6 {
+	font-size: 1.2rem;
+	line-height: inherit;
+}
+
+.copy-container-left, .txt-left {
+	text-align: left;
+}
+
+.copy-container-left-always, .text-left-m {
+	text-align: left;
+}
+
+.copy-container-center, .txt-center{
+	text-align: center;
+}
+
+.copy-container-right, .txt-right {
+	text-align: right;
+}
+
+.copy-container-right-always, .txt-right-m {
+	text-align: right;
+}
+
+.copy-container-justified {
+	text-align: justify;
+	-webkit-text-align-last: center;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+
+
+/*COLORS*/
+
+.p-primary {
+	color: rgba(110, 150, 40, 1)
+}
+
+.light-primary {
+	color: rgba(230, 250, 200, 1);
+}
+
+a.light-primary, .light-primary a {
+	color: rgba(190, 210, 170, 1);
+}
+a.light-primary:hover, .light-primary a:hover {
+	text-decoration: none !important;
+}
+
+.p-success {
+	color: rgba(110, 160, 190, 1)
+}
+
+.light-success {
+	color: rgba(190, 240, 250, 1);
+}
+
+a.light-success, .light-success a {
+	color: rgba(190, 240, 250, 1);
+}
+a.light-success:hover, .light-success a:hover {
+	text-decoration: none !important;
+}
+
+.p-info {
+	color: rgba(170, 120, 190, 1)
+}
+
+.light-info {
+	color: rgba(250, 220, 250, 1);
+}
+
+a.light-info, .light-info a {
+	color: rgba(250, 220, 250, 1);
+}
+
+a.light-info:hover, .light-info a:hover {
+	text-decoration: none !important;
+}
+
+.p-warning {
+	color: rgba(210, 160, 20, 1)
+}
+
+.light-warning {
+	color: rgba(250, 250, 180, 1);
+}
+
+a.light-warning, .light-warning a {
+	color: rgba(250, 250, 180, 1);
+}
+
+a.light-warning:hover, .light-warning a:hover {
+	text-decoration: none !important;
+}
+
+.p-danger {
+	color: rgba(200, 70, 70, 1)
+}
+
+.light-danger {
+	color: rgba(250, 200, 210, 1);
+}
+
+a.light-danger, .light-danger a {
+	color: rgba(250, 200, 210, 1);
+}
+a.light-danger:hover, .light-danger a:hover {
+	text-decoration: none !important;
+}
+
+.p-inverse {
+	color: rgba(65, 65, 65, 1)
+}
+
+.light-inverse {
+	color: rgba(190, 190, 190, 1);
+}
+
+a.light-inverse, .light-inverse a {
+	color: rgba(190, 190, 190, 1);
+}
+a.light-inverse:hover, .light-inverse a:hover {
+	text-decoration: none !important;
+}
+
+
+/*end colors*/
+
+@media (max-width: 1199px) {
+	.jumbo-font {
+		font-size: 4.5rem;
+		line-height: 42px;
+	}
+}
+
+@media (max-width: 991px) {
+	.h1, .h2, .h3, h1, h2, h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.jumbo-font {
+		font-size: 3.5rem;
+		line-height: 32px;
+	}
+	.h1, h1 {
+		font-size: 3.2rem;
+		line-height: 30px;
+	}
+	.h2, h2 {
+		font-size: 2.6rem;
+		line-height: 24px;
+	}
+	.h3, h3 {
+		font-size: 1.8rem;
+		line-height: inherit;
+	}
+	.h4, h4 {
+		font-size: 1.6rem;
+		line-height: inherit;
+	}
+	.h5, h5 {
+		font-size: 1.4rem;
+		line-height: inherit;
+	}
+	.h6, h6 {
+		font-size: 1.2rem;
+		line-height: inherit;
+	}
+	p, .p {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbo-font {
+		font-size: 3.8rem;
+		line-height: 38px;
+	}
+	.h1, h1 {
+		font-size: 2.4rem;
+		line-height: 24px;
+	}
+	.h2, h2 {
+		font-size: 2rem;
+		line-height: 20px;
+	}
+	.h3, h3 {
+		font-size: 1.6rem;
+		line-height: 16px;
+	}
+	p, .p {
+		font-size: 1.2rem;
+		letter-spacing: .3px;
+	}
+	.copy-container-left {
+		text-align: center !important;
+	}
+	.copy-container-center {
+		text-align: center !important;
+	}
+	.copy-container-right {
+		text-align: center !important;
+	}
+	.img-caption-left, .img-caption-right, .img-caption-center {
+		font-size: 10px
+	}
+}
+
+@media (max-width: 580px) {
+	p, .p, ul.default li, ul.checkmarks li, ul.starred li {
+		font-size: 1.2rem;
+	}
+}

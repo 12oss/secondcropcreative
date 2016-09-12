@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/***************************************************/
+
+
+/***************************************************/
+
+
+/*need this for the fixed top nav*/
+
+body {
+	padding-top: 70px;
+}
+
+
+/***************************************************/
+
+
+/***************************************************/
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+/* the toggle hide/show css for pre code tags*/
+
+.newboxes {
+	display: none;
+}
+
+a#myHeader1 {
+	color: rgba(255, 255, 255, 1) !important;
+	background-color: rgba(255, 80, 120, 1);
+}
+
+
+/* end the toggle hide/show css for pre code tags*/
+
+
+/*Modal img*/
+
+.modal-body img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*end Modal*/
+
+.container-fluid {
+	min-height: 100%;
+	position: relative;
+}
+
+.container {
+	padding-bottom: 280px;
+	/*height of footer*/
+	;
+	padding-top: 70px;
+	/*accounts for header*/
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+/*HP STYLES*/
+
+#hp-wrapper {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#hp-wrapper .col-xs-1,
+#hp-wrapper .col-xs-2,
+#hp-wrapper .col-xs-3,
+#hp-wrapper .col-xs-4,
+#hp-wrapper .col-xs-5,
+#hp-wrapper .col-xs-6,
+#hp-wrapper .col-xs-7,
+#hp-wrapper .col-xs-8,
+#hp-wrapper .col-xs-9,
+#hp-wrapper .col-xs-10,
+#hp-wrapper .col-xs-11,
+#hp-wrapper .col-xs-12,
+#hp-wrapper .col-sm-1,
+#hp-wrapper .col-sm-2,
+#hp-wrapper .col-sm-3,
+#hp-wrapper .col-sm-4,
+#hp-wrapper .col-sm-5,
+#hp-wrapper .col-sm-6,
+#hp-wrapper .col-sm-7,
+#hp-wrapper .col-sm-8,
+#hp-wrapper .col-sm-9,
+#hp-wrapper .col-sm-10,
+#hp-wrapper .col-sm-11,
+#hp-wrapper .col-sm-12 {
+	padding: 0px;
+}
+
+
+/*end HP STYLES*/
+
+
+/*CENTER ALL*/
+
+.center-all {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+
+/*end CENTER ALL*/
+
+
+/*COLORS*/
+
+
+/*extra bg colors*/
+
+.blue-bg {
+	background-color: rgba(70, 205, 230, .9)!important;
+}
+
+.orange-bg {
+	background-color: rgba(250, 140, 60, .9)!important;
+}
+
+.pink-bg {
+	background-color: rgba(255, 80, 120, .9)!important;
+}
+
+.gray-bg {
+	background-color: rgba(30, 40, 40, .8)!important;
+}
+
+
+/*end extra bg colors*/
+
+
+/*extra atag colors*/
+
+a.blue-link {
+	color: rgba(70, 205, 230, 1)!important;
+	cursor: pointer;
+}
+
+a.orange-link {
+	color: rgba(250, 140, 60, 1)!important;
+	cursor: pointer;
+}
+
+a.pink-link {
+	color: rgba(255, 80, 120, 1)!important;
+	cursor: pointer;
+}
+
+a.gray-link {
+	color: rgba(120, 120, 120, 1)!important;
+	cursor: pointer;
+}
+
+.blue-it {
+	color: rgba(70, 205, 230, 1)!important;
+}
+
+.orange-it {
+	color: rgba(250, 140, 60, 1)!important;
+}
+
+.pink-it {
+	color: rgba(255, 80, 120, 1)!important;
+}
+
+.gray-it {
+	color: rgba(120, 120, 120, 1)!important;
+}
+
+
+/*end extra a tag colors*/
+
+
+/*end COLORS*/
+
+
+/*BUTTONS*/
+
+.btn {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.btn-default a {
+	color: rgba(100, 100, 120, 1);
+}
+
+.btn-primary a,
+.btn-success a,
+.btn-info a,
+.btn-warning a,
+.btn-danger a {
+	color: rgba(255, 255, 250, 1);
+}
+
+.btn-default a:hover,
+.btn-primary a:hover,
+.btn-success a:hover,
+.btn-info a:hover,
+.btn-warning a:hover,
+.btn-danger a:hover,
+.btn-link a:hover {
+	text-decoration: none;
+}
+
+.btn-link a {
+	color: rgba(100, 100, 120, 1);
+}
+
+.action-link:after {
+	content: "\f054";
+	font-size: .885em;
+	padding-left: .3em;
+	font-family: FontAwesome;
+	-webkit-font-smoothing: antialiased;
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0 0;
+	background-repeat: repeat;
+	margin-top: 0;
+	font-weight: normal;
+	color: inherit;
+}
+
+.btn-primary {
+	background-color: rgba(100, 145, 120, .85);
+	border: none;
+	margin: 2px;
+}
+
+.btn-primary:hover {
+	background-color: rgba(50, 85, 70, .85);
+	border: none;
+}
+
+.btn-success {
+	background-color: rgba(150, 200, 40, .85);
+	border: none;
+	margin: 2px;
+}
+
+.btn-success:hover {
+	background-color: rgba(90, 140, 20, .85);
+	border: none;
+}
+
+.btn-info {
+	background-color: rgba(120, 190, 190, .85);
+	border: none;
+	margin: 2px;
+}
+
+.btn-info:hover {
+	background-color: rgba(90, 155, 130, .85);
+	border: none;
+}
+
+.btn-warning {
+	background-color: rgba(220, 170, 40, .85);
+	border: none;
+	margin: 2px;
+}
+
+.btn-warning:hover {
+	background-color: rgba(230, 130, 20, .85);
+	border: none;
+}
+
+.btn-danger {
+	background-color: rgba(240, 100, 30, .85);
+	border: none;
+	margin: 2px;
+}
+
+.btn-danger:hover {
+	background-color: rgba(200, 50, 10, .85);
+	border: none;
+}
+
+
+/*end BUTTONS*/
+
+.text-light {
+	color: rgba(255, 255, 250, 1)
+}
+
+
+/*HOVER EFFECTS*/
+
+.rollover {
+	position: relative;
+	transition: all .33s ease-in-out;
+	-ms-transition: all .33s ease-in-out;
+	-moz-transition: all .33s ease-in-out;
+	-webkit-transition: all .33s ease-in-out;
+	background-color: rgba(0, 0, 0, .8);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.rollover-img {
+	transition: all .33s ease-in-out;
+	-ms-transition: all .33s ease-in-out;
+	-moz-transition: all .33s ease-in-out;
+	-webkit-transition: all .33s ease-in-out;
+	z-index: 5;
+}
+
+
+/*Transform here sets the zoom*/
+
+.rollover:hover .rollover-img {
+	opacity: .2;
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+
+.rollover:hover .rollover-copy {
+	opacity: 1;
+	display: block;
+}
+
+.rollover-copy {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	opacity: 0;
+	display: none;
+	transition: all .33s ease-in-out;
+	-ms-transition: all .33s ease-in-out;
+	-moz-transition: all .33s ease-in-out;
+	-webkit-transition: all .33s ease-in-out;
+	letter-spacing: .1em;
+	z-index: 100;
+}
+
+.hp-wrapper a .rollover-copy:hover {
+	text-decoration: none;
+}
+
+
+/*end HOVER EFFECTS*/
+
+
+/* PORTFOLIO COPY*/
+
+#project-description-container {
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	position: relative;
+}
+
+#project-description-container h1.portfolio-title {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 20px !important;
+	color: rgba(20, 20, 20, 1) !important;
+	text-transform: inherit;
+	line-height: 1.2em;
+}
+
+#project-description-container p.portfolio-description {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: rgba(140, 140, 140, 1);
+	font-size: 12px;
+}
+
+#project-description-container ul {
+	color: rgba(140, 140, 140, 1);
+	font-size: 12px;
+	margin-left: -28px;
+	margin-top: -10px;
+}
+
+#portfolio-art-container img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*project-nav*/
+
+.project-nav a i {
+	color: rgba(220, 220, 220, 1);
+	background-color: rgba(20, 20, 30, .90);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+	padding-top: 5px;
+}
+
+.project-nav a i:hover {
+	color: rgba(180, 180, 180, 1);
+	background-color: rgba(35, 35, 35, .75);
+}
+
+
+/*end project-nav*/
+
+
+/*end PORTFOLIO COPY*/
+
+@media (max-width: 1100px) {}
+
+@media (max-width: 994px) {
+	#project-description-container {
+		position: relative !important;
+		padding-bottom: 10px !important;
+		padding-top: 10px !important;
+		top: 0% !important;
+		transform: translateY(0%) !important;
+		max-width: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	#project-description-container {
+		position: relative !important;
+		padding-bottom: 10px !important;
+		padding-top: 10px !important;
+		top: 0% !important;
+		transform: translateY(0%) !important;
+		max-width: 100% !important;
+	}
+	.container {
+		padding-top: 50px !important;
+	}
+}
+
+@media (max-width: 580px) {
+	.rollover-copy {
+		padding: 15px;
+	}
+}
