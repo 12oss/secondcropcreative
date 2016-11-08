@@ -37,8 +37,8 @@ theme:            minima
 
 #Teaser Image
 image:
-  teaser: http://lorempixel.com/1600/550/people/2/
-  feature: http://lorempixel.com/1600/550/people/2/
+  teaser: 
+  feature: 
 
 #Pagination
 paginate: 10
@@ -69,12 +69,12 @@ source:           docs
 destination:      _gh_pages
 host:             0.0.0.0
 port:             12055
-baseurl:          "/secondcropcreative"
+baseurl:          ""
 #Production : https://12oss.github.io/secondcropcreative/
 #DEV : http://0.0.0.0:12055/secondcropcreative/
 #site.github.url
 #site.baseurl
-#url:              "https://12oss.github.io/secondcropcreative/"
+url:              "http://secondcropcreative.com"
 encoding:         UTF-8
 
 
