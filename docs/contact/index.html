@@ -1,139 +1,69 @@
-<!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title itemprop="name">Contact Us | Second Crop Creative</title>
-<meta name="description" itemprop="description" content="The quickiest, easiest way to contact Second Crop Creative is to use the contact us form below." />
-<meta name="robots" content="index,follow">
-
-<meta property="og:site_name" content="Second Crop Creative"/>
-<meta property="og:title" content="Contact Us | Second Crop Creative"/>
-<meta property="og:description" content="The quickiest easiest way to contact Second Crop Creative is to use the contact us form below."/>
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://secondcropcreative.com/contact"/>
-<meta property="og:email" content="hello@secondcropcreative.com"/>
-<meta property="og:locale" content="en_US" />
-<meta property="og:image" content="" />
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-<!--#include virtual="/global/header/masthead.html" -->
-<style>
-	.gmaps {
-		position: relative;
-		padding-bottom: 45vh; /* This is the aspect ratio*/
-		height: 0;
-		overflow: hidden;
-	}
-	.gmaps iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100% !important;
-		height: 100% !important;
-	}
-
-</style>
-</head>
-<body itemscope itemtype="http://schema.org/ContactPage">
-<div class="container-fluid"> 
-	<!--#include virtual="/global/header/navigation.html" -->
-	<div class="creative-content">
-		<div class="row">
-			<div class="bg20-md bg33-sm bg-half-xs dark-boxshadow" style="background-image:url('images/suburban-legends.jpg'); background-position:center center; ">
-				<!-- you need to override the 'clear.gif' that is currently set to the bg image on  .'bg-center'- -->
-				<div class="center-pos">
-					<!-- Need this div so that the content gets centered-->
-					<h1 itemprop="headline" class="txt-inherit">Contact Us</h1>
-					<h4 itemprop="description">Tingling fingertips? It's most likely your urge to reach out and contact us.</h4>
-				</div>
-			</div>
-		</div>
-		<div class="row max-1080" style="padding-top:2vh;">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="row">
-						<div class="col-xs-12">
-							<!--Dependent on <script src="/global/js/validator/validator.js"></script> (which should be added to the pages that have forms on it -->
-							<!--Form needs action="/contact/php/mailer.php" to work as well-->
-							<!--Pay attention to 'data-error=' as well as the empty div '<div class="help-block with-errors"></div>' to show the error messages-->
-							<div class="panel panel-default" >
-								<div class="panel-heading">
-									<!--<h2>Contact Form</h2>-->
-									<small><em><i class="fa fa-exclamation-circle"></i> Be sure to fill out the form completely and don't be afraid to enquire about getting an estimate.</em></small>
-								</div>
-								<div class="panel-body">
-									<form id="contact-us" name="contactform" method="post" action="/contact/php/mailer.php" class="form-horizontal col-xs-12" data-toggle="validator" role="form">
-										<!-- prevents spambots-->
-										<input type="text" name="foo" style="display: none;" autocomplete="off">
-										<!-- prevents spambots-->
-										<div class="form-group">
-											<label for="inputName" class="col-lg-2 control-label">Name</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control" id="inputName" name="inputName" placeholder="What does your mother call you?" data-error="Hey, we need to know who we are dealing with here!" required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="inputEmail" class="col-lg-2 control-label">Email</label>
-											<div class="col-lg-10">
-												<input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Where can we email you back?" data-error="Bruh, that email address is invalid." required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="inputPhone" class="col-lg-2 control-label">Phone</label>
-											<div class="col-lg-10">
-												<input type="phone" class="form-control" id="inputPhone" name="inputPhone" placeholder="How can we reach you on the tele?" data-error="Sometimes it's easier/quicker to just make a phone call." required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject of Email" data-error="Message must have a subject line so we know what you are getting at." required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="inputPassword1" class="col-lg-2 control-label">Message</label>
-											<div class="col-lg-10">
-												<textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="What's on your mind?" data-error="Aw, come on. I thought you wanted to contact us..." required></textarea>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<div class="col-lg-offset-2 col-lg-10">
-												<button type="submit" class="btn btn-default">
-													Send Message
-												</button>
-											</div>
-										</div>
-									</form>
-									<!--<div class="col-xs-12 col-sm-offset-2 col-sm-10 gmaps">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.9057396490225!2d-89.22721899999999!3d42.93811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8806467548c2b385%3A0xbe2ea84b8ec423f!2s2109+N+Page+St%2C+Stoughton%2C+WI+53589!5e0!3m2!1sen!2sus!4v1440781999226" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-									</div>-->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+---
+layout: default
+title: Contact Us | Second Crop Creative
+description: The quickiest, easiest way to contact Second Crop Creative is to use the contact us form below.
+---
+<div class="creative-content">
+	<div class="row">
+		<div class="bg20-md bg33-sm bg-half-xs dark-boxshadow" style="background-image:url('images/suburban-legends.jpg'); background-position:center center; ">
+			<!-- you need to override the 'clear.gif' that is currently set to the bg image on  .'bg-center'- -->
+			<div class="center-pos">
+				<!-- Need this div so that the content gets centered-->
+				<h1 itemprop="headline" class="txt-inherit">Contact Us</h1>
+				<h4 itemprop="description">Tingling fingertips? It's most likely your urge to reach out and contact us.</h4>
 			</div>
 		</div>
 	</div>
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<!--#include virtual="/global/footer/footer.html" --> 
-	<!-- needed for contact form-->
-	<script src="/global/js/validator.js"></script>
-	<!-- needed for contact form-->
+	<div class="clearfix" style="padding-top: 15px;"></div>
+	<div class="panel panel-default max-1080">
+		<div class="panel-heading">
+			<small><em><i class="fa fa-exclamation-circle"></i> Be sure to fill out the form completely and don't be afraid to enquire about getting an estimate.</em></small>
+		</div>
+		<div class="panel-body">
+			<form action="https://formspree.io/hello@secondcropcreative.com" method="POST">
+				<div class="form-group">
+					<label for="Name" class="col-lg-2 control-label txt-right">Name:</label>
+					<div class="col-lg-10">
+						<input type="name" class="form-control" id="Name" name="Name" placeholder="What does your mother call you?" data-error="Hey, we need to know who we are dealing with here!" required="">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="Email" class="col-lg-2 control-label txt-right">Email:</label>
+					<div class="col-lg-10">
+						<input type="email" class="form-control" id="Email" name="Email" placeholder="Where can we email you back?" data-error="Bruh, that email address is invalid." required="">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="Phone" class="col-lg-2 control-label txt-right">Phone:</label>
+					<div class="col-lg-10">
+						<input type="phone" class="form-control" id="Phone" name="Phone" placeholder="How can we reach you on the tele?" data-error="Sometimes it's easier/quicker to just make a phone call." required="">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="Subject" class="col-lg-2 control-label txt-right">Subject:</label>
+					<div class="col-lg-10">
+						<input type="subject" class="form-control" id="Subject" name="Subject" placeholder="Subject of Message" data-error="Sometimes it's easier/quicker to just make a phone call." required="">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="Message" class="col-lg-2 control-label txt-right">Message:</label>
+					<div class="col-lg-10">
+						<textarea class="form-control" rows="4" id="Message" name="Message" placeholder="What's on your mind?" data-error="Aw, come on. I thought you wanted to contact us..." required=""></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-2 col-lg-10">
+						<button type="submit" value="send" class="btn btn-default">
+							Send Message
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
-</body>
-</html>

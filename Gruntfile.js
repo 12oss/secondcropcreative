@@ -5,59 +5,59 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		concat: {
 			css: {
-				src: ['docs/global/css/font-awesome.min.css',
-					'docs/global/css/bootstrap.min.css',
-					'docs/global/css/full-width.css',
-					'docs/global/css/prism.css',
-					'docs/global/css/before-after.css',
-					'docs/global/css/fonts.css',
-					'docs/global/css/extras.css',
-					'docs/global/css/masonry.css',
-					'docs/global/css/jquery.fancybox.css',
-					'docs/global/css/share-button.css'
+				src: ['docs/assets/css/font-awesome.min.css',
+					'docs/assets/css/bootstrap.min.css',
+					'docs/assets/css/full-width.css',
+					'docs/assets/css/prism.css',
+					'docs/assets/css/before-after.css',
+					'docs/assets/css/fonts.css',
+					'docs/assets/css/extras.css',
+					'docs/assets/css/masonry.css',
+					'docs/assets/css/jquery.fancybox.css',
+					'docs/assets/css/share-button.css'
 				],
 
-				dest: 'docs/global/build/css/secondcrop.css'
+				dest: 'docs/dist/css/secondcrop.css'
 			},
 			js: {
 				options: {
 					separator: ';',
 				},
-				src: ['docs/global/js/jquery.min.js',
-					'docs/global/js/bootstrap.min.js',
-					'docs/global/js/before-after.js',
-					'docs/global/js/modernizr.js',
-					'docs/global/js/jquery.fancybox.pack.js',
-					'docs/global/js/isotope.pkgd.js',
-					'docs/global/js/jquery.mobile.custom.min.js',
-					'docs/global/js/lazysizes.min.js',
-					'docs/global/js/ls.respimg.min.js',
-					'docs/global/js/jquery.smooth-scroll.min.js',
-					'docs/global/js/share-button.min.js'
+				src: ['docs/assets/js/jquery.min.js',
+					'docs/assets/js/bootstrap.min.js',
+					'docs/assets/js/before-after.js',
+					'docs/assets/js/modernizr.js',
+					'docs/assets/js/jquery.fancybox.pack.js',
+					'docs/assets/js/isotope.pkgd.js',
+					'docs/assets/js/jquery.mobile.custom.min.js',
+					'docs/assets/js/lazysizes.min.js',
+					'docs/assets/js/ls.respimg.min.js',
+					'docs/assets/js/jquery.smooth-scroll.min.js',
+					'docs/assets/js/site.js'
 				],
 
-				dest: 'docs/global/build/js/secondcrop.js'
+				dest: 'docs/dist/js/secondcrop.js'
 			}
 		},
 		cssmin: {
 			css: {
-				src: 'docs/global/build/css/secondcrop.css',
-				dest: 'docs/global/build/css/min/secondcrop.min.css'
+				src: 'docs/dist/css/secondcrop.css',
+				dest: 'docs/dist/css/min/secondcrop.min.css'
 			}
 		},
 		uglify: {
 			js: {
-				src: 'docs/global/build/js/secondcrop.js',
-				dest: 'docs/global/build/js/min/secondcrop.min.js'
+				src: 'docs/dist/js/secondcrop.js',
+				dest: 'docs/dist/js/min/secondcrop.min.js'
 			}
 		},
 		watch: {
 			css: {
-				files: ['docs/global/css/*.css'],
+				files: ['docs/assets/css/*.css'],
 				tasks: ['concat:css', 'cssmin:css']
 			},
 			js: {
-				files: ['docs/global/js/*.js'],
+				files: ['docs/assets/js/*.js'],
 				tasks: ['concat:js', 'uglify:js']
 			},
 		}

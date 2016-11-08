@@ -1,2 +1,0 @@
-image resizer:
-http://webresizer.com/resizer/

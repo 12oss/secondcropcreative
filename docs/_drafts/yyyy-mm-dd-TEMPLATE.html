@@ -1,0 +1,85 @@
+---
+title:  Test title of this post
+description: Yay Description
+layout: blog-posts
+date:   2016-10-27 10:14:35
+tags: [tag1, tags2]
+excerpt: 
+image:
+  teaser: images/teaser-test.jpg
+  feature: images/feature-test.jpg
+---
+<style type="text/css">
+	@media (min-width: 768px) {
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+					
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content max-850">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>{{ page.title }}</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum lacinia eros, eget vestibulum elit ullamcorper ut. Nullam maximus erat nec magna interdum, in pretium felis porttitor. Aenean eu risus eget sem volutpat vestibulum. Integer consectetur arcu nec fringilla feugiat. In quis placerat justo. Nulla aliquam sem vel eros maximus, nec posuere nulla maximus. Cras sit amet ultrices nulla. Morbi non tempus augue, nec feugiat magna. Praesent eget turpis non nibh elementum fringilla.</p>
+			<p>Nulla sagittis ultricies varius. Donec vel vehicula lorem. Mauris non sapien non magna placerat rhoncus ut a urna. Etiam eget efficitur velit, tincidunt pellentesque augue. Pellentesque dui ex, ultricies eget turpis nec, maximus vestibulum massa. Integer tempor rhoncus cursus. Donec euismod eros a augue dapibus luctus. Nam tincidunt massa ipsum, ac sagittis velit blandit eget. Pellentesque ut tempus metus. Suspendisse eu lorem eget nibh fringilla varius vitae vel massa. Quisque blandit tincidunt lectus, sit amet sagittis neque varius sed.</p>
+			<p>Proin vehicula ultrices tellus, in ornare magna cursus vel. Vivamus eu dolor metus. Sed commodo varius urna. Suspendisse odio urna, suscipit id nisl porta, malesuada gravida sem. Maecenas pulvinar dui nec sodales commodo. Curabitur iaculis cursus elit in tincidunt. Cras efficitur condimentum ullamcorper. Phasellus dictum finibus ligula in rhoncus. Cras feugiat vestibulum risus, at porttitor lorem scelerisque vitae. Proin nec tristique ex. Mauris consectetur sem nunc, vitae imperdiet nisl tempor sed. Sed feugiat tellus quis est elementum, quis accumsan odio maximus. Maecenas non tempor enim. Curabitur mollis, urna ut pulvinar scelerisque, arcu enim faucibus odio, sed bibendum nunc quam et urna. Morbi molestie nisl ac nulla mollis, ut imperdiet ipsum placerat. Phasellus et pharetra erat.</p>
+			<p>Ut eu accumsan ante. Sed id congue mauris. Nunc posuere ligula ac nisl accumsan, non posuere nisi ultricies. In et risus eget urna finibus imperdiet. Suspendisse potenti. Integer faucibus dui et nulla ullamcorper ullamcorper. Cras molestie pretium odio, sit amet viverra sem ultrices a. Duis sit amet dui interdum, pulvinar mauris eget, consequat sapien. Mauris urna lorem, consequat et velit vitae, sollicitudin placerat massa. Nam ac ligula eget nulla tincidunt molestie. Aenean sagittis, enim ut elementum cursus, diam felis suscipit ipsum, eget maximus augue quam molestie eros. Nunc vel massa neque. Vivamus vulputate nec sapien eu pellentesque.</p>
+			<p>Nulla aliquam metus id lacus bibendum, at dictum eros ultricies. Aenean sed euismod augue, ac condimentum lacus. Donec ornare arcu arcu, pulvinar tristique nisl euismod a. Vestibulum cursus eros id magna iaculis laoreet nec quis leo. Suspendisse volutpat dapibus nulla, et tincidunt quam. Nullam et placerat tellus. Proin imperdiet risus eget laoreet consequat. Mauris sit amet tincidunt lectus. Donec fermentum sem at arcu condimentum, vitae egestas nunc dapibus. Aliquam vel purus vitae magna rhoncus condimentum. In vitae velit at nibh egestas sollicitudin. Etiam justo tortor, pretium sed rhoncus a, dictum sit amet lacus. Pellentesque consectetur consectetur tempus.</p>
+		</div>
+	</div>
+</div>
+
+
