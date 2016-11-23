@@ -5,38 +5,38 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		concat: {
 			css: {
-				src: ['docs/assets/css/font-awesome.min.css',
-					'docs/assets/css/bootstrap.min.css',
-					'docs/assets/css/full-width.css',
-					'docs/assets/css/prism.css',
-					'docs/assets/css/before-after.css',
-					'docs/assets/css/fonts.css',
-					'docs/assets/css/extras.css',
-					'docs/assets/css/masonry.css',
-					'docs/assets/css/jquery.fancybox.css',
-					'docs/assets/css/share-button.css'
+				src: ['_gh_pages/assets/css/font-awesome.min.css',
+					'_gh_pages/assets/css/bootstrap.min.css',
+					'_gh_pages/assets/css/full-width.css',
+					'_gh_pages/assets/css/prism.css',
+					'_gh_pages/assets/css/before-after.css',
+					'_gh_pages/assets/css/fonts.css',
+					'_gh_pages/assets/css/extras.css',
+					'_gh_pages/assets/css/masonry.css',
+					'_gh_pages/assets/css/jquery.fancybox.css',
+					'_gh_pages/assets/css/share-button.css'
 				],
 
-				dest: 'docs/dist/css/secondcrop.css'
+				dest: '_gh_pages/dist/css/secondcrop.css'
 			},
 			js: {
 				options: {
 					separator: ';',
 				},
-				src: ['docs/assets/js/jquery.min.js',
-					'docs/assets/js/bootstrap.min.js',
-					'docs/assets/js/before-after.js',
-					'docs/assets/js/modernizr.js',
-					'docs/assets/js/jquery.fancybox.pack.js',
-					'docs/assets/js/isotope.pkgd.js',
-					'docs/assets/js/jquery.mobile.custom.min.js',
-					'docs/assets/js/lazysizes.min.js',
-					'docs/assets/js/ls.respimg.min.js',
-					'docs/assets/js/jquery.smooth-scroll.min.js',
-					'docs/assets/js/site.js'
+				src: ['_gh_pages/assets/js/jquery.min.js',
+					'_gh_pages/assets/js/bootstrap.min.js',
+					'_gh_pages/assets/js/before-after.js',
+					'_gh_pages/assets/js/modernizr.js',
+					'_gh_pages/assets/js/jquery.fancybox.pack.js',
+					'_gh_pages/assets/js/isotope.pkgd.js',
+					'_gh_pages/assets/js/jquery.mobile.custom.min.js',
+					'_gh_pages/assets/js/lazysizes.min.js',
+					'_gh_pages/assets/js/ls.respimg.min.js',
+					'_gh_pages/assets/js/jquery.smooth-scroll.min.js',
+					'_gh_pages/assets/js/site.js'
 				],
 
-				dest: 'docs/dist/js/secondcrop.js'
+				dest: '_gh_pages/dist/js/secondcrop.js'
 			}
 		},
 		cssmin: {
@@ -47,17 +47,17 @@ module.exports = function(grunt) {
 		},
 		uglify: {
 			js: {
-				src: 'docs/dist/js/secondcrop.js',
-				dest: 'docs/dist/js/min/secondcrop.min.js'
+				src: '_gh_pages/dist/js/secondcrop.js',
+				dest: '_gh_pages/dist/js/min/secondcrop.min.js'
 			}
 		},
 		watch: {
 			css: {
-				files: ['docs/assets/css/*.css'],
+				files: ['_gh_pages/assets/css/*.css'],
 				tasks: ['concat:css', 'cssmin:css']
 			},
 			js: {
-				files: ['docs/assets/js/*.js'],
+				files: ['_gh_pages/assets/js/*.js'],
 				tasks: ['concat:js', 'uglify:js']
 			},
 		}
