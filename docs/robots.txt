@@ -1,4 +1,6 @@
-# robots.txt generated at http://www.mcanerin.com
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
