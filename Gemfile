@@ -16,17 +16,17 @@ gem "minima"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
- #gem "github-pages", group: :jekyll_plugins
+ gem "github-pages", group: :jekyll_plugins
  gem 'jekyll-paginate', group: :jekyll_plugins
  gem 'jekyll-seo-tag', group: :jekyll_plugins
  gem 'jekyll-sitemap'
- #gem 'jekyll-github-metadata'
+ gem 'jekyll-github-metadata'
 
 
 # If you have any plugins, put them here!
 
 #group :jekyll_plugins do
 # gem "jekyll-github-metadata", "~> 1.0"
-# gem 'octopress-minify-html'
+
 #end
 

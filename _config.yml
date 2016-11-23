@@ -99,6 +99,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  #- github-pages
-  #- jekyll-github-metadata
+  - github-pages
+  - jekyll-github-metadata
 
