@@ -5,8 +5,16 @@ comments: true
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{% seo %}
 	
+	<title>{{ page.title }}</title>
+	{% if page.description %}
+		<meta name="description" content="{{ page.description }}">
+	{% endif %}
+	{% if page.image %}
+		<meta content="{{ site.baseurl }}/blog/{{ page.image.teaser }}" property="og:image">
+		{% else %}
+		<meta content="{{ site.baseurl }}/images/meric-boat-sunset-900.jpg" property="og:image">
+	{% endif %}
 	{% include header.html %}
 	<style>
 @font-face {
