@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Professional Photography, Videography &amp; Design Services | Wisconsin
+title: Second Crop Creative
 email: hello@secondcropcreative.com
 description: > # this means to ignore newlines until "baseurl:"
   Specializing in photography, videography & web design our goal is to show your story & emotionally connect with your audience. Connect with us today.
@@ -34,11 +34,16 @@ github_username:  12oss
 markdown:         kramdown
 theme:            minima
 
+#Author
+author:
+  twitter: 2cropcreative
 
 #Teaser Image
-image:
-  teaser: 
-  feature: 
+image: /assets/css/images/flat-logo-alt.png
+
+
+#Logo
+logo: /assets/css/images/flat-logo-alt.png
 
 #Pagination
 paginate: 10
