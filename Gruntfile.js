@@ -33,6 +33,7 @@ module.exports = function(grunt) {
 					'_gh_pages/assets/js/lazysizes.min.js',
 					'_gh_pages/assets/js/ls.respimg.min.js',
 					'_gh_pages/assets/js/jquery.smooth-scroll.min.js',
+					'_gh_pages/assets/js/clipboard.min.js',
 					'_gh_pages/assets/js/site.js'
 				],
 
