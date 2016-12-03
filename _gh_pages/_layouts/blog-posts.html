@@ -1,0 +1,188 @@
+---
+layout: compress
+comments: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% seo %}
+	
+	{% include header.html %}
+	<style>
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.eot');
+	src: url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.eot?') format('embedded-opentype'),
+	url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.woff2') format('woff2'),
+	url('/{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.woff') format('woff'),
+	url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.ttf') format('truetype'),
+	url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+
+#blog-hero h1 {
+	text-transform: inherit !important;
+}
+
+#blog-hero ul.tags {
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	width: 50%;
+}
+
+@media (max-width: 767px) {
+	ul.tags {
+		width: 100%;
+	}
+}
+
+ul.tags li {
+	display: inline;
+}
+
+ul.tags li a {
+	color: white !important
+}
+
+li.tag-item:after {
+	content: ",";
+	margin-left: -3px;
+}
+
+li.tag-item:last-child:after {
+	content: "";
+}
+
+.post-details {
+	padding: 10px;
+}
+
+.blog-post-section {
+	position: relative;
+	padding: 20px;
+}
+
+div#darken-bg:before {
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 55;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	content: ' ';
+}
+
+#blog-content h1 {
+	width: 70%;
+	margin: auto;
+}
+
+@media (max-width: 767px) {
+	#blog-content h1 {
+		width: 100%;
+	}
+}
+
+#blog-content h2 {
+	margin-top: 5rem !important;
+	margin-bottom: 2.8rem !important;
+}
+
+.PageNavigation {
+	font-size: 14px;
+	display: block;
+	width: auto;
+	overflow: hidden;
+}
+
+.PageNavigation a {
+	display: block;
+	width: 50%;
+	float: left;
+	margin: 1em 0;
+	color: #333;
+}
+
+.PageNavigation .next {
+	text-align: right;
+}
+
+.PageNavigation a span.pagenav {
+	position: relative;
+	top: 40px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding: 10px;
+}
+
+a.dark-boxshadow:hover {
+	box-shadow: inset 0 0 125px 165px rgba(0, 0, 0, .55);
+}
+
+
+/* GLOBAL CRITICAL CSS*/
+
+{% include critical.min.css %}
+
+/*END GLOBAL CRITICAL CSS*/
+</style>
+
+</head>
+
+
+
+<body class="site">
+	<header>
+		{% include navigation.html %}
+	</header>
+	<main class="site-content">
+		<div id="blog-content" class="container-fluid">
+			{{ content }}
+			<div class="clearfix" style="padding: 25px;"></div>
+			<div class="PageNavigation max-850">
+				
+					{% if page.previous.url %}
+					<a class="prev bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image:url('{{ site.baseurl }}/blog/{{ page.previous.image.teaser }}'); background-position: center !important;">
+						<span class="pagenav">
+							<i class="fa fa-arrow-left" aria-hidden="true"></i> 
+							<strong>Previous</strong>:
+							{{page.previous.title}}
+						</span>
+					</a>
+					{% endif %}
+					{% if page.next.url %}
+					<a class="next bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.next.url}}" style="background-image:url('{{ site.baseurl }}/blog/{{ page.next.image.teaser }}'); background-position: center !important;">
+						<span class="pagenav">
+							<strong>Next</strong>:
+							{{page.next.title}}
+							 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+						</span>
+					</a>
+					{% endif %}
+			</div>
+		</div>
+	</main>
+	{% include back-to-top.html %}
+	<footer class="footer">
+		<div class="clearfix" style="padding: 20px"></div>
+		<div class="max-850" style="padding:10px">
+			<hr style="border:1 !important; margin-right: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 55px;"> {% if site.disqus_shortname %} {% include disqus_comments.html %} {% endif %}
+		</div>
+		<div class="clearfix" style="padding: 20px"></div>
+		{% include footer.html %}
+	</footer>
+	{% include analytics.html %}
+</body>
+
+</html>
+
+

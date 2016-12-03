@@ -1,0 +1,176 @@
+---
+layout: default
+title: Second Crop Creative Blog
+description: Bloggity
+---
+<style>
+ul.tags {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tags li {
+	display: inline;
+}
+
+.recent-blog-posts h1 {
+	text-transform: inherit !important;
+}
+
+.recent-blog-posts h1 a,
+.recent-blog-posts li a {
+	color: white !important
+}
+
+.recent-blog-posts #darken-bg {
+	background-position: 50% 50% !important;
+}
+
+li.tag-item:after {
+	content: ",";
+	margin-left: -3px;
+}
+
+li.tag-item:last-child:after {
+	content: "";
+}
+
+.post-details {
+	padding: 10px;
+}
+
+.blog-post-section {
+	position: relative;
+	padding: 20px;
+}
+
+div#darken-bg:before {
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 55;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	content: ' ';
+}
+
+.center-pos,
+.left-pos,
+.right-pos {
+	z-index: 99
+}
+
+.pagination {
+	font-size: 18px;
+	font-weight: 900;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pagination span.selected-page {
+	color: #fefefe;
+	border: 1px solid black;
+	background-color: #333;
+}
+
+.pagination a,
+.pagination span.selected-page {
+	margin: 1px;
+	padding: 10px;
+}
+
+.pagination a {
+	margin: 1px;
+	border: #ccc 1px solid;
+	color: #999;
+}
+
+.pagination a:last-child,
+a.no-border {
+	margin: 0px;
+	border: none !important;
+}
+</style>
+
+
+<div class="creative-content max-850">
+	<div class="clearfix" style="padding: 15px;"></div>
+	<div class="col-xs-12 txt-center">
+		<h1 class="jumbo-font" style=" margin-bottom: 0px;"> Blog</h1>
+		<h2 style=" margin-bottom: 35px; margin-top: 0px;"><small>Articles, behind the scenes, quick photo restorations &amp; more.</small></h2>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<section class="recent-blog-posts">
+				{% for post in paginator.posts %}
+				<article>
+					<div id="darken-bg" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ site.baseurl }}/blog/{{ post.image.teaser }}');" itemprop="image" title="{{ post.title }}">
+						<div class="center-pos">
+							<header class="txt-center">
+								<h1 style="margin-bottom: 10px;">
+									<a class="post-link-header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+								</h1>
+								<div class="post-details">
+									<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+									{% include read-time.html %}
+								</div>
+								<ul class="tags">
+									<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in post.tags %}
+									<li class="tag-item">
+										<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+									</li>
+									{% endfor %}
+								</ul>
+							</header>
+						</div>
+					</div>
+					<section class="blog-post-section">
+						{{ post.excerpt | truncatewords:75 }}
+						<div class="gradient-hide"></div>
+					</section>
+					<section class="blog-post-section txt-center">
+						<a class="btn btn-inverse action-link" href="{{ site.baseurl }}{{ post.url }}">Read Full Article</a>
+					</section>
+					<hr style="border:1 !important; margin-right: -50px; margin-left: -50px; margin-top: 0px; margin-bottom: 55px;">
+				</article>
+				{% endfor %}
+			</section>
+
+			<!-- PAGINATION-->
+			{% if paginator.total_pages > 1 %}
+
+			<div class="pagination">
+				{% if paginator.previous_page %}
+					<a class="no-border" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true" title="previous_page"></i></a>
+				{% else %}
+					<span><!--<i class="fa fa-angle-left" aria-hidden="true" title="previous_page"></i>--></span>
+				{% endif %}
+
+				{% for page in (1..paginator.total_pages) %}
+					{% if page == paginator.page %}
+						<span class="selected-page">{{ page }}</span>
+					{% elsif page == 1 %}
+						<a href="{{ site.baseurl }}/blog">{{ page }}</a>
+					{% else %}
+						<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+					{% endif %}
+				{% endfor %}
+
+				{% if paginator.next_page %}
+					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-right" aria-hidden="true" title="next_page"></i></a>
+					{% else %}
+					<span><!--<i class="fa fa-angle-right" aria-hidden="true" title="next_page"></i>--></span>
+				{% endif %}
+
+			</div>
+
+			{% endif %}
+			<!--end PAGINATION-->
+		</div>
+	</div>
+</div>
+
+

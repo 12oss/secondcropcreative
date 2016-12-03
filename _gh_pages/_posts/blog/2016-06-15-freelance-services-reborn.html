@@ -1,0 +1,105 @@
+---
+title: Freelance Services Reborn
+date: 2016-06-15
+author: Ross Harried
+description: I explain why I've created a new website to market my freelance services within the Madison, WI Area.
+layout: blog-posts
+tags:
+- 12oss.com
+- commissioned artwork
+- freelance
+- freelance services
+- photography
+- Ross Harried Photography
+- videography
+- web design
+excerpt: Over the past year I have been working feverishly in between dirty diapers, band practice and full time employment to consolidate all of my freelance services (photography, art, design & video) into one digital space. <a href="https://www.facebook.com/12oss/" target="_blank">Ross Harried Photography</a> will no longer be maintained, nor will <a href="http://12oss.com" target="_blank">12oss.com</a> and as a result I would like to invite you all to check out my new page that shows the breadth of services I truly encompass (not just photography), <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> &amp; <a href="http://secondcropcreative.com" target="_blank">secondcropcreative.com</a>.
+image:
+  teaser: images/logo-1x1.jpg
+  feature: images/logo-1x1.jpg
+---
+<style type="text/css">
+	@media (min-width: 768px) {
+		/*Large Images for Desktops*/
+		#blog-hero {
+			background-color: rgba(5, 5, 5, .5)
+		}
+		/*use Pseudo-Elements to control bg-img opacity*/
+		#blog-hero:before {
+			content: ' ';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			opacity: 0.8;
+			/*1600x640 bg img for desktop*/
+			background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+	}
+
+	@media (max-width: 767px) {
+		/*Small Images for Mobile*/
+		/*500x500 for mobile bg*/
+		#blog-hero {
+			background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+			background-position: center;
+		}
+	}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content max-850">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Freelance Services Reborn</h1>
+			<p>Over the past year I have been working feverishly in between dirty diapers, <a href="https://www.facebook.com/MadTadders/" target="_blank">band practice</a> and full time employment to consolidate all of my freelance services (<a href="http://secondcropcreative.com/photo-services/" target="_blank">photography</a>, <a href="http://secondcropcreative.com/design-services/" target="_blank">art, design</a> &amp; <a href="http://secondcropcreative.com/video-services/" target="_blank">video</a>) into one digital space.</p>
+			<p>
+				<a href="https://www.facebook.com/12oss/" target="_blank">Ross Harried Photography</a> will no longer be maintained, nor will <a href="http://12oss.com" target="_blank">12oss.com</a> and as a result I would like to invite you all to check out my new page that shows the breadth of services I truly encompass (not just photography), <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> &amp; <a href="http://secondcropcreative.com" target="_blank">secondcropcreative.com</a>.</p>
+				<p>
+					<img style="text-align: center; margin: auto; display: flex; align-items: center; justify-content: center; padding-top: 35px; max-width: 300px" src="{{ site.baseurl }}/blog/images/new-logo.png" alt="12oss.com to secondcropcreative.com New Freelance Services" width="100%" /></p>
+					<h2>Why did you ditch your Name?</h2>
+					<p>I chose to part ways with using my name as a front for my ‘brand’ for a few reasons.</p>
+					<ol>
+						<li>Because I want to speak to all the freelance services I offer, I felt it was a better route to take then encompassing everything under my name.</li>
+						<li>People don’t know how to properly pronounce or spell my last name to begin with which would make it hard to remember or look up if I met someone on the street that would be interested in the freelance services that I had to offer.</li>
+						<li>I wanted to disconnect all my personal social media accounts from any of my freelance services/business endeavors. This way I can choose what content from my freelance services social media accounts to share with my friends and family, instead of bombarding you guys/gals with both my personal social media accounts and freelance accounts &#8211; although lets be honest, I will probably still try and share 70% of my freelance posts.</li>
+					</ol>
+					<h2>Ok, but what does Second Crop Creative even mean?</h2>
+					<p>Trust me when I say I spent probably a solid 2 weeks of just ‘brand-storming’ and trying to see what names I could work with that had a) available website domains as well as b)social media accounts. Unbeknownst to many, I actually grew up on a dairy farm. A regular task of farming is feeding your herd. To feed your herd you must harvest hay &#8211; the second crop of most hay harvests are typically the best/nutritious. Not only was I in the process of starting a family that I would soon have to nourish, but it was my second attempt into personal branding of my freelance services. BAM! <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> was born offering freelance services ranging from photography and video services to website design and commissioned artworks.</p>
+					<h2>Where do we go from here?</h2>
+					<p>Business will continue as usual. Nothing has changed other than <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> will be the forefront of all my freelance services. This is an exciting transition for my family and I as I look to take on more clients by reaching a broader audience &#8211; not just photography clients. I’m especially excited for anyone interested in <a href="http://secondcropcreative.com/video/" target="_blank">video work</a> and those interested in owning <a href="http://secondcropcreative.com/design/" target="_blank">original artwork</a> to decorate their homes, dorms and/or man caves (more <a href="http://artifulprints.com" target="_blank">info</a> on that later). If you know anyone that would be interested, please share.</p>
+					<h2>Thoughts?</h2>
+					<p>Feedback is always welcome in the comments section so long as it is more sophisticated than playground vernacular.</p>
+				</div>
+			</div>
+		</div>
+
