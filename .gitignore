@@ -2,7 +2,7 @@
 .DS_Store
 .sass-cache
 .jekyll-metadata
-_gh_pages
+# _gh_pages
 
 docs/.DS_Store
 
