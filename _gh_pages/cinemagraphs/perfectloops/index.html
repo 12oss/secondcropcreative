@@ -1,0 +1,81 @@
+---
+layout: default
+title: Perfect Loops, Looping Videos | Second Crop Creative
+description: 
+image: /assets/css/images/flat-logo-alt.png
+
+---
+<style type="text/css">
+a.copyclip {
+	display: block
+}
+
+.perfectloops div {
+/*	padding-top: 45px;
+	padding-bottom: 45px;*/
+	position: relative;
+}
+/*
+.perfectloops div:first-child {
+	padding-top: 15px !important;
+}
+
+.perfectloops div:last-child {
+	padding-bottom: 15px !important;
+}*/
+
+.perfectloops div:hover div.copylink {
+	opacity: 1;
+	z-index: 500;
+}
+
+div.copylink i {
+	top: 50%;
+	position: absolute;
+	left: 40%;
+	right: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: white !important;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 17px;
+	height: 90px;
+	width: 90px;
+	border-radius: 50px;
+}
+
+div.copylink {
+	display: block;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	color: inherit;
+	transition: all 550ms;
+}
+</style>
+<div class="creative-content max-550">
+	<div style="padding: 15px" class="txt-center">
+		<h1>Perfect Loops</h1>
+		<h4><small>(Click on video to copy the url to your clipboard for easy pasting)</small></h4>
+	</div>
+	<hr>
+	<div class="perfectloops">
+		<div>
+			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/perfectloops/media/aurora-borealis-loop1.mp4" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
+				<video autoplay="" loop="" style="max-width: 100%; min-height: 404px;">
+					<source type="video/mp4" src="{{ site.baseurl }}/cinemagraphs/perfectloops/media/aurora-borealis-loop1.mp4"></video>
+				 {% include clipboard.html %}
+			</a>
+		</div>
+	</div>
+</div>
+
+
+
+
