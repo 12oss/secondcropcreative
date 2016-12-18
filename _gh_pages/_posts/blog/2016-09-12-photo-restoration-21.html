@@ -14,7 +14,7 @@ tags:
   - 'Reddit'
   - 'Subreddit'
 excerpt: Photo Restoration &#x23;21 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t88zg/combine_two_pictures_so_my_son_and_i_are_both/" target="_blank">Reddit Post</a>.
-image: images/fb-share-21.jpg
+image: /blog/images/fb-share-21.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -34,7 +34,7 @@ image: images/fb-share-21.jpg
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
+		background-image: url('{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -49,7 +49,7 @@ image: images/fb-share-21.jpg
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
+		background-image: url('{{ page.image }}');
 		background-position: center;
 	}
 }

@@ -13,7 +13,7 @@ tags:
   - Reddit
   - Subreddit
 excerpt: Photo Restoration &#x23;20 comes from this <a href="https://www.reddit.com/r/estoration/comments/4t45hf/please_can_you_help_restore_this_photo_of_my/" target="_blank">Reddit Post</a>.
-image: images/fb-share-20.jpg
+image: /blog/images/fb-share-20.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -33,7 +33,7 @@ image: images/fb-share-20.jpg
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
+		background-image: url('{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -48,7 +48,7 @@ image: images/fb-share-20.jpg
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
+		background-image: url('{{ page.image }}');
 		background-position: center;
 	}
 }
