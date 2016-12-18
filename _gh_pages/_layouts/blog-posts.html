@@ -151,7 +151,7 @@ a.dark-boxshadow:hover {
 			<div class="PageNavigation max-850">
 				
 					{% if page.previous.url %}
-					<a class="prev bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image:url('{{ site.baseurl }}/blog/{{ page.previous.image.teaser }}'); background-position: center !important;">
+					<a class="prev bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image:url('{{ page.previous.image }}'); background-position: center !important;">
 						<span class="pagenav">
 							<i class="fa fa-arrow-left" aria-hidden="true"></i> 
 							<strong>Previous</strong>:
@@ -160,7 +160,7 @@ a.dark-boxshadow:hover {
 					</a>
 					{% endif %}
 					{% if page.next.url %}
-					<a class="next bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.next.url}}" style="background-image:url('{{ site.baseurl }}/blog/{{ page.next.image.teaser }}'); background-position: center !important;">
+					<a class="next bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.next.url}}" style="background-image:url('{{ page.next.image }}'); background-position: center !important;">
 						<span class="pagenav">
 							<strong>Next</strong>:
 							{{page.next.title}}
