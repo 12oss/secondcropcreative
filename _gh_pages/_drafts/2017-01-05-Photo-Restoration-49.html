@@ -12,9 +12,7 @@ tags:
   - Reddit
   - Subreddit
 excerpt: Photo Restoration &#x23;49 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g9b1r/my_grandma_with_johnny_lee_at_gilleys_pasadena_tx/" target="_blank">Reddit Post</a>. 
-image:
-  teaser: images/fb-share-49.jpg
-  feature: images/fb-share-49.jpg
+image: images/fb-share-49.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -34,7 +32,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -49,7 +47,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

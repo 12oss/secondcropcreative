@@ -12,9 +12,7 @@ tags:
   - photography
   - Reddit
 excerpt: Photo Restoration &#x23;16 comes from this <a href="https://www.reddit.com/r/estoration/comments/4spj3n/can_anyone_remove_the_window_glares_from_this/" target="_blank">Reddit Post</a>.
-image:
-  teaser: images/fb-share-16.jpg
-  feature: images/fb-share-16.jpg
+image: images/fb-share-16.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -34,7 +32,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -49,7 +47,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

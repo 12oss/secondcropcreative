@@ -11,9 +11,7 @@ tags:
   - Reddit
   - Subreddit
 excerpt: Photo Restoration &#x23;9 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rux53/75th_anniversary_of_my_familys_business_id_like/" target="_blank">Reddit post</a>.
-image:
-  teaser: images/fb-share-9.jpg
-  feature: images/fb-share-9.jpg
+image: images/fb-share-9.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -33,7 +31,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -48,7 +46,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

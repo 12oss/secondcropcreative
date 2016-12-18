@@ -12,9 +12,7 @@ tags:
   - Reddit
   - Subreddit
 excerpt: Photo Restoration &#x23;28 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdkmz/my_pops_feeding_my_oldest_brother_like_a_boss/" target="_blank">Reddit Post</a>.
-image:
-  teaser: images/fb-share-28.jpg
-  feature: images/fb-share-28.jpg
+image: images/fb-share-28.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -34,7 +32,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -49,7 +47,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

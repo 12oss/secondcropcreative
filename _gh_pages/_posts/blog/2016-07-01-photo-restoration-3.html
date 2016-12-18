@@ -10,9 +10,7 @@ tags:
   - Reddit
   - Subreddit
 excerpt: You may have noticed I do not have a very specific title for this photo restoration. That is because I have stumbled upon a <a href="http://www.reddit.com/r/estoration" target="_blank">sub reddit for photo restoration</a>, and it is just what I’ve always dreamt it would be. Side note – there really is a subreddit for everything. Because I have found this subreddit, I most likely will be going on there to find material for my fast and dirty photo restorations. You may or may not have know the first two photo restorations I did for the blog were merely photos taken from some Facebook groups. That was way more time consuming than the actual restoration part, so the subreddit is a welcomed addition to my process. 
-image:
-  teaser: images/fb-share-3.jpg
-  feature: images/b-share-3.jpg
+image: images/b-share-3.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -32,7 +30,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -47,7 +45,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

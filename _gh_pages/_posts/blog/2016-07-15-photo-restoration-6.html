@@ -9,9 +9,7 @@ tags:
   - photography
   - Reddit
 excerpt: Photo Restoration &#x23;6 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4rhicl/please_could_someone_help_repair_this_picture_its/" target="_blank">here</a>.
-image:
-  teaser: images/fb-share-6.jpg
-  feature: images/fb-share-6.jpg
+image: images/fb-share-6.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -31,7 +29,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -46,7 +44,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

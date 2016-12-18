@@ -10,9 +10,7 @@ tags:
   - Stoughton
   - WI
 excerpt: It&#8217;s official. I&#8217;ve gone rogue with my photo restorations. Because I have always felt at home with a <a href="http://www.wacom.com/" target="_blank">wacom tablet</a> in lap and <a href="http://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a> staring me in the face, I have finally decided I will stalk the interwebs for any old photo that I can restore in a reasonable amount of time. This may seem very noble of me (it really is)
-image:
-  teaser: images/stoughton-orig1.jpg
-  feature: images/stoughton-orig1.jpg
+image: images/stoughton-orig1.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -32,7 +30,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -47,7 +45,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }

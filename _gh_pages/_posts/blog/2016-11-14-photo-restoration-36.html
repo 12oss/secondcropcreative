@@ -14,9 +14,7 @@ tags:
   - FBI
   - FBI Agent
 excerpt: Photo Restoration &#x23;36 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y1t1e/my_dad_the_fbi_agent_at_a_bahamas_airport_late/" target="_blank">Reddit Post</a>.
-image:
-  teaser: images/fb-share-36.jpg
-  feature: images/fb-share-36.jpg
+image: images/fb-share-36.jpg
 ---
 <style type="text/css">
 @media (min-width: 768px) {
@@ -36,7 +34,7 @@ image:
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -51,7 +49,7 @@ image:
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ site.baseurl }}/blog/{{ page.image.teaser }}');
+		background-image: url('{{ site.baseurl }}/blog/{{ page.image }}');
 		background-position: center;
 	}
 }
