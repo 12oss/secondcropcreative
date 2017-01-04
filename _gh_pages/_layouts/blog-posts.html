@@ -8,7 +8,8 @@ seo:
 <html lang="en">
 
 <head>
-	{% seo %} {% include header.html %}
+	{% seo %}
+	{% include header.html %}
 	<style>
 	@font-face {
 		font-family: 'FontAwesome';
@@ -84,6 +85,18 @@ seo:
 		margin: auto;
 	}
 	
+	@media (max-width: 767px) {
+		#blog-content h1 {
+			width: 100%;
+		}
+		ul.tags {
+			width: 100%;
+		}
+		#blog-hero ul.tags {
+			width: 100%;
+		}
+	}
+	
 	#blog-content h2 {
 		margin-top: 5rem !important;
 		margin-bottom: 2.8rem !important;
@@ -124,23 +137,9 @@ seo:
 	a.dark-boxshadow:hover {
 		box-shadow: inset 0 0 125px 165px rgba(0, 0, 0, .55);
 	}
-	
-	@media (max-width: 767px) {
-		#blog-content h1 {
-			width: 100%;
-		}
-		ul.tags {
-			width: 100%;
-		}
-		#blog-hero ul.tags {
-			width: 100%;
-		}
-	}
 	/* GLOBAL CRITICAL CSS*/
 	
-	{
-		% include critical.min.css %
-	}
+	{% include critical.min.css %}
 	/*END GLOBAL CRITICAL CSS*/
 	</style>
 </head>
