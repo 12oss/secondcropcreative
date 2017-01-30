@@ -1,8 +1,8 @@
 <span class="separator"> | Read Time </span>
-<span class="read-time">
+<span class="read-time" title="Estimated read time">
 	<i class="fa fa-clock-o" aria-hidden="true"></i>
 	{% assign words = content | number_of_words %}
-		{% if words < 360 %}
+	{% if words < 360 %}
 		1 min
 	{% else %}
 		{{ words | divided_by:180 }} mins
