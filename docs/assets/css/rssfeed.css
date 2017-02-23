@@ -1,0 +1,98 @@
+channel link,
+channel language,
+channel copyright,
+channel managingEditor,
+channel webMaster,
+channel docs,
+channel lastBuildDate,
+channel guid {
+	display: none;
+}
+
+rss {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 150%;
+	margin: 0em;
+}
+
+
+/* HEADER */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+channel title {
+	display: block;
+	padding: 0.8em 0.4em;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 160%;
+	background-color: #222;
+	color: rgba(240, 240, 240, 1);
+	text-transform: uppercase;
+	font-family: proxima-nova-sc-osf-condensed, sans-serif;
+	letter-spacing: .08em;
+}
+
+channel description {
+	display: block;
+	float: left;
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0.5em;
+}
+
+
+/* CONTENT */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+channel item {
+	/*	background-color: #FFFFEE;*/
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	border: 1px solid #333;
+	clear: both;
+	display: block;
+	padding: 0 0 0.5em;
+	margin: 2em .5em;
+}
+
+channel item title {
+	background-color: #c5d5e5;
+	background-image: none;
+	color: #222;
+	border-bottom-width: 0;
+	display: block;
+	font-size: 110%;
+	margin: 0;
+	padding: 0.3em 0.5em;
+	text-transform: inherit;
+	letter-spacing: inherit;
+}
+
+channel item description {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: left;
+	padding: 0.2em 0.5em 0.4em;
+	color: black;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+channel item link {
+	color: #666;
+	display: block;
+	font-size: 86%;
+	padding: 0 0.5em;
+}
+
+channel item pubDate {
+	color: #666;
+	display: block;
+	font-size: 86%;
+	padding: 0 0.5em;
+}
