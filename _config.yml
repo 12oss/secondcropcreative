@@ -72,8 +72,8 @@ compress_html:
 # Server
 source:           _gh_pages
 destination:      docs
-host:             0.0.0.0
-port:             12055
+#host:             0.0.0.0
+port:             12022
 baseurl:          ""
 #Production : https://12oss.github.io/secondcropcreative/
 #DEV : http://0.0.0.0:12055/secondcropcreative/
