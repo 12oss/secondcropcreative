@@ -7,16 +7,12 @@ layout: null
 	<channel>
 		<title>Second Crop Creative Blog RSS</title>
 		<description>Latest blog posts from Second Crop Creative</description>
-
 		<link>{{ site.url }}/blog</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts %} {% unless post.draft %}
 		<item>
 			<title><![CDATA[{{ post.title }}]]></title>
-			<description><![CDATA[{{ post.excerpt }}]]></description>
-			<image>
-				<url>{{ site.url }}{{ post.image }}</url>
-			</image>
+			<description><![CDATA[{{ post.excerpt }} <br> <img src="{{ site.url }}{{ post.image }}" width="100%" alt="{{ post.title }}"/>]]></description>
 			<pubDate>{{ post.date | date_to_rfc822}}</pubDate>
 			<link>{{ post.url | prepend: site.url }}</link>
 			<guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
