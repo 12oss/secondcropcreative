@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="/assets/css/rssfeed.css" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:image="http://purl.org/rss/1.0/modules/image/">
 	<channel>
 		<title>Second Crop Creative Blog RSS</title>
 		<description>Latest blog posts from Second Crop Creative</description>
