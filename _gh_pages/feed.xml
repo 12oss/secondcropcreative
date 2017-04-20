@@ -14,7 +14,7 @@ layout: null
 		<item>
 			<title><![CDATA[{{ post.title }}]]></title>
 			<description><![CDATA[{{ post.excerpt }}]]></description>
-			<!--<description type="html"><![CDATA[<img src="{{ site.url }}{{ post.image }}"/>]]></description>-->
+			<description type="html"><![CDATA[<img src="{{ site.url }}{{ post.image }}"/>]]></description>
 			<pubDate>{{ post.date | date_to_rfc822}}</pubDate>
 			<link>{{ post.url | prepend: site.url }}</link>
 			<guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
