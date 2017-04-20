@@ -12,7 +12,7 @@ layout: null
 		{% for post in site.posts %} {% unless post.draft %}
 		<item>
 			<title><![CDATA[{{ post.title }}]]></title>
-			<description><![CDATA[{{ post.excerpt }} <br> <img src="{{ site.url }}{{ post.image }}" width="100%" alt="{{ post.title }}"/>]]></description>
+			<description><![CDATA[<img src="{{ site.url }}{{ post.image }}" width="100%" alt="{{ post.title }}" style="padding:15px"/> <br><br> {{ post.excerpt }}]]></description>
 			<pubDate>{{ post.date | date_to_rfc822}}</pubDate>
 			<link>{{ post.url | prepend: site.url }}</link>
 			<guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
