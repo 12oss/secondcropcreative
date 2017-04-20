@@ -72,7 +72,7 @@ channel item title {
 	letter-spacing: inherit;
 }
 
-channel item description {
+channel item description, channel item image {
 	display: block;
 	float: none;
 	margin: 0;
