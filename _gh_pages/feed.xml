@@ -14,7 +14,6 @@ layout: null
 		<item>
 			<title><![CDATA[{{ post.title }}]]></title>
 			<description><![CDATA[{{ post.excerpt }}]]></description>
-			<description type="html"><![CDATA[<img src="{{ site.url }}{{ post.image }}"/>]]></description>
 			<image>
 				<url>{{ site.url }}{{ post.image }}</url>
 			</image>
