@@ -79,6 +79,25 @@ type: BlogPosting
 		content: ' ';
 	}
 	
+	div.circle {
+		background-image: url(/assets/css/images/play-btn.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: absolute;
+		top: 0;
+		width: 30%;
+		height: 30%;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		max-width: 150px;
+		max-height: 150px;
+		display: block;
+		margin: auto;
+		transition: all .2s ease-in-out;
+	}
+	
 	#blog-content h1 {
 		width: 70%;
 		margin: auto;
@@ -164,8 +183,7 @@ a.dark-boxshadow:hover {
 				<a class="prev bg20-xs bg10-sm bg10-md dark-boxshadow" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image:url('{{ page.previous.image }}'); background-position: center !important;">
 					<p class="pagenav">
 						<i class="fa fa-arrow-left" aria-hidden="true"></i>
-						<strong>Previous</strong>:
-						 {{page.previous.title | truncatewords: 5}}
+						<strong>Previous</strong>: {{page.previous.title | truncatewords: 5}}
 					</p>
 				</a>
 				{% endif %} {% if page.next.url %}
@@ -190,6 +208,8 @@ a.dark-boxshadow:hover {
 	</footer>
 	{% include analytics.html %}
 </body>
+
 </html>
+
 
 
