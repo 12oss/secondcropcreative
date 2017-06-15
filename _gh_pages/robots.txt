@@ -6,4 +6,5 @@ Disallow:
 Disallow: /cgi-bin/
 Disallow: /styleguide/
 Disallow: /_template/
+Disallow: /design/temple/
 Sitemap: http://www.secondcropcreative.com/sitemap.xml
