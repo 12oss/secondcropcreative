@@ -340,7 +340,7 @@
 <loc>http://secondcropcreative.com/404.html</loc>
 </url>
 <url>
-<loc>http://secondcropcreative.com/design/spa-night/</loc>
+<loc>http://secondcropcreative.com/blog/</loc>
 </url>
 <url>
 <loc>http://secondcropcreative.com/cinemagraphs/</loc>
@@ -418,7 +418,7 @@
 <loc>http://secondcropcreative.com/design/show-in-the-sky/</loc>
 </url>
 <url>
-<loc>http://secondcropcreative.com/blog/</loc>
+<loc>http://secondcropcreative.com/design/spa-night/</loc>
 </url>
 <url>
 <loc>http://secondcropcreative.com/design/spa-night-2/</loc>
@@ -499,10 +499,10 @@
 <loc>http://secondcropcreative.com/about/</loc>
 </url>
 <url>
-<loc>http://secondcropcreative.com/blog/tags/</loc>
+<loc>http://secondcropcreative.com/</loc>
 </url>
 <url>
-<loc>http://secondcropcreative.com/</loc>
+<loc>http://secondcropcreative.com/blog/tags/</loc>
 </url>
 <url>
 <loc>http://secondcropcreative.com/blog/page2/</loc>
@@ -531,5 +531,9 @@
 <url>
 <loc>http://secondcropcreative.com/about/pdfs/resume_2016.pdf</loc>
 <lastmod>2016-11-23T09:00:40-06:00</lastmod>
+</url>
+<url>
+<loc>http://secondcropcreative.com/about/pdfs/resume_2017.pdf</loc>
+<lastmod>2017-07-12T10:54:26-05:00</lastmod>
 </url>
 </urlset>
