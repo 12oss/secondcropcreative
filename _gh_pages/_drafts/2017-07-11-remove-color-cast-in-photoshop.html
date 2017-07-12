@@ -1,0 +1,103 @@
+---
+title: How to remove a color cast in Photoshop in 3 Easy Steps
+description: 
+layout: blog-posts
+date:   2017-07-11 10:14:35
+tags: 
+  - Adobe Photoshop
+  - #TutorialTuesday
+  - Turorial Tuesday
+  - photo restoration
+  - photography
+  - color cast
+  - tutorials
+excerpt: Learn how to remove any color cast in Photoshop by using a foolproof 3-step method.
+image: /blog/images/20170711-colorcast.jpg
+---
+<style type="text/css">
+	@media (min-width: 768px) {
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>{{ page.title }}</h2>
+			<p>Check out the video below where we show you how to fix any color cast in Photoshop in 3 easier steps and in under 5 minutes!</p>
+			<div class="row bg-inverse" style="padding-top:5%; padding-bottom:5%;">
+				<div itemscope itemtype="http://schema.org/VideoObject" class="row max-1080 row-eq-height" style="padding:15px">
+					<!-- Centered Next to image -->
+					<div class="col-xs-12 col-sm-8">
+						<div class="embed-responsive embed-responsive-16by9">
+							<meta itemprop="thumbnailURL" content="http://secondcropcreative.com/blog/images/fb-share-colorcast.jpg" />
+							<meta itemprop="uploadDate" content="May 28, 2017" />
+							<meta itemprop="embedURL" content="http://youtube.com/embed/I0t9swHm2hA?rel=0&hd=1" />
+							<meta itemprop="name" content="Best 3-Step Process to Remove a Color Cast in Photoshop" />
+							<meta itemprop="description" content="A foolproof way to correct any color cast in Photoshop in 3-stpes and under 5 minutes!" />
+							<div class="youtube" id="I0t9swHm2hA">
+								<img data-src="/blog/images/20170711-colorcast.jpg" width="100%" class="thumb lazyload" />
+							</div>
+						</div>
+					</div>
+					<!-- end Centered Next to image -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
