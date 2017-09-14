@@ -8829,10 +8829,10 @@ hr {
 }
 
 .dark-boxshadow {
-	-webkit-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	-moz-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	-ms-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: inset 0px 0px 125px 315px rgba(0, 0, 0, .4);
+	-moz-box-shadow: inset 0px 0px 125px 315px rgba(0, 0, 0, .4);
+	-ms-box-shadow: inset 0px 0px 125px 315px rgba(0, 0, 0, .4);
+	box-shadow: inset 0px 0px 125px 315px rgba(0, 0, 0, .4);
 }
 
 .light-boxshadow {
