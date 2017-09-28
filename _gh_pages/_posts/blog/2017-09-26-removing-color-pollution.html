@@ -1,0 +1,143 @@
+---
+title: Advanced Color Pollution Removal in Photoshop
+description: 
+layout: blog-posts
+date:   2017-09-26 10:00:35
+tags: 
+  - Adobe Photoshop
+  - #TutorialTuesday
+  - Turorial Tuesday
+  - photo restoration
+  - photography
+  - color pollution
+  - color removal
+  - matching colors
+  - color grading
+  - tutorials
+excerpt: In this Tutorial Tuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor.
+image: /blog/images/20170926-pollution.png
+---
+<style type="text/css">
+	@media (min-width: 768px) {
+		/*Large Images for Desktops*/
+		#blog-hero {
+			background-color: rgba(5, 5, 5, .5)
+		}
+		/*use Pseudo-Elements to control bg-img opacity*/
+		#blog-hero:before {
+			content: ' ';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			opacity: 0.8;
+			/*1600x640 bg img for desktop*/
+			background-image: url('{{ page.image }}');
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+	}
+
+	@media (max-width: 767px) {
+		/*Small Images for Mobile*/
+		/*500x500 for mobile bg*/
+		#blog-hero {
+			background-image: url('{{ page.image }}');
+			background-position: center;
+		}
+	}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<div class="row max-850">
+		<div class="col-xs-12">
+			<h2>{{ page.title }}</h2>
+			<p>Hey der guy! So I don't want to make excuses, but hear me out, I've been busy playing the revived role as daddy to my second born child. But without further delay, I bring to you another #TutorialTuesday per request of
+				<a href="https://www.reddit.com/r/PhotoshopRequest/comments/72cuze/can_these_light_circles_be_removed_specific/" target="_blank">Redditors</a>.</p>
+			<p>In this #TutorialTuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor. We cover three steps
+				<ol>
+					<li> Matching luminance levels</li>
+					<li> Fixing color</li>
+					<li> Color grading to your own flavor</li>
+				</ol>
+			</p>
+			<p>Check out the video below to grasp this three step process in further detail!</p>
+		</div>
+		<div class="clearfix" style="padding: 20px"></div>
+
+		<div class="col-xs-12">
+			<figure class="cd-image-container">
+				<img src="{{ site.baseurl }}/blog/images/20170926-b4.jpg" alt="Modified Image" width="100%">
+				<span class="cd-image-label" data-type="original">AFTER</span>
+				<div class="cd-resize-img">
+					<!-- the resizable image on top -->
+					<img src="{{ site.baseurl }}/blog/images/20170926-aft.jpg" alt="Original Image" width="100%">
+					<span class="cd-image-label" data-type="modified">BEFORE</span>
+				</div>
+				<span class="cd-handle"></span>
+			</figure>
+			<!-- cd-image-container -->
+		</div>
+
+		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix" style="padding: 30px;"></div>
+	<div class="row">
+		<div class="col-xs-12 nopad">
+			<div class="row bg-inverse" style="padding-top:5%; padding-bottom:5%;">
+				<div itemscope itemtype="http://schema.org/VideoObject" class="row max-1080 row-eq-height" style="padding:15px">
+					<!-- Centered Next to image -->
+					<div class="col-xs-12 col-sm-10">
+						<div class="embed-responsive embed-responsive-16by9">
+							<meta itemprop="thumbnailURL" content="http://secondcropcreative.com/blog/images/20170926-pollution.png" />
+							<meta itemprop="uploadDate" content="September 26, 2017" />
+							<meta itemprop="embedURL" content="http://youtube.com/embed/_zK2YV7GvAk?rel=0&hd=1" />
+							<meta itemprop="name" content="Advanced Color Pollution Removal in Photoshop" />
+							<meta itemprop="description" content="In this #TutorialTuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor." />
+							<div class="youtube" id="_zK2YV7GvAk">
+								<img data-src="/blog/images/20170926-pollution.png" width="100%" class="thumb lazyload" />
+							</div>
+						</div>
+					</div>
+					<!-- end Centered Next to image -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row max-850">
+		<div class="clearfix"></div>
+		<div class="col-xs-12">
+			<h2>Thoughts?</h2>
+			<p>Do you have any photos that could use some restoration? You know of someone that may need photos restored? Send them my way, and let&#8217;s
+				<a href="http://secondcropcreative.com/contact/" target="_blank">connect</a>! Feedback is always welcome in the comments section so long as it is more sophisticated than playground vernacular.</p>
+		</div>
+	</div>
+</div>

@@ -8,6 +8,14 @@
 		<atom:link href="http://secondcropcreative.com/feed.xml" rel="self" type="application/rss+xml" />
 		 
 		<item>
+			<title><![CDATA[Advanced Color Pollution Removal in Photoshop]]></title>
+			<description><![CDATA[<img src="http://secondcropcreative.com/blog/images/20170926-pollution.png" width="100%" alt="Advanced Color Pollution Removal in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor.]]></description>
+			<pubDate>Tue, 26 Sep 2017 05:00:35 -0500</pubDate>
+			<link>http://secondcropcreative.com/blog/removing-color-pollution/</link>
+			<guid isPermaLink="true">http://secondcropcreative.com/blog/removing-color-pollution/</guid>
+		</item>
+		  
+		<item>
 			<title><![CDATA[Adding a Glow Effect in Photoshop]]></title>
 			<description><![CDATA[<img src="http://secondcropcreative.com/blog/images/20170808-glow.jpg" width="100%" alt="Adding a Glow Effect in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday, we show you how to jazz up your images by adding a super sweet glow effect inside of Photoshop.]]></description>
 			<pubDate>Tue, 08 Aug 2017 05:00:35 -0500</pubDate>
