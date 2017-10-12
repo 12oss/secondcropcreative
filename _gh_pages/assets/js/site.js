@@ -95,7 +95,7 @@ function f1() {
 
 		/*Based on the YouTube ID, we can easily find the thumbnail image*/
 		var img = document.createElement("img");
-		/*img.setAttribute("src", "http://i.ytimg.com/vi/" + youtube.id + "/hqdefault.jpg");*/
+		/*img.setAttribute("src", "https://i.ytimg.com/vi/" + youtube.id + "/hqdefault.jpg");*/
 		img.setAttribute("class", "thumb");
 		img.setAttribute("width", "100%");
 
@@ -138,7 +138,7 @@ function f1() {
 				});
 			},
 
-			/*For all options go to http://fancyapps.com/fancybox/*/
+			/*For all options go to https://fancyapps.com/fancybox/*/
 			padding: 4,
 			fitToView: true,
 			autoSize: true,
@@ -245,7 +245,7 @@ function f1() {
 			}
 			/*Inject link*/
 			/*Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs*/
-			/*Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/*/
+			/*Note: `insertBefore` is used instead of `appendChild`, for safety re: https://www.paulirish.com/2011/surefire-dom-element-insertion/*/
 			ready(function() {
 				ref.parentNode.insertBefore(ss, (before ? ref : ref.nextSibling));
 			});

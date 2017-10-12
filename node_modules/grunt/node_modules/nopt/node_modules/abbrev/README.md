@@ -1,6 +1,6 @@
 # abbrev-js
 
-Just like [ruby's Abbrev](http://apidock.com/ruby/Abbrev).
+Just like [ruby's Abbrev](https://apidock.com/ruby/Abbrev).
 
 Usage:
 

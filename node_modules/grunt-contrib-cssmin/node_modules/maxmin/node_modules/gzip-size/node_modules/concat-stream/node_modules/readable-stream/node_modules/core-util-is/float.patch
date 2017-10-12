@@ -136,7 +136,7 @@ index a03e874..9074e8e 100644
 -exports.inspect = inspect;
 -
 -
--// http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
+-// https://en.wikipedia.org/wiki/ANSI_escape_code#graphics
 -inspect.colors = {
 -  'bold' : [1, 22],
 -  'italic' : [3, 23],

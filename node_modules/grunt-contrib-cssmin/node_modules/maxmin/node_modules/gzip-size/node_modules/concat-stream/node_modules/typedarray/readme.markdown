@@ -3,7 +3,7 @@
 TypedArray polyfill ripped from [this
 module](https://raw.github.com/inexorabletash/polyfill).
 
-[![build status](https://secure.travis-ci.org/substack/typedarray.png)](http://travis-ci.org/substack/typedarray)
+[![build status](https://secure.travis-ci.org/substack/typedarray.png)](https://travis-ci.org/substack/typedarray)
 
 [![testling badge](https://ci.testling.com/substack/typedarray.png)](https://ci.testling.com/substack/typedarray)
 
@@ -51,10 +51,10 @@ npm install typedarray
 ```
 
 To use this module in the browser, compile with
-[browserify](http://browserify.org)
+[browserify](https://browserify.org)
 or download a UMD build from browserify CDN:
 
-http://wzrd.in/standalone/typedarray@latest
+https://wzrd.in/standalone/typedarray@latest
 
 # license
 

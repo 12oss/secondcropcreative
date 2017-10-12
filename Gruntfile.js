@@ -41,8 +41,8 @@ module.exports = function(grunt) {
 		},
 		cssmin: {
 			css: {
-				src: 'docs/dist/css/secondcrop.css',
-				dest: 'docs/dist/css/min/secondcrop.min.css'
+				src: '_gh_pages/dist/css/secondcrop.css',
+				dest: '_gh_pages/dist/css/min/secondcrop.min.css'
 			}
 		},
 		uglify: {

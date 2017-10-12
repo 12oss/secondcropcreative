@@ -46,7 +46,7 @@ function configureProperties(obj) {
 }
 
 // emulate ES5 getter/setter API using legacy APIs
-// http://blogs.msdn.com/b/ie/archive/2010/09/07/transitioning-existing-code-to-the-es5-getter-setter-apis.aspx
+// https://blogs.msdn.com/b/ie/archive/2010/09/07/transitioning-existing-code-to-the-es5-getter-setter-apis.aspx
 // (second clause tests for Object.defineProperty() in IE<9 that only supports extending DOM prototypes, but
 // note that IE<9 does not support __defineGetter__ or __defineSetter__ so it just renders the method harmless)
 var defineProp
@@ -147,7 +147,7 @@ function packIEEE754(v, ebits, fbits) {
   // Compute sign, exponent, fraction
   if (v !== v) {
     // NaN
-    // http://dev.w3.org/2006/webapi/WebIDL/#es-type-mapping
+    // https://dev.w3.org/2006/webapi/WebIDL/#es-type-mapping
     e = (1 << ebits) - 1; f = pow(2, fbits - 1); s = 0;
   } else if (v === Infinity || v === -Infinity) {
     e = (1 << ebits) - 1; f = 0; s = (v < 0) ? 1 : 0;
