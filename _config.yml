@@ -79,7 +79,7 @@ baseurl:          ""
 #DEV : http://0.0.0.0:12055/secondcropcreative/
 #site.github.url
 #site.baseurl
-url:              "http://secondcropcreative.com"
+url:              "https://secondcropcreative.com"
 encoding:         UTF-8
 
 
@@ -100,7 +100,7 @@ compress_html:
 
 
 # Gems
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
