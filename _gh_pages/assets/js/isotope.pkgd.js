@@ -4,7 +4,7 @@
  * Licensed GPLv3 for open source use
  * or Isotope Commercial License for commercial use
  *
- * https://isotope.metafizzy.co
+ * http://isotope.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -233,8 +233,8 @@
 
 /*!
  * EventEmitter v4.2.11 - git.io/ee
- * Unlicense - https://unlicense.org/
- * Oliver Caldwell - https://oli.me.uk/
+ * Unlicense - http://unlicense.org/
+ * Oliver Caldwell - http://oli.me.uk/
  * @preserve
  */
 
@@ -700,7 +700,7 @@
 /*!
  * getStyleProperty v1.0.4
  * original by kangax
- * https://perfectionkills.com/feature-testing-css-properties/
+ * http://perfectionkills.com/feature-testing-css-properties/
  * MIT license
  */
 
@@ -853,7 +853,7 @@
 					if (!style) {
 						logError('Style returned ' + style +
 							'. Are you running this code in a hidden iframe on Firefox? ' +
-							'See https://bit.ly/getsizebug1');
+							'See http://bit.ly/getsizebug1');
 					}
 					return style;
 				};
@@ -1302,7 +1302,7 @@
 
 	/* ----- isElement ----- */
 
-	// https://stackoverflow.com/a/384380/182183
+	// http://stackoverflow.com/a/384380/182183
 	utils.isElement = (typeof HTMLElement == 'function' || typeof HTMLElement == 'object') ?
 		function isElementDOM2(obj) {
 			return obj instanceof HTMLElement;
@@ -1413,7 +1413,7 @@
 
 	/* ----- htmlInit ----- */
 
-	// https://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+	// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
 	utils.toDashed = function(str) {
 		return str.replace(/(.)([A-Z])/g, function(match, $1, $2) {
 			return $1 + '-' + $2;
@@ -1804,7 +1804,7 @@
 		// set from styles
 		if (args.from) {
 			this.css(args.from);
-			// force redraw. https://blog.alexmaccaw.com/css-transitions
+			// force redraw. http://blog.alexmaccaw.com/css-transitions
 			var h = this.element.offsetHeight;
 			// hack for JSHint to hush about unused var
 			h = null;
@@ -2688,7 +2688,7 @@
 	};
 
 	// original debounce by John Hann
-	// https://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+	// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 
 	// this fires every resize
 	Outlayer.prototype.onresize = function() {
@@ -3229,7 +3229,7 @@
 /*!
  * Masonry v3.3.1
  * Cascading grid layout library
- * https://masonry.desandro.com
+ * http://masonry.desandro.com
  * MIT License
  * by David DeSandro
  */
@@ -3433,7 +3433,7 @@
 /*!
  * Masonry layout mode
  * sub-classes Masonry
- * https://masonry.desandro.com
+ * http://masonry.desandro.com
  */
 
 (function(window, factory) {
@@ -3643,7 +3643,7 @@
  * Licensed GPLv3 for open source use
  * or Isotope Commercial License for commercial use
  *
- * https://isotope.metafizzy.co
+ * http://isotope.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 

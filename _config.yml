@@ -52,7 +52,7 @@ paginate_path: "/blog/page:num/"
 # Permalinks
 # HELPFUL
 #https://mmistakes.github.io/minimal-mistakes/docs/configuration/
-#https://coopcoding.com/blog/my-jekyll-setup-for-this-blog/
+#http://coopcoding.com/blog/my-jekyll-setup-for-this-blog/
 permalink: /:categories/:title/
 defaults:
   -
@@ -76,10 +76,10 @@ destination:      docs
 port:             12022
 baseurl:          ""
 #Production : https://12oss.github.io/secondcropcreative/
-#DEV : https://0.0.0.0:12055/secondcropcreative/
+#DEV : http://0.0.0.0:12055/secondcropcreative/
 #site.github.url
 #site.baseurl
-url:              "https://secondcropcreative.com"
+url:              "http://secondcropcreative.com"
 encoding:         UTF-8
 
 
@@ -100,7 +100,7 @@ compress_html:
 
 
 # Gems
-plugins:
+gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
