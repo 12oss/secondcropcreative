@@ -95,7 +95,7 @@ function f1() {
 
 		/*Based on the YouTube ID, we can easily find the thumbnail image*/
 		var img = document.createElement("img");
-		/*img.setAttribute("src", "http://i.ytimg.com/vi/" + youtube.id + "/hqdefault.jpg");*/
+		/*img.setAttribute("src", "http://i.ytimg.com/vi/" + youtube.id + "/maxresdefault.jpg");*/
 		img.setAttribute("class", "thumb");
 		img.setAttribute("width", "100%");
 
@@ -112,7 +112,7 @@ function f1() {
 			/*Create an iFrame with autoplay set to true*/
 			var iframe = document.createElement("iframe");
 			iframe.setAttribute("src",
-				"https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1&rel=0");
+				"https://www.youtube.com/embed/" + this.id + "?enablejsapi=1&autohide=1&border=0&wmode=opaque&autoplay=1&rel=0&mute=1");
 
 
 			/*Replace the YouTube thumbnail with YouTube HTML5 Player*/

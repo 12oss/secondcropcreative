@@ -1,0 +1,105 @@
+---
+title: How to Easily Swap Faces in Adobe Photoshop
+description: In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting.
+layout: blog-posts
+date:   2019-02-04 08:30:35
+tags: 
+  - Photoshop Tutorials
+  - Adobe Photoshop
+  - face swap
+  - headswap
+excerpt: In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting.
+image: /blog/images/20190204-pstut-headswap.jpg
+---
+<style type="text/css">
+	@media (min-width: 768px) {
+		/*Large Images for Desktops*/
+		#blog-hero {
+			background-color: rgba(5, 5, 5, .5)
+		}
+		/*use Pseudo-Elements to control bg-img opacity*/
+		#blog-hero:before {
+			content: ' ';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			opacity: 0.8;
+			/*1600x640 bg img for desktop*/
+			background-image: url('{{ page.image }}');
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+	}
+
+	@media (max-width: 767px) {
+		/*Small Images for Mobile*/
+		/*500x500 for mobile bg*/
+		#blog-hero {
+			background-image: url('{{ page.image }}');
+			background-position: center;
+		}
+	}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<div class="row max-850">
+		<div class="col-xs-12">
+			<h2>{{ page.title }}</h2>
+			<p>In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting. Essentially we use the "Auto Blend Layers" algorithm to seamlessly blend our head swap for us.</p>
+			<p>So go ahead and check out the vid below, and leave your comments in the comment section if you have any questions or requests!</p>
+		</div>
+		<div class="clearfix" style="padding: 20px"></div>
+	</div>
+	<div class="clearfix" style="padding: 30px;"></div>
+	<div class="row">
+		<div class="col-xs-12 nopad">
+			<div class="row bg-inverse" style="padding-top:5%; padding-bottom:5%;">
+				<div itemscope itemtype="http://schema.org/VideoObject" class="row max-1080 row-eq-height" style="padding:15px">
+					<!-- Centered Next to image -->
+					<div class="col-xs-12 col-sm-10">
+						<div class="embed-responsive embed-responsive-16by9">
+							<meta itemprop="thumbnailURL" content="http://secondcropcreative.com/blog/images/20190204-pstut-headswap.jpg" />
+							<meta itemprop="uploadDate" content="February 04, 2019" />
+							<meta itemprop="embedURL" content="http://youtube.com/embed/BVTNxJWkbXI?rel=0&hd=1" />
+							<meta itemprop="name" content="How to Easily Swap Faces in Photoshop" />
+							<meta itemprop="description" content="How to Easily Swap Faces in Photoshop
+ 
+In this Adobe Photoshop CC 2019 Tutorial, we look at how we can quickly and effectively swap faces within Photoshop using Auto-Blend Layers and the internal Panorama tool in Photoshop. " />
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/BVTNxJWkbXI?rel=0&hd=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- end Centered Next to image -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

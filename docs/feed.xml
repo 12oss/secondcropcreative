@@ -8,6 +8,38 @@
 		<atom:link href="https://secondcropcreative.com/feed.xml" rel="self" type="application/rss+xml" />
 		 
 		<item>
+			<title><![CDATA[Reverse Engineer Color Grading in Photoshop]]></title>
+			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190225-pstuts-reverse-color-grade.jpg" width="100%" alt="Reverse Engineer Color Grading in Photoshop" style="padding:15px"/> <br><br> How to Reverse Engineer any Color Grading in Photoshop. In this Photoshop tutorial, we go over how to reverse engineer a color graded image and apply that color grade to any image. Essentially all we are doing is 'degrading' the source (color graded) image, and then inverting those curves and saving them and applying them to our images]]></description>
+			<pubDate>Mon, 25 Feb 2019 02:30:35 -0600</pubDate>
+			<link>https://secondcropcreative.com/blog/reverse-engineer-color-grading-in-photoshop/</link>
+			<guid isPermaLink="true">https://secondcropcreative.com/blog/reverse-engineer-color-grading-in-photoshop/</guid>
+		</item>
+		  
+		<item>
+			<title><![CDATA[Infrared Photo Effect in Photoshop without Expensive Gear]]></title>
+			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190218-pstuts-ir-effect.jpg" width="100%" alt="Infrared Photo Effect in Photoshop without Expensive Gear" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can achieve a false color, infrared effect in Photoshop without the expensive gear!]]></description>
+			<pubDate>Mon, 18 Feb 2019 02:30:35 -0600</pubDate>
+			<link>https://secondcropcreative.com/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</link>
+			<guid isPermaLink="true">https://secondcropcreative.com/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</guid>
+		</item>
+		  
+		<item>
+			<title><![CDATA[How to Color Grade in Adobe Photoshop with ONE FILTER!]]></title>
+			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190211-pstuts-acr-colorgrade.jpg" width="100%" alt="How to Color Grade in Adobe Photoshop with ONE FILTER!" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can apply a tasty color grade to any photo in Photoshop using just one filter- that's right...a filter.]]></description>
+			<pubDate>Mon, 11 Feb 2019 02:30:35 -0600</pubDate>
+			<link>https://secondcropcreative.com/blog/how-to-color-grade-in-photoshop-with-one-filter/</link>
+			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-color-grade-in-photoshop-with-one-filter/</guid>
+		</item>
+		  
+		<item>
+			<title><![CDATA[How to Easily Swap Faces in Adobe Photoshop]]></title>
+			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190204-pstut-headswap.jpg" width="100%" alt="How to Easily Swap Faces in Adobe Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting.]]></description>
+			<pubDate>Mon, 04 Feb 2019 02:30:35 -0600</pubDate>
+			<link>https://secondcropcreative.com/blog/how-to-easily-swap-faces-in-photoshop/</link>
+			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-easily-swap-faces-in-photoshop/</guid>
+		</item>
+		  
+		<item>
 			<title><![CDATA[Judah And The Lion LIVE at The Rave]]></title>
 			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20171002-judah.png" width="100%" alt="Judah And The Lion LIVE at The Rave" style="padding:15px"/> <br><br> My wife got my some tickets to go see Judah And The Lion for my birthday, and I have to say, I am glad she did so.]]></description>
 			<pubDate>Mon, 02 Oct 2017 05:00:35 -0500</pubDate>
