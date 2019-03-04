@@ -8,6 +8,14 @@
 		<atom:link href="https://secondcropcreative.com/feed.xml" rel="self" type="application/rss+xml" />
 		 
 		<item>
+			<title><![CDATA[5 Ways to Add Film Grain in Photoshop]]></title>
+			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190304-pstuts-film-grain.jpg" width="100%" alt="5 Ways to Add Film Grain in Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 tutorial, we are going to go over how to add film grain to your photos in Photoshop. I am going to cover 5 ways to add grain to an image in Photoshop starting with my least favorite ways and ending with my favorite way.]]></description>
+			<pubDate>Mon, 04 Mar 2019 02:30:35 -0600</pubDate>
+			<link>https://secondcropcreative.com/blog/5-ways-to-add-film-grain-in-photoshop/</link>
+			<guid isPermaLink="true">https://secondcropcreative.com/blog/5-ways-to-add-film-grain-in-photoshop/</guid>
+		</item>
+		  
+		<item>
 			<title><![CDATA[Reverse Engineer Color Grading in Photoshop]]></title>
 			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190225-pstuts-reverse-color-grade.jpg" width="100%" alt="Reverse Engineer Color Grading in Photoshop" style="padding:15px"/> <br><br> How to Reverse Engineer any Color Grading in Photoshop. In this Photoshop tutorial, we go over how to reverse engineer a color graded image and apply that color grade to any image. Essentially all we are doing is 'degrading' the source (color graded) image, and then inverting those curves and saving them and applying them to our images]]></description>
 			<pubDate>Mon, 25 Feb 2019 02:30:35 -0600</pubDate>
