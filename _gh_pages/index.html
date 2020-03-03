@@ -1,14 +1,18 @@
 ---
 layout: default
-title: Professional Photography, Videography & Design Services | Wisconsin
-description: Specializing in photography, videography & web design our goal is to show your story & emotionally connect with your audience. Connect with us today.
+title: Monroe, Wisconsin Wedding Videographer & Senior Photographer
+description: Wisconsin Wedding Videographer, Senior Photographer, Senior Pics, Monroe Photographer, New Glarus Photographer, Southwest Wisconsin Photographer.
 image: /assets/css/images/fb-share-icon.png
 ---
 <style>
 	@media (min-width: 768px) {
 		/*Large Images for Desktops*/
 		#hp-hero {
-			background-image: url('{{ site.baseurl }}/images/nicole-jason.jpg');
+			background-image: url('{{ site.baseurl }}/images/hero.jpg');
+			background-position: center;
+		}
+		#hp-photo {
+			background-image: url('{{ site.baseurl }}/images/photo.png');
 			background-position: center;
 		}
 		
@@ -17,23 +21,26 @@ image: /assets/css/images/fb-share-icon.png
 	@media (max-width: 767px) {
 		/*Small Images for Mobile*/
 		#hp-hero {
-			background-image: url('{{ site.baseurl }}/images/nicole-jason-500.jpg');
+			background-image: url('{{ site.baseurl }}/images/hero-500.jpg');
 			background-position: center;
 		}
-		
+		#hp-photo {
+			background-image: url('{{ site.baseurl }}/images/photo-500.png');
+			background-position: center;
+		}
 	}
 </style>
 <div class="creative-content">
 	<!-- begin INTRO-->
 	<section>
-		<div id="hp-hero" class="bg50-md bg60-sm bg-full-xs dark-boxshadow">
+		<div id="hp-hero" class="bg40-md bg50-sm bg-full-xs">
 			<!-- you need to override the 'clear.gif' that is currently set to the bg image on  .'bg-left'- -->
 			<div class="right-pos boxed-bg">
 				<!-- Need this div so that the content gets centered-->
 				<div class="row vertical-align-all">
 					<div class="col-xs-12">
-						<h1 class="txt-inherit">Specializing in photography, videography &amp; web design.</h1>
-						<p class="proxima-nova-reg">Show your story &amp; emotionally connect with your audience by utilizing photography, video &amp; design. </p>
+						<h1 class="txt-inherit">Wedding videography &amp; family photography</h1>
+						<p class="proxima-nova-reg">We want to be a part of your story from newborn photography, to senior portraits, to engagment sessions, to wedding videography all the way to shooting the next generation of you family!</p>
 						<a href="#hp-learnmore" class="btn btn-transparent scroll" type="button">LEARN MORE</a>
 						<!--<p><i style="" class="fa fa-angle-double-down fa-3x"></i></p>-->
 					</div>
@@ -49,8 +56,8 @@ image: /assets/css/images/fb-share-icon.png
 		<div class="max-1080">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1 class="txt-inherit proxima-nova-light">Communication is the transfer of emotion.</h1>
-					<p><em><a class="light-primary" href="#hp-photo">Photography</a></em>, <em><a class="light-primary" href="#hp-video">videography</a></em> &amp; <em><a class="light-primary" href="#hp-design">design</a></em> allow you to create a strong bond with your audience by tapping into the old adage, ‘A picture is worth 1000 words.’ Let’s face it, there are not enough hours in the day to communicate 1,000+ words to everyone. Photography, videography &amp; design communicates 1,000+ words instantly, universally, and without taking a single breath. Your story deserves to be felt, not just heard.</p>
+					<h1 class="txt-inherit proxima-nova-light">From newborn sessions, to senior portraits. Engagment sessions to wedding videography - We are part of <em>your family</em>.</h1>
+					<p></p>
 				</div>
 			</div>
 		</div>
@@ -58,54 +65,22 @@ image: /assets/css/images/fb-share-icon.png
 	</section>
 	<!-- end LEADIN -->
 	<!-- begin PHOTO-->
-	<section id="hp-photo">
-		<div style="position:relative">
-			<picture>
-				<!--[if IE 9]><video style="display: none;><![endif]-->
-				<source data-srcset="{{ site.baseurl }}/images/alycia-mike-500.jpg" media="sm" />
-				<source data-srcset="{{ site.baseurl }}/images/alycia-mike.jpg" />
-				<!--[if IE 9]></video><![endif]-->
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/images/alycia-mike.jpg" class="lazyload" alt="Finest Family Photography" width="100%" data-sizes="auto" />
-			</picture>
-			<div class="boxed-copy-left">
-				<div class="left-pos">
-					<h1 class="txt-inherit light-primary">Photography preserves your memories.</h1>
-					<p class="proxima-nova-reg">Your memories fade over time - it's science. <em>Professional photography</em> allow you to travel back in time see what yesterday looked like with certainty and without the sibling arguments.</p>
-					<a href="{{ site.baseurl }}/photo-services" class="btn btn-primary action-link" type="button">EXPLORE PHOTO SERVICES</a>
+	<section>
+		<div id="hp-photo" class="bg40-md bg50-sm bg-full-xs">
+			<!-- you need to override the 'clear.gif' that is currently set to the bg image on  .'bg-left'- -->
+			<div class="left-pos boxed-bg">
+				<!-- Need this div so that the content gets centered-->
+				<div class="row vertical-align-all">
+					<div class="col-xs-12">
+						<h1 class="txt-inherit">Photography preserves your memories from the very first smile.</h1>
+						<p class="proxima-nova-reg">Your memories fade over time - it's science. <em>Our family photography</em> allows you to travel back in time to relive all those special moments along the way - from newborn session, to engagment sessions, to shooting wedding video of your big day!</p>
+						<a href="{{ site.baseurl }}/photo-services" class="btn btn-transparent" type="button">LEARN MORE</a>
+						<!--<p><i style="" class="fa fa-angle-double-down fa-3x"></i></p>-->
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row light-boxshadow">
-			<!--<div class="col-xs-12 nopad hidden-xs">
-				<div class="row">
-					<div class="col-sm-6 nopad">
-						<img class="lazyload" data-src="{{ site.baseurl }}/images/hotel-red1x1n.jpg" width="100%" alt="HotelRED on Valentine's Day" />
-						<div class="img-caption-left">HotelRED on Valentine's Day</div>
-					</div>
-					<div class="col-sm-6 nopad">
-						<div class="row">
-							<div class="col-xs-6 nopad">
-								<img class="lazyload" data-src="{{ site.baseurl }}/images/megan-mancini1x1n.jpg" width="100%" alt="Yogi on a Thai beach at sunset" />
-								<div class="img-caption-left">Yogi on a Thai beach at sunset</div>
-							</div>
-							<div class="col-xs-6 nopad">
-								<img class="lazyload" data-src="{{ site.baseurl }}/images/swear-and-shake1x1n.jpg" width="100%" alt="Swear & Shake at Majestic" />
-								<div class="img-caption-left">Swear &amp; Shake at Majestic</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-6 nopad">
-								<img class="lazyload" data-src="{{ site.baseurl }}/images/reel-big-fish1x1n.jpg" width="100%" alt="Reel Big Fish - Majestic" />
-								<div class="img-caption-left">Reel Big Fish - Majestic</div>
-							</div>
-							<div class="col-xs-6 nopad">
-								<img class="lazyload" data-src="{{ site.baseurl }}/images/door-county1x1n.jpg" width="100%" alt="Door County, WI at sunset" />
-								<div class="img-caption-left">Door County, WI at sunset</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>-->
 			<div class="clear hidden-xs" style="padding:10px;"></div>
 			<div class="max-850 p-inverse">
 				<div class="col-xs-12 padit copy-container-center">
@@ -126,8 +101,8 @@ image: /assets/css/images/fb-share-icon.png
 				<div class="row" style="position:relative;">
 					<div class="clear" style="padding:50px;"></div>
 					<div class="col-xs-12 pad-it copy-container-center">
-						<h1 style="display:inline;" class="txt-inherit light-success">Infinitely repeat memories with videography.</h1>
-						<p style="color:rgba(255,255,255,1); padding-bottom:15px;" class="max-850">Sometimes a photograph won't do your story justice and that's when you reach for the kinetic cousin of photography - <em>videography</em>. The ability to relive an actual event over and over until you're blue in the face is a real treat.</p>
+						<h1 style="display:inline;" class="txt-inherit light-success">Your family's story starts with Wedding Videography</h1>
+						<p style="color:rgba(255,255,255,1); padding-bottom:15px;" class="max-850">Sometimes a photograph won't do your story justice and that's when you reach for the kinetic cousin of photography - <em>videography</em>. You wedding day is the solidifying moment of your family's story. It marks the end of one chapter, but the beginning of something much more than the sum of its parts. Becasue of this, we put down our photography gear for one day of <em>your</em> life in exchange for the videography gear not so you can merely look back &amp; remember your big day - but so you can relive and <em>FEEL</em> your wedding day!</p>
 						<a href="{{ site.baseurl }}/video-services" class="btn btn-success action-link" type="button">EXPLORE VIDEO SERVICES</a>
 						<div class="clear" style="padding:25px;"></div>
 					</div>
@@ -136,13 +111,13 @@ image: /assets/css/images/fb-share-icon.png
 			<div class="max-1080">
 				<div itemscope itemtype="http://schema.org/VideoObject" class="col-xs-12 pad-it">
 					<div class="embed-responsive embed-responsive-16by9">
-						<meta itemprop="thumbnailURL" content="http://secondcropcreative.com/video/images/ash-john-thumb.jpg">
-						<meta itemprop="uploadDate" content="August 25, 2018">
-						<meta itemprop="embedURL" content="http://youtube.com/embed/GdKACsPJYnM?rel=0&amp;hd=1">
-						<meta itemprop="name" content="Ashley &amp;am; John">
-						<meta itemprop="description" content="Nestled deep in the Northern Woods of Wisconsin, we make our way to the most beautiful venues we've ever had the privilege to capture. Congrats Ashley &amp; John, thanks for the wicked pretty ride!"> 
-						<div class="youtube" id="GdKACsPJYnM">
-							<img data-src="/video/images/ash-john-thumb.jpg" width="100%" class="thumb lazyload" alt="Wisconsin Wedding Videography" />
+						<meta itemprop="thumbnailURL" content="http://secondcropcreative.com/video/images/lindsay-harlan-thumb.jpg" />
+						<meta itemprop="uploadDate" content="January 17, 2020" />
+						<meta itemprop="embedURL" content="http://youtube.com/embed/s01DEWTwGvA?rel=0&hd=1" />
+						<meta itemprop="name" content="Lindsay & Harlan" />
+						<meta itemprop="description" content="Lindsay & Harlan's Wedding in Milwaukee, WI December 31, 2019" />
+						<div class="youtube" id="s01DEWTwGvA">
+							<img data-src="/video/images/lindsay-harlan-thumb.jpg" width="100%" class="thumb lazyload" />
 						</div>
 					</div>
 					<div class="clear" style="padding:50px;"></div>
@@ -159,63 +134,4 @@ image: /assets/css/images/fb-share-icon.png
 		</div>
 	</section>
 	<!-- end VIDEO-->
-	<!-- begin DESIGN-->
-	<!--<section id="hp-design">
-		<div class="row dark-boxshadow bg-info">
-			<div class="max-850">
-				<div class="row light-info" style="position:relative;">
-					<div class="clear" style="padding:50px;"></div>
-					<div class="col-xs-12 pad-it copy-container-center">
-						<h1 class="light-info txt-inherit" style="display:inline;">Build trust with design.</h1>
-						<p style="padding-bottom:15px; color:white">Good design establishes professionalism, builds trust &amp; facilitates effective communication of your message. Learn more about our <em>custom web design &amp; creative graphic design</em> services.</p>
-						<a href="{{ site.baseurl }}/design-services" class="btn btn-info action-link" type="button">EXPLORE DESIGN SERVICES</a>
-						<div class="clear" style="padding:25px;"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<picture>-->
-					<!--[if IE 9]><video style="display: none;><![endif]-->
-					<!--<source data-srcset="{{ site.baseurl }}/images/scc-devices-500.png" media="sm" />
-					<source data-srcset="{{ site.baseurl }}/images/scc-devices-900.png" media="md" />
-					<source data-srcset="{{ site.baseurl }}/images/scc-devices-1200.png" media="lg" />
-					<source data-srcset="{{ site.baseurl }}/images/scc-devices.png" />-->
-					<!--[if IE 9]></video><![endif]-->
-					<!--<img data-src="{{ site.baseurl }}/images/scc-devices-1200.png" class="lazyload" alt="Responsive Web Design" width="100%" />
-				</picture>
-				<div class="clear" style="padding:50px;"></div>
-			</div>
-			<div class="max-1080">
-				<div class="max-850 light-info">
-					<div class="col-xs-12 padit copy-container-center">
-						<h2 class="txt-uppercase"><i class="fa fa-quote-left"></i> Good design is making something intelligible and memorable. Great design is making something memorable and meaningful. <i class="fa fa-quote-right"></i></h2>
-						<div class="clear" style="padding:5px;"></div>
-						<p>- Dieter Rams (1932 - ) | <em>German Industrial Designer</em></p>
-						<div class="clear" style="padding:50px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>-->
-	<!-- end DESIGN-->
-	<!-- begin CATCH ALL-->
-	<section class="copy-container-center">
-		<div class="clear" style="padding:20px"></div>
-		<div class="max-1080 row">
-			<div class="row">
-				<div class="col-xs-12" style="padding:15px;">
-					<h1>Start Showing Your Story</h1>
-					<h2>Stop telling your story, and emotionally connect with your audience through photography, videography &amp; design today.</h2>
-				</div>
-			</div>
-			<div class="row max-850">
-				<div class="col-xs-12">
-					<a href="{{ site.baseurl }}/photo-services" class="btn btn-primary action-link" type="button">PHOTO SERVICES</a>
-					<a href="{{ site.baseurl }}/video-services" class="btn btn-success action-link" type="button">VIDEO SERVICES</a>
-					<a href="{{ site.baseurl }}/design-services" class="btn btn-info action-link" type="button">DESIGN SERVICES</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end CATCH ALL-->
 </div>
