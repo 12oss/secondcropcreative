@@ -3,7 +3,6 @@ layout: default
 title: Cinemagraphs, Living Stills, Animated Gifs
 description: Our cinemagraphs portfolio shows how you can bring images to life. We breathe life into static images to tell a compelling story.
 image: /assets/css/images/flat-logo-alt.png
-
 ---
 <style type="text/css">
 a.copyclip {
@@ -58,6 +57,15 @@ div.copylink {
 	color: inherit;
 	transition: all 550ms;
 }
+
+a p.img-description {
+	color: #666666;
+	margin: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 800;
+	font-style: normal;
+}
 </style>
 <div class="creative-content max-550">
 	<div style="padding: 15px" class="txt-center">
@@ -66,275 +74,13 @@ div.copylink {
 	</div>
 	<hr>
 	<div class="cinemagraphs">
-		
+		{% for cinemagraphs in site.data.cinemagraphs %}
 		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/artist-painting.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/artist-painting.gif" class="lazyload" alt="Artist Paiting - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
+			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/{{ cinemagraphs.image }}" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
+				<img data-src="{{ site.baseurl }}/cinemagraphs/images/{{ cinemagraphs.image }}" class="lazyload" alt="{{ cinemagraphs.alt }}" width="100%" data-sizes="auto" /> {% include clipboard.html %}
+				<p class="img-description">{{ cinemagraphs.alt }}</p>
 			</a>
 		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/beach-waves.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/beach-waves.gif" class="lazyload" alt="Beach Waves - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/beer-bubbles.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/beer-bubbles.gif" class="lazyload" alt="Beer Bubbles - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/beer-foam.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/beer-foam.gif" class="lazyload" alt="Beer Foam - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/beer-pour.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/beer-pour.gif" class="lazyload" alt="Beer Pour - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/birds-on-post.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/birds-on-post.gif" class="lazyload" alt="Birds on a Post - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/burner.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/burner.gif" class="lazyload" alt="Burner - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/cappuccino-pour.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/cappuccino-pour.gif" class="lazyload" alt="cappuccino Pour - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/caribbean.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/caribbean.gif" class="lazyload" alt="Caribbean - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/carpenter-graving.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/carpenter-graving.gif" class="lazyload" alt="Carpenter Graving - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/cemetary-flag.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/cemetary-flag.gif" class="lazyload" alt="Cemetary Flag - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/chainsaw.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/chainsaw.gif" class="lazyload" alt="Chainsaw - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/cigarette-burning.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/cigarette-burning.gif" class="lazyload" alt="cigarette Burning - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/coffee-pour.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/coffee-pour.gif" class="lazyload" alt="Coffee Pour - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/coin-spin.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/coin-spin.gif" class="lazyload" alt="Coin Spin - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/coke-bubbles.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/coke-bubbles.gif" class="lazyload" alt="Coke Bubbles - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/cow.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/cow.gif" class="lazyload" alt="Cow - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/dog-water.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/dog-water.gif" class="lazyload" alt="Dog Drinking Water - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/downspout.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/downspout.gif" class="lazyload" alt="Downspout - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/dryer.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/dryer.gif" class="lazyload" alt="Dryer - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/duck-dance.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/duck-dance.gif" class="lazyload" alt="Duck Dance - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/escalator-down.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/escalator-down.gif" class="lazyload" alt="Escalator Down - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/ferris-wheel.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/ferris-wheel.gif" class="lazyload" alt="Ferris Wheel - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/fireworks.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/fireworks.gif" class="lazyload" alt="Fireworks - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/ice-melting.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/ice-melting.gif" class="lazyload" alt="Ice Melting - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/lightbulb.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/lightbulb.gif" class="lazyload" alt="Lightbulb - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/poolside.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/poolside.gif" class="lazyload" alt="Poolside - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/radio-broadcast.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/radio-broadcast.gif" class="lazyload" alt="Radio Broadcast - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/radio-scan.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/radio-scan.gif" class="lazyload" alt="Radio Scan - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/river-watch.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/river-watch.gif" class="lazyload" alt="River Watch - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/rock-ripple.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/rock-ripple.gif" class="lazyload" alt="Rock Ripple - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/seagulls.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/seagulls.gif" class="lazyload" alt="Seagulls - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/shuttle-launch-sm.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/shuttle-launch-sm.gif" class="lazyload" alt="Shuttle Launch - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/sink-drip.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/sink-drip.gif" class="lazyload" alt="Sink Drip - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/standing-in-the-rain.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/standing-in-the-rain.gif" class="lazyload" alt="Standing in the Rain - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/steam-from-pot.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/steam-from-pot.gif" class="lazyload" alt="Steam from Pot - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/stereo.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/stereo.gif" class="lazyload" alt="Stereo - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/stoplight.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/stoplight.gif" class="lazyload" alt="Stoplight Blinking - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/subway.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/subway.gif" class="lazyload" alt="Subway Moving By - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/swan.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/swan.gif" class="lazyload" alt="Swan in Water - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/swings.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/swings.gif" class="lazyload" alt="Swings - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/tap-water.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/tap-water.gif" class="lazyload" alt="Running Tap Water - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/tire-swing.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/tire-swing.gif" class="lazyload" alt="Tire Swing - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/torn-flag.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/torn-flag.gif" class="lazyload" alt="Torn Flag in Wind - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/tower.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/tower.gif" class="lazyload" alt="Radar Tower Air Traffic Control - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/train.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/train.gif" class="lazyload" alt="Train - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/water-draining.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/water-draining.gif" class="lazyload" alt="Water Draining - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/water-leaf.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/water-leaf.gif" class="lazyload" alt="Rain Water on Leaf - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/waterfall.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/waterfall.gif" class="lazyload" alt="Waterfall - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/weather-monitor.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/weather-monitor.gif" class="lazyload" alt="Weather Monitor - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/welding.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/welding.gif" class="lazyload" alt="Welding Boat - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/windmill.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/windmill.gif" class="lazyload" alt="Wind Power Windmill - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
-		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/yoga-cliff.gif" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/cinemagraphs/images/yoga-cliff.gif" class="lazyload" alt="Yoga on Cliff - Cinemagraph" width="100%" data-sizes="auto" /> {% include clipboard.html %}
-			</a>
-		</div>
+		{% endfor %}
 	</div>
 </div>
-
-
-
-
