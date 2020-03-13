@@ -76,7 +76,7 @@ a p.img-description {
 	<div class="cinemagraphs">
 		{% for cinemagraphs in site.data.cinemagraphs %}
 		<div>
-			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/{{ cinemagraphs.image }}" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Copy to Clipboard">
+			<a class="copyclip" data-clipboard-text="{{ site.url }}/cinemagraphs/images/{{ cinemagraphs.image }}" data-toggle="tooltip" data-container="body" data-placement="bottom" title="Click to Copy to Clipboard">
 				<img data-src="{{ site.baseurl }}/cinemagraphs/images/{{ cinemagraphs.image }}" class="lazyload" alt="{{ cinemagraphs.alt }}" width="100%" data-sizes="auto" /> {% include clipboard.html %}
 				<p class="img-description">{{ cinemagraphs.alt }}</p>
 			</a>
