@@ -4,1047 +4,1055 @@
 	<channel>
 		<title>Second Crop Creative Blog RSS</title>
 		<description>Latest blog posts from Second Crop Creative</description>
-		<link>https://secondcropcreative.com/blog</link>
-		<atom:link href="https://secondcropcreative.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:12022/blog</link>
+		<atom:link href="http://localhost:12022/feed.xml" rel="self" type="application/rss+xml" />
 		 
 		<item>
+			<title><![CDATA[Karl Post Malone - Same Name Photoshop Edit (Unsolicited Photoshop)]]></title>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200416-themalones.jpg" width="100%" alt="Karl Post Malone - Same Name Photoshop Edit (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Post Malone with Karl Malone of the Utah Jazz/LA Lakers. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
+			<pubDate>Thu, 16 Apr 2020 03:30:35 -0500</pubDate>
+			<link>http://localhost:12022/blog/karl-post-malone-same-name-photoshop-edit/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/karl-post-malone-same-name-photoshop-edit/</guid>
+		</item>
+		  
+		<item>
 			<title><![CDATA[Steve-o Jobs - Same Name Photoshop Edit (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200415-thesteves.jpg" width="100%" alt="Steve-o Jobs - Same Name Photoshop Edit (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Steve-o from The Jackass Franchise with Steve Jobs from the Apple Empire. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200415-thesteves.jpg" width="100%" alt="Steve-o Jobs - Same Name Photoshop Edit (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Steve-o from The Jackass Franchise with Steve Jobs from the Apple Empire. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
 			<pubDate>Wed, 15 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/steve-o-jobs-same-name-photoshop-edit/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/steve-o-jobs-same-name-photoshop-edit/</guid>
+			<link>http://localhost:12022/blog/steve-o-jobs-same-name-photoshop-edit/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/steve-o-jobs-same-name-photoshop-edit/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Machine Gun Kelly Clarkson - Same Name Photoshop Edit (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200414-thekellys.jpg" width="100%" alt="Machine Gun Kelly Clarkson - Same Name Photoshop Edit (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Kelly Clarkson from OG American Idol with Machine Gun Kelly. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200414-thekellys.jpg" width="100%" alt="Machine Gun Kelly Clarkson - Same Name Photoshop Edit (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Kelly Clarkson from OG American Idol with Machine Gun Kelly. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
 			<pubDate>Tue, 14 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/the-kellys-photoshop-edit/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/the-kellys-photoshop-edit/</guid>
+			<link>http://localhost:12022/blog/the-kellys-photoshop-edit/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/the-kellys-photoshop-edit/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Same Name Photoshop Edit - Well if My Name Isn't Travis Bob Barker (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200413-thebarkers.jpg" width="100%" alt="Same Name Photoshop Edit - Well if My Name Isn't Travis Bob Barker (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Travis Barker from Blink-182, +44, Box Car Racer, etc with Bob Barker of The Price is Right and Happy Gilmore. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200413-thebarkers.jpg" width="100%" alt="Same Name Photoshop Edit - Well if My Name Isn't Travis Bob Barker (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this Unsolicited Photoshop Same Name Photoshop video I mashup Travis Barker from Blink-182, +44, Box Car Racer, etc with Bob Barker of The Price is Right and Happy Gilmore. If you have ideas for future Same Name Photoshop Edits let me know! Enjoy!]]></description>
 			<pubDate>Mon, 13 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/the-barkers-photoshop-edit/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/the-barkers-photoshop-edit/</guid>
+			<link>http://localhost:12022/blog/the-barkers-photoshop-edit/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/the-barkers-photoshop-edit/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Exotic Joe Biden the 2020 Democratic Nominee (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200401-exotic-joe-biden.jpg" width="100%" alt="Exotic Joe Biden the 2020 Democratic Nominee (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I mashup Joe Exotic from the Netflix series "Tiger King" with the Democratic nominee Joseph Exotic Joe Biden...Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200401-exotic-joe-biden.jpg" width="100%" alt="Exotic Joe Biden the 2020 Democratic Nominee (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I mashup Joe Exotic from the Netflix series "Tiger King" with the Democratic nominee Joseph Exotic Joe Biden...Enjoy!]]></description>
 			<pubDate>Wed, 08 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/exotic-joe-biden/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/exotic-joe-biden/</guid>
+			<link>http://localhost:12022/blog/exotic-joe-biden/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/exotic-joe-biden/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Remaking Tiger King Poster for Netflix (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200402-tiger-king-poster.jpg" width="100%" alt="Remaking Tiger King Poster for Netflix (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I take the original Lion King Poster from 1994 and give it a true 2020 face lift with the help of our good friend Joe Exotic, aka, the Tiger King. Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200402-tiger-king-poster.jpg" width="100%" alt="Remaking Tiger King Poster for Netflix (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I take the original Lion King Poster from 1994 and give it a true 2020 face lift with the help of our good friend Joe Exotic, aka, the Tiger King. Enjoy!]]></description>
 			<pubDate>Thu, 02 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/remaking-tiger-king-poster-for-netflix/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/remaking-tiger-king-poster-for-netflix/</guid>
+			<link>http://localhost:12022/blog/remaking-tiger-king-poster-for-netflix/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/remaking-tiger-king-poster-for-netflix/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Joe Exotic - Make America Exotic Again (Unsolicited Photoshop)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20200401-make-america-exotic-again.jpg" width="100%" alt="Joe Exotic - Make America Exotic Again (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I take Joe exotic from the Netflix series "Tiger King" and mash him up with the USA's fearless leader Orange 45, I mean Donald J Trump...Enjoy!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20200401-make-america-exotic-again.jpg" width="100%" alt="Joe Exotic - Make America Exotic Again (Unsolicited Photoshop)" style="padding:15px"/> <br><br> In this unsolicited photoshop I take Joe exotic from the Netflix series "Tiger King" and mash him up with the USA's fearless leader Orange 45, I mean Donald J Trump...Enjoy!]]></description>
 			<pubDate>Wed, 01 Apr 2020 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/joe-exotic-make-america-exotic-again/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/joe-exotic-make-america-exotic-again/</guid>
+			<link>http://localhost:12022/blog/joe-exotic-make-america-exotic-again/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/joe-exotic-make-america-exotic-again/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Cinematic Color Grade in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191218-cinematic-colorgrade-in-photoshop.jpg" width="100%" alt="Cinematic Color Grade in Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make a cinematic color grade in photoshop by using a few tricks as well as apply image. At the end of the tutorial I show you an easy way to apply any action as a batch edit so a quick effect way to grade multiple images at once. Be sure to grab the free action on my website below to save a bunch of time! Donations are welcomed as well, as they help the channel and the community!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191218-cinematic-colorgrade-in-photoshop.jpg" width="100%" alt="Cinematic Color Grade in Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make a cinematic color grade in photoshop by using a few tricks as well as apply image. At the end of the tutorial I show you an easy way to apply any action as a batch edit so a quick effect way to grade multiple images at once. Be sure to grab the free action on my website below to save a bunch of time! Donations are welcomed as well, as they help the channel and the community!]]></description>
 			<pubDate>Tue, 17 Dec 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/cinematic-color-grade-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/cinematic-color-grade-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/cinematic-color-grade-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/cinematic-color-grade-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Hybrid Animals in Photoshop - The Lecaw]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191212-hybrid-animals-photoshop-lemacaw.jpg" width="100%" alt="Hybrid Animals in Photoshop - The Lecaw" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I make a hybrid animal in photoshop using a blue and yellow macaw and a lemur.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191212-hybrid-animals-photoshop-lemacaw.jpg" width="100%" alt="Hybrid Animals in Photoshop - The Lecaw" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I make a hybrid animal in photoshop using a blue and yellow macaw and a lemur.]]></description>
 			<pubDate>Thu, 12 Dec 2019 02:00:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/hybrid-animals-in-photoshop-lecaw/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/hybrid-animals-in-photoshop-lecaw/</guid>
+			<link>http://localhost:12022/blog/hybrid-animals-in-photoshop-lecaw/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/hybrid-animals-in-photoshop-lecaw/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Hybrid Animals in Photoshop - The Bighorn Hawk]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191211-hybrid-animals-photoshop-bighorn-ram.jpg" width="100%" alt="Hybrid Animals in Photoshop - The Bighorn Hawk" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I make a hybrid animal in photoshop using a bighorn ram and a hawk.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191211-hybrid-animals-photoshop-bighorn-ram.jpg" width="100%" alt="Hybrid Animals in Photoshop - The Bighorn Hawk" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I make a hybrid animal in photoshop using a bighorn ram and a hawk.]]></description>
 			<pubDate>Wed, 11 Dec 2019 11:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/hybrid-animals-in-photoshop-bighorn-hawk/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/hybrid-animals-in-photoshop-bighorn-hawk/</guid>
+			<link>http://localhost:12022/blog/hybrid-animals-in-photoshop-bighorn-hawk/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/hybrid-animals-in-photoshop-bighorn-hawk/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Fixing Walmart's Ugly Sweater with a Little Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191210-walmart-ugly-sweater-tyrone-biggums-photoshop.jpg" width="100%" alt="Fixing Walmart's Ugly Sweater with a Little Photoshop" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I take the Walmart "Cocaine Santa" Ugly Christmas Sweater and fix it with Dave Chappelle's "Tyrone Biggums" Character from The Chappelle Show.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191210-walmart-ugly-sweater-tyrone-biggums-photoshop.jpg" width="100%" alt="Fixing Walmart's Ugly Sweater with a Little Photoshop" style="padding:15px"/> <br><br> In this super-fast Photoshop Speed Art Edit, I take the Walmart "Cocaine Santa" Ugly Christmas Sweater and fix it with Dave Chappelle's "Tyrone Biggums" Character from The Chappelle Show.]]></description>
 			<pubDate>Tue, 10 Dec 2019 11:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/fixing-walmarts-ugly-sweater-with-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/fixing-walmarts-ugly-sweater-with-photoshop/</guid>
+			<link>http://localhost:12022/blog/fixing-walmarts-ugly-sweater-with-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/fixing-walmarts-ugly-sweater-with-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Make an Easy Vintage Halftone Effect in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191210-vintage-halftone-action-photoshop.jpg" width="100%" alt="How to Make an Easy Vintage Halftone Effect in Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make an easy vintage halftone effect in photoshop in a matter of minutes. Be sure to grab the free action on my website below to save even more time! Donations are welcomed as well, as they help the channel and the community!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191210-vintage-halftone-action-photoshop.jpg" width="100%" alt="How to Make an Easy Vintage Halftone Effect in Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make an easy vintage halftone effect in photoshop in a matter of minutes. Be sure to grab the free action on my website below to save even more time! Donations are welcomed as well, as they help the channel and the community!]]></description>
 			<pubDate>Tue, 10 Dec 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/easy-vintage-halftone-effect-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/easy-vintage-halftone-effect-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/easy-vintage-halftone-effect-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/easy-vintage-halftone-effect-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Reddit Photoshop Battles 1 | Speed Art]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191206-reddit-photoshopbattle-1.jpg" width="100%" alt="Reddit Photoshop Battles 1 | Speed Art" style="padding:15px"/> <br><br> In this Reddit Photoshop Battle speedart video I take an image from the subreddit of /r/PhotoshopBattles and make a vintage-looking poster in 10 minutes.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191206-reddit-photoshopbattle-1.jpg" width="100%" alt="Reddit Photoshop Battles 1 | Speed Art" style="padding:15px"/> <br><br> In this Reddit Photoshop Battle speedart video I take an image from the subreddit of /r/PhotoshopBattles and make a vintage-looking poster in 10 minutes.]]></description>
 			<pubDate>Fri, 06 Dec 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/reddit-photoshop-battle-1-speedart/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/reddit-photoshop-battle-1-speedart/</guid>
+			<link>http://localhost:12022/blog/reddit-photoshop-battle-1-speedart/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/reddit-photoshop-battle-1-speedart/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Make it Snow in Photoshop - Free Snow Action for Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20191210-free-snow-action-photoshop.jpg" width="100%" alt="How to Make it Snow in Photoshop - Free Snow Action for Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make it snow in Photoshop and as a bonus I give you a free falling snow photoshop action so you can add transparent snow to all your winter images.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20191210-free-snow-action-photoshop.jpg" width="100%" alt="How to Make it Snow in Photoshop - Free Snow Action for Photoshop" style="padding:15px"/> <br><br> In this Photoshop Tutorial I show you how to make it snow in Photoshop and as a bonus I give you a free falling snow photoshop action so you can add transparent snow to all your winter images.]]></description>
 			<pubDate>Thu, 05 Dec 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-make-it-snow-in-photoshop-free-snow-action/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-make-it-snow-in-photoshop-free-snow-action/</guid>
+			<link>http://localhost:12022/blog/how-to-make-it-snow-in-photoshop-free-snow-action/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-make-it-snow-in-photoshop-free-snow-action/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Sonic The Hedgehog - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190506-makeover-sonic.jpg" width="100%" alt="Sonic The Hedgehog - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> I spent 20 minutes of my lunch break fixing the Sonic The Hedgehog Poster, and I'd like to think I did a decent job on it. Thoughts? Is the original better, what could we change to make this spectacular?]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190506-makeover-sonic.jpg" width="100%" alt="Sonic The Hedgehog - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> I spent 20 minutes of my lunch break fixing the Sonic The Hedgehog Poster, and I'd like to think I did a decent job on it. Thoughts? Is the original better, what could we change to make this spectacular?]]></description>
 			<pubDate>Mon, 06 May 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/sonic-the-hedgehog-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/sonic-the-hedgehog-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/sonic-the-hedgehog-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/sonic-the-hedgehog-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Don Juan Trump - A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190502-mashup-donjuan.jpg" width="100%" alt="Don Juan Trump - A Photoshop Mashup" style="padding:15px"/> <br><br> What Would President Trump look like if he was Hispanic/Mexican/Spanish? Well, I did the unofficial forensic analysis for you, and here is the result!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190502-mashup-donjuan.jpg" width="100%" alt="Don Juan Trump - A Photoshop Mashup" style="padding:15px"/> <br><br> What Would President Trump look like if he was Hispanic/Mexican/Spanish? Well, I did the unofficial forensic analysis for you, and here is the result!]]></description>
 			<pubDate>Thu, 02 May 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/don-juan-trump-photoshop-mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/don-juan-trump-photoshop-mashup/</guid>
+			<link>http://localhost:12022/blog/don-juan-trump-photoshop-mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/don-juan-trump-photoshop-mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[I Bought a 360 Camera & Became a Google Trusted Photographer in 24hrs]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190422-google-trusted-photographer-in-24hrs.jpg" width="100%" alt="I Bought a 360 Camera & Became a Google Trusted Photographer in 24hrs" style="padding:15px"/> <br><br> I bought the Insta 360 One X and within 24 hours I was invited to become a Google Trusted Photographer. In this video, I outline the steps to take to easily hit the 50 published photos to Google which is required before Google sends you an invite to be listed in their photographer's directory.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190422-google-trusted-photographer-in-24hrs.jpg" width="100%" alt="I Bought a 360 Camera & Became a Google Trusted Photographer in 24hrs" style="padding:15px"/> <br><br> I bought the Insta 360 One X and within 24 hours I was invited to become a Google Trusted Photographer. In this video, I outline the steps to take to easily hit the 50 published photos to Google which is required before Google sends you an invite to be listed in their photographer's directory.]]></description>
 			<pubDate>Mon, 22 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/i-bought-a-360-camera-and-became-a-google-trusted-photographer-in-24hrs/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/i-bought-a-360-camera-and-became-a-google-trusted-photographer-in-24hrs/</guid>
+			<link>http://localhost:12022/blog/i-bought-a-360-camera-and-became-a-google-trusted-photographer-in-24hrs/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/i-bought-a-360-camera-and-became-a-google-trusted-photographer-in-24hrs/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Lil Pump - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190417-makeover-lilpump.jpg" width="100%" alt="Lil Pump - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Pump look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Pump a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190417-makeover-lilpump.jpg" width="100%" alt="Lil Pump - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Pump look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Pump a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
 			<pubDate>Wed, 17 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/lilpump-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/lilpump-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/lilpump-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/lilpump-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Creating Fake Sun Rays in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190415-pstuts-rays.jpg" width="100%" alt="Creating Fake Sun Rays in Photoshop" style="padding:15px"/> <br><br> How do you create sun light rays in photoshop? Simple, glad you asked. We can create fake light rays or fake sun light rays in photoshop using the gradient adjustment layer. If you want to step it up a level then be sure to watch the video where we go over clipping masks and adding more ambiance and atmosphere to really make the image pop and come to life.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190415-pstuts-rays.jpg" width="100%" alt="Creating Fake Sun Rays in Photoshop" style="padding:15px"/> <br><br> How do you create sun light rays in photoshop? Simple, glad you asked. We can create fake light rays or fake sun light rays in photoshop using the gradient adjustment layer. If you want to step it up a level then be sure to watch the video where we go over clipping masks and adding more ambiance and atmosphere to really make the image pop and come to life.]]></description>
 			<pubDate>Mon, 15 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-create-sun-rays-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-create-sun-rays-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-create-sun-rays-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-create-sun-rays-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Aaron Rodgers' Neighborhood - A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190411-mashup-rodgers.jpg" width="100%" alt="Aaron Rodgers' Neighborhood - A Photoshop Mashup" style="padding:15px"/> <br><br> Aaron Charles Rodgers is an American football quarterback for the Green Bay Packers of the National Football League. Rodgers played college football for the California Golden Bears, where he set several career passing records, including lowest single-season and career interception rates. Fred McFeely Rogers was an American television personality, musician, puppeteer, writer, producer, and Presbyterian minister. He was known as the creator, composer, producer, head writer, showrunner and host of the preschool television series Mister Rogers' Neighborhood.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190411-mashup-rodgers.jpg" width="100%" alt="Aaron Rodgers' Neighborhood - A Photoshop Mashup" style="padding:15px"/> <br><br> Aaron Charles Rodgers is an American football quarterback for the Green Bay Packers of the National Football League. Rodgers played college football for the California Golden Bears, where he set several career passing records, including lowest single-season and career interception rates. Fred McFeely Rogers was an American television personality, musician, puppeteer, writer, producer, and Presbyterian minister. He was known as the creator, composer, producer, head writer, showrunner and host of the preschool television series Mister Rogers' Neighborhood.]]></description>
 			<pubDate>Thu, 11 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/aaron-rodgers-neighborhood-photoshop-mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/aaron-rodgers-neighborhood-photoshop-mashup/</guid>
+			<link>http://localhost:12022/blog/aaron-rodgers-neighborhood-photoshop-mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/aaron-rodgers-neighborhood-photoshop-mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Tekashi69 - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190410-makeover-tekashi69.jpg" width="100%" alt="Tekashi69 - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Tekashi 6ix9ine look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Tekashi 6ix9ine a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190410-makeover-tekashi69.jpg" width="100%" alt="Tekashi69 - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Tekashi 6ix9ine look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Tekashi 6ix9ine a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
 			<pubDate>Wed, 10 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/tekashi69-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/tekashi69-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/tekashi69-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/tekashi69-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[XXXTenacion - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190409-makeover-xxxtenacion.jpg" width="100%" alt="XXXTenacion - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does XXXTentacion look like without tattoos? In this Extreme Makeover Photoshop Edition, we give XXXTentacion a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190409-makeover-xxxtenacion.jpg" width="100%" alt="XXXTenacion - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does XXXTentacion look like without tattoos? In this Extreme Makeover Photoshop Edition, we give XXXTentacion a makeover in Photoshop. We remove all his tattoos and give him a new haircut.]]></description>
 			<pubDate>Tue, 09 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/xxxtenacion-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/xxxtenacion-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/xxxtenacion-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/xxxtenacion-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[White Shirt to Black in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190408-pstuts-white-to-black.jpg" width="100%" alt="White Shirt to Black in Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop Tutorial we are going to take a white t-shirt and turn it black. Sounds hard right, well, it's easy and can be done with one layer if you play your cards right. The first thing that is massively important is to make sure your image is high quality - if the image you are starting with is poor quality this trick will not give a very good desired result. The tools we are going to use are levels/curves and blend if, so let's hop into photoshop and make this witchcraft happen!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190408-pstuts-white-to-black.jpg" width="100%" alt="White Shirt to Black in Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop Tutorial we are going to take a white t-shirt and turn it black. Sounds hard right, well, it's easy and can be done with one layer if you play your cards right. The first thing that is massively important is to make sure your image is high quality - if the image you are starting with is poor quality this trick will not give a very good desired result. The tools we are going to use are levels/curves and blend if, so let's hop into photoshop and make this witchcraft happen!]]></description>
 			<pubDate>Mon, 08 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/white-shirt-to-black-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/white-shirt-to-black-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/white-shirt-to-black-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/white-shirt-to-black-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[PewDieChrist - A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190404-mashup-pewdiechrist.jpg" width="100%" alt="PewDieChrist - A Photoshop Mashup" style="padding:15px"/> <br><br> Pewdiepie is a Swedish YouTuber, comedian, and gamer–commentator, best known for his YouTube video content, which has mainly consisted of Let's Play commentaries, vlogs, and comedic formatted shows.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190404-mashup-pewdiechrist.jpg" width="100%" alt="PewDieChrist - A Photoshop Mashup" style="padding:15px"/> <br><br> Pewdiepie is a Swedish YouTuber, comedian, and gamer–commentator, best known for his YouTube video content, which has mainly consisted of Let's Play commentaries, vlogs, and comedic formatted shows.]]></description>
 			<pubDate>Thu, 04 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/pewdiechrist-photoshop-mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/pewdiechrist-photoshop-mashup/</guid>
+			<link>http://localhost:12022/blog/pewdiechrist-photoshop-mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/pewdiechrist-photoshop-mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Change Colors in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190401-pstuts-change-color.jpg" width="100%" alt="How to Change Colors in Photoshop" style="padding:15px"/> <br><br> How to Change Color in Photoshop. In this Adobe Photoshop CC tutorial, we go over a slick way to change/match any specific color in photoshop. It's as easy as eye-dropping a color from a source color swatch and then matching the luminance levels between the colors you want to match!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190401-pstuts-change-color.jpg" width="100%" alt="How to Change Colors in Photoshop" style="padding:15px"/> <br><br> How to Change Color in Photoshop. In this Adobe Photoshop CC tutorial, we go over a slick way to change/match any specific color in photoshop. It's as easy as eye-dropping a color from a source color swatch and then matching the luminance levels between the colors you want to match!]]></description>
 			<pubDate>Mon, 01 Apr 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-change-colors-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-change-colors-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-change-colors-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-change-colors-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Beer Kavanaugh - A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190328-mashup-beer.jpg" width="100%" alt="Beer Kavanaugh - A Photoshop Mashup" style="padding:15px"/> <br><br> Brett Michael Kavanaugh is an Associate Justice of the Supreme Court of the United States. He Likes Beer...]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190328-mashup-beer.jpg" width="100%" alt="Beer Kavanaugh - A Photoshop Mashup" style="padding:15px"/> <br><br> Brett Michael Kavanaugh is an Associate Justice of the Supreme Court of the United States. He Likes Beer...]]></description>
 			<pubDate>Thu, 28 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/beer-kavanaugh-photoshop-mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/beer-kavanaugh-photoshop-mashup/</guid>
+			<link>http://localhost:12022/blog/beer-kavanaugh-photoshop-mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/beer-kavanaugh-photoshop-mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Quick Tip to Fix Badly Damaged Photos in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190325-pstuts-fix-damage.jpg" width="100%" alt="Quick Tip to Fix Badly Damaged Photos in Photoshop" style="padding:15px"/> <br><br> Quick Tip to Fix Badly Damaged Photos in Photoshop. In this Adobe Photoshop Tutorial, we show you a cool tip/trick to quickly eliminate a lot of heavy damage from your old photos in Photoshop. This method works especially well on monochromatic/sepia/black and white photos!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190325-pstuts-fix-damage.jpg" width="100%" alt="Quick Tip to Fix Badly Damaged Photos in Photoshop" style="padding:15px"/> <br><br> Quick Tip to Fix Badly Damaged Photos in Photoshop. In this Adobe Photoshop Tutorial, we show you a cool tip/trick to quickly eliminate a lot of heavy damage from your old photos in Photoshop. This method works especially well on monochromatic/sepia/black and white photos!]]></description>
 			<pubDate>Mon, 25 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-fix-damaged-photos-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-fix-damaged-photos-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-fix-damaged-photos-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-fix-damaged-photos-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Lil Peep - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190323-makeover-lil-peep.jpg" width="100%" alt="Lil Peep - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Peep look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Peep a makeover and remove all his tattoos.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190323-makeover-lil-peep.jpg" width="100%" alt="Lil Peep - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Peep look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Peep a makeover and remove all his tattoos.]]></description>
 			<pubDate>Sat, 23 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/lil-peep-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/lil-peep-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/lil-peep-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/lil-peep-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Bunny Snabbit A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190321-mashup-snabbit.jpg" width="100%" alt="Bunny Snabbit A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash a Bunny Rabbit with a Snail!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190321-mashup-snabbit.jpg" width="100%" alt="Bunny Snabbit A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash a Bunny Rabbit with a Snail!]]></description>
 			<pubDate>Thu, 21 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/Bunny-Snabbit-Mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/Bunny-Snabbit-Mashup/</guid>
+			<link>http://localhost:12022/blog/Bunny-Snabbit-Mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/Bunny-Snabbit-Mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Remove a White Background or Make it Transparent in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190318-pstuts-remove-white.jpg" width="100%" alt="How to Remove a White Background or Make it Transparent in Photoshop" style="padding:15px"/> <br><br> How to remove a white background or make it transparent in Photoshop. In this Adobe Photoshop tutorial we will take a charcoal image and drop the paper background from it very quickly and easily. We will be using a very under utilized tool in Photoshop called Blend If. This is a great tool that I use for all my image manipulations and it is quite useful for dropping white backgrounds from your images.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190318-pstuts-remove-white.jpg" width="100%" alt="How to Remove a White Background or Make it Transparent in Photoshop" style="padding:15px"/> <br><br> How to remove a white background or make it transparent in Photoshop. In this Adobe Photoshop tutorial we will take a charcoal image and drop the paper background from it very quickly and easily. We will be using a very under utilized tool in Photoshop called Blend If. This is a great tool that I use for all my image manipulations and it is quite useful for dropping white backgrounds from your images.]]></description>
 			<pubDate>Mon, 18 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-remove-white-background-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-remove-white-background-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-remove-white-background-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-remove-white-background-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Post Malone - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190316-makeover-postmalone.jpg" width="100%" alt="Post Malone - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Post Malone look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Post Malone a makeover and remove all his tattoos and then throw on a traditional black tux.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190316-makeover-postmalone.jpg" width="100%" alt="Post Malone - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Post Malone look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Post Malone a makeover and remove all his tattoos and then throw on a traditional black tux.]]></description>
 			<pubDate>Sat, 16 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/post-malone-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/post-malone-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/post-malone-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/post-malone-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Lil Skies - Extreme Makeover Photoshop Edition]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190309-makeover-lilskies.jpg" width="100%" alt="Lil Skies - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Skies look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Skies a makeover and remove all his tattoos.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190309-makeover-lilskies.jpg" width="100%" alt="Lil Skies - Extreme Makeover Photoshop Edition" style="padding:15px"/> <br><br> What does Lil Skies look like without tattoos? In this Extreme Makeover Photoshop Edition, we give Lil Skies a makeover and remove all his tattoos.]]></description>
 			<pubDate>Sat, 16 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/lil-skies-extreme-makeover-photoshop-edition/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/lil-skies-extreme-makeover-photoshop-edition/</guid>
+			<link>http://localhost:12022/blog/lil-skies-extreme-makeover-photoshop-edition/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/lil-skies-extreme-makeover-photoshop-edition/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Prince James A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190314-mashup-princejames.jpg" width="100%" alt="Prince James A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash King James and Prince.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190314-mashup-princejames.jpg" width="100%" alt="Prince James A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash King James and Prince.]]></description>
 			<pubDate>Thu, 14 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/Prince-James-Photoshop-Mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/Prince-James-Photoshop-Mashup/</guid>
+			<link>http://localhost:12022/blog/Prince-James-Photoshop-Mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/Prince-James-Photoshop-Mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Momo Jackson A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190312-mashup-momojackson.jpg" width="100%" alt="Momo Jackson A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash the Momo bird sculpture and Michael Jackson.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190312-mashup-momojackson.jpg" width="100%" alt="Momo Jackson A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash the Momo bird sculpture and Michael Jackson.]]></description>
 			<pubDate>Tue, 12 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/Momo-Jackson-Photoshop-Mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/Momo-Jackson-Photoshop-Mashup/</guid>
+			<link>http://localhost:12022/blog/Momo-Jackson-Photoshop-Mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/Momo-Jackson-Photoshop-Mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Extend Backgrounds in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190311-pstuts-extend-bg.jpg" width="100%" alt="How to Extend Backgrounds in Photoshop" style="padding:15px"/> <br><br> Have you ever needed to extend the background of an image for your instagram feed, or maybe you need to stretch the background of an image to fill a space for Graphic Design. Well in today's video we go over two ways you can stretch you images out, quickly and effectively. We will go over the content aware tools built into Photoshop to extend our images quickly!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190311-pstuts-extend-bg.jpg" width="100%" alt="How to Extend Backgrounds in Photoshop" style="padding:15px"/> <br><br> Have you ever needed to extend the background of an image for your instagram feed, or maybe you need to stretch the background of an image to fill a space for Graphic Design. Well in today's video we go over two ways you can stretch you images out, quickly and effectively. We will go over the content aware tools built into Photoshop to extend our images quickly!]]></description>
 			<pubDate>Mon, 11 Mar 2019 03:30:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-extend-backgrounds-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-extend-backgrounds-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-extend-backgrounds-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-extend-backgrounds-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Ronald McMueller A Photoshop Mashup]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190307-mashup-mcmueller.jpg" width="100%" alt="Ronald McMueller A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash Bob (Robert) Mueller and the friendly old neighborhood clown, Ronald McDonald.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190307-mashup-mcmueller.jpg" width="100%" alt="Ronald McMueller A Photoshop Mashup" style="padding:15px"/> <br><br> In this Photoshop Mashup we mash Bob (Robert) Mueller and the friendly old neighborhood clown, Ronald McDonald.]]></description>
 			<pubDate>Thu, 07 Mar 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/Ronald-McMueller-Photoshop-Mashup/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/Ronald-McMueller-Photoshop-Mashup/</guid>
+			<link>http://localhost:12022/blog/Ronald-McMueller-Photoshop-Mashup/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/Ronald-McMueller-Photoshop-Mashup/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[5 Ways to Add Film Grain in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190304-pstuts-film-grain.jpg" width="100%" alt="5 Ways to Add Film Grain in Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 tutorial, we are going to go over how to add film grain to your photos in Photoshop. I am going to cover 5 ways to add grain to an image in Photoshop starting with my least favorite ways and ending with my favorite way.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190304-pstuts-film-grain.jpg" width="100%" alt="5 Ways to Add Film Grain in Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 tutorial, we are going to go over how to add film grain to your photos in Photoshop. I am going to cover 5 ways to add grain to an image in Photoshop starting with my least favorite ways and ending with my favorite way.]]></description>
 			<pubDate>Mon, 04 Mar 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/5-ways-to-add-film-grain-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/5-ways-to-add-film-grain-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/5-ways-to-add-film-grain-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/5-ways-to-add-film-grain-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Reverse Engineer Color Grading in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190225-pstuts-reverse-color-grade.jpg" width="100%" alt="Reverse Engineer Color Grading in Photoshop" style="padding:15px"/> <br><br> How to Reverse Engineer any Color Grading in Photoshop. In this Photoshop tutorial, we go over how to reverse engineer a color graded image and apply that color grade to any image. Essentially all we are doing is 'degrading' the source (color graded) image, and then inverting those curves and saving them and applying them to our images]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190225-pstuts-reverse-color-grade.jpg" width="100%" alt="Reverse Engineer Color Grading in Photoshop" style="padding:15px"/> <br><br> How to Reverse Engineer any Color Grading in Photoshop. In this Photoshop tutorial, we go over how to reverse engineer a color graded image and apply that color grade to any image. Essentially all we are doing is 'degrading' the source (color graded) image, and then inverting those curves and saving them and applying them to our images]]></description>
 			<pubDate>Mon, 25 Feb 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/reverse-engineer-color-grading-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/reverse-engineer-color-grading-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/reverse-engineer-color-grading-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/reverse-engineer-color-grading-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Infrared Photo Effect in Photoshop without Expensive Gear]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190218-pstuts-ir-effect.jpg" width="100%" alt="Infrared Photo Effect in Photoshop without Expensive Gear" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can achieve a false color, infrared effect in Photoshop without the expensive gear!]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190218-pstuts-ir-effect.jpg" width="100%" alt="Infrared Photo Effect in Photoshop without Expensive Gear" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can achieve a false color, infrared effect in Photoshop without the expensive gear!]]></description>
 			<pubDate>Mon, 18 Feb 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</guid>
+			<link>http://localhost:12022/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/infrared-photo-effect-in-photoshop-without-expensive-gear/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Color Grade in Adobe Photoshop with ONE FILTER!]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190211-pstuts-acr-colorgrade.jpg" width="100%" alt="How to Color Grade in Adobe Photoshop with ONE FILTER!" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can apply a tasty color grade to any photo in Photoshop using just one filter- that's right...a filter.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190211-pstuts-acr-colorgrade.jpg" width="100%" alt="How to Color Grade in Adobe Photoshop with ONE FILTER!" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial, we look at how you can apply a tasty color grade to any photo in Photoshop using just one filter- that's right...a filter.]]></description>
 			<pubDate>Mon, 11 Feb 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-color-grade-in-photoshop-with-one-filter/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-color-grade-in-photoshop-with-one-filter/</guid>
+			<link>http://localhost:12022/blog/how-to-color-grade-in-photoshop-with-one-filter/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-color-grade-in-photoshop-with-one-filter/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Easily Swap Faces in Adobe Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20190204-pstut-headswap.jpg" width="100%" alt="How to Easily Swap Faces in Adobe Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20190204-pstut-headswap.jpg" width="100%" alt="How to Easily Swap Faces in Adobe Photoshop" style="padding:15px"/> <br><br> In this Adobe Photoshop CC 2019 Tutorial we will look at how to easily swap faces in Photoshop. It's actually quite easy, and we are going to utilize the built in algorithms within Photoshop to do all the heavy lifting.]]></description>
 			<pubDate>Mon, 04 Feb 2019 02:30:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-easily-swap-faces-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-easily-swap-faces-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/how-to-easily-swap-faces-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-easily-swap-faces-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Judah And The Lion LIVE at The Rave]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20171002-judah.png" width="100%" alt="Judah And The Lion LIVE at The Rave" style="padding:15px"/> <br><br> My wife got my some tickets to go see Judah And The Lion for my birthday, and I have to say, I am glad she did so.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20171002-judah.png" width="100%" alt="Judah And The Lion LIVE at The Rave" style="padding:15px"/> <br><br> My wife got my some tickets to go see Judah And The Lion for my birthday, and I have to say, I am glad she did so.]]></description>
 			<pubDate>Mon, 02 Oct 2017 05:00:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/judah-and-the-lion-live-at-the-rave/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/judah-and-the-lion-live-at-the-rave/</guid>
+			<link>http://localhost:12022/blog/judah-and-the-lion-live-at-the-rave/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/judah-and-the-lion-live-at-the-rave/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Advanced Color Pollution Removal in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20170926-pollution.png" width="100%" alt="Advanced Color Pollution Removal in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20170926-pollution.png" width="100%" alt="Advanced Color Pollution Removal in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday we take an image polluted with yellow bokeh balls and restore it back to its original flavor.]]></description>
 			<pubDate>Tue, 26 Sep 2017 05:00:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/removing-color-pollution/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/removing-color-pollution/</guid>
+			<link>http://localhost:12022/blog/removing-color-pollution/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/removing-color-pollution/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Adding a Glow Effect in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20170808-glow.jpg" width="100%" alt="Adding a Glow Effect in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday, we show you how to jazz up your images by adding a super sweet glow effect inside of Photoshop.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20170808-glow.jpg" width="100%" alt="Adding a Glow Effect in Photoshop" style="padding:15px"/> <br><br> In this Tutorial Tuesday, we show you how to jazz up your images by adding a super sweet glow effect inside of Photoshop.]]></description>
 			<pubDate>Tue, 08 Aug 2017 05:00:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-add-glow-to-your-photos/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-add-glow-to-your-photos/</guid>
+			<link>http://localhost:12022/blog/how-to-add-glow-to-your-photos/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-add-glow-to-your-photos/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to Brighten Underexposed Photos]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20170801-brighten.jpg" width="100%" alt="How to Brighten Underexposed Photos" style="padding:15px"/> <br><br> Learn how we take severely underexposed photos and bring them back to life with a few simple, non-destructive steps within Photoshop.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20170801-brighten.jpg" width="100%" alt="How to Brighten Underexposed Photos" style="padding:15px"/> <br><br> Learn how we take severely underexposed photos and bring them back to life with a few simple, non-destructive steps within Photoshop.]]></description>
 			<pubDate>Tue, 01 Aug 2017 05:00:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/how-to-brighten-underexposed-photos/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/how-to-brighten-underexposed-photos/</guid>
+			<link>http://localhost:12022/blog/how-to-brighten-underexposed-photos/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/how-to-brighten-underexposed-photos/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Paint by Numbers Color Matching in Photoshop]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20170718-paintbynumbers.jpg" width="100%" alt="Paint by Numbers Color Matching in Photoshop" style="padding:15px"/> <br><br> Learn how to match any color in the world by using simple math and curves - it's truly a paint by numbers easy, peasy, lemon squeezy process.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20170718-paintbynumbers.jpg" width="100%" alt="Paint by Numbers Color Matching in Photoshop" style="padding:15px"/> <br><br> Learn how to match any color in the world by using simple math and curves - it's truly a paint by numbers easy, peasy, lemon squeezy process.]]></description>
 			<pubDate>Tue, 18 Jul 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/paint-by-numbers-color-matching/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/paint-by-numbers-color-matching/</guid>
+			<link>http://localhost:12022/blog/paint-by-numbers-color-matching/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/paint-by-numbers-color-matching/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[How to remove a color cast in Photoshop in 3 Easy Steps]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/20170711-colorcast.jpg" width="100%" alt="How to remove a color cast in Photoshop in 3 Easy Steps" style="padding:15px"/> <br><br> Learn how to remove any color cast in Photoshop by using a foolproof 3-step method.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/20170711-colorcast.jpg" width="100%" alt="How to remove a color cast in Photoshop in 3 Easy Steps" style="padding:15px"/> <br><br> Learn how to remove any color cast in Photoshop by using a foolproof 3-step method.]]></description>
 			<pubDate>Tue, 11 Jul 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/remove-color-cast-in-photoshop/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/remove-color-cast-in-photoshop/</guid>
+			<link>http://localhost:12022/blog/remove-color-cast-in-photoshop/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/remove-color-cast-in-photoshop/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #80]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-80.jpg" width="100%" alt="Photo Restoration #80" style="padding:15px"/> <br><br> Photo Restoration #80 comes from an enquiry from an old friend via Facebook.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-80.jpg" width="100%" alt="Photo Restoration #80" style="padding:15px"/> <br><br> Photo Restoration #80 comes from an enquiry from an old friend via Facebook.]]></description>
 			<pubDate>Wed, 10 May 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-80/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-80/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-80/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-80/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #79]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-79.jpg" width="100%" alt="Photo Restoration #79" style="padding:15px"/> <br><br> Photo Restoration #79 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-79.jpg" width="100%" alt="Photo Restoration #79" style="padding:15px"/> <br><br> Photo Restoration #79 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 06 May 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-79/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-79/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-79/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-79/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #78]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-78.jpg" width="100%" alt="Photo Restoration #78" style="padding:15px"/> <br><br> Photo Restoration #78 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-78.jpg" width="100%" alt="Photo Restoration #78" style="padding:15px"/> <br><br> Photo Restoration #78 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 02 May 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-78/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-78/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-78/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-78/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Imagine Dragons - Believer Music Video (Adobe Make the Cut Contest)]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-imagine-dragons.jpg" width="100%" alt="Imagine Dragons - Believer Music Video (Adobe Make the Cut Contest)" style="padding:15px"/> <br><br> Imagine Dragons &amp; Adobe team up to bring basement video editors a chance to re-cut Imagine Dragon's "Believer" music video.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-imagine-dragons.jpg" width="100%" alt="Imagine Dragons - Believer Music Video (Adobe Make the Cut Contest)" style="padding:15px"/> <br><br> Imagine Dragons &amp; Adobe team up to bring basement video editors a chance to re-cut Imagine Dragon's "Believer" music video.]]></description>
 			<pubDate>Mon, 01 May 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/imagine-dragons/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/imagine-dragons/</guid>
+			<link>http://localhost:12022/blog/imagine-dragons/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/imagine-dragons/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #77]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-77.jpg" width="100%" alt="Photo Restoration #77" style="padding:15px"/> <br><br> Photo Restoration #77 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-77.jpg" width="100%" alt="Photo Restoration #77" style="padding:15px"/> <br><br> Photo Restoration #77 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 28 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-77/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-77/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-77/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-77/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #76]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-76.jpg" width="100%" alt="Photo Restoration #76" style="padding:15px"/> <br><br> Photo Restoration #76 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-76.jpg" width="100%" alt="Photo Restoration #76" style="padding:15px"/> <br><br> Photo Restoration #76 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 24 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-76/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-76/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-76/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-76/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #75]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-75.jpg" width="100%" alt="Photo Restoration #75" style="padding:15px"/> <br><br> Photo Restoration #75 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-75.jpg" width="100%" alt="Photo Restoration #75" style="padding:15px"/> <br><br> Photo Restoration #75 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 20 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-75/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-75/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-75/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-75/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #74]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-74.jpg" width="100%" alt="Photo Restoration #74" style="padding:15px"/> <br><br> Photo Restoration #74 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-74.jpg" width="100%" alt="Photo Restoration #74" style="padding:15px"/> <br><br> Photo Restoration #74 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 16 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-74/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-74/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-74/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-74/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #73]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-73.jpg" width="100%" alt="Photo Restoration #73" style="padding:15px"/> <br><br> Photo Restoration #73 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-73.jpg" width="100%" alt="Photo Restoration #73" style="padding:15px"/> <br><br> Photo Restoration #73 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 12 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-73/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-73/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-73/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-73/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #72]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-72.jpg" width="100%" alt="Photo Restoration #72" style="padding:15px"/> <br><br> Photo Restoration #72 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-72.jpg" width="100%" alt="Photo Restoration #72" style="padding:15px"/> <br><br> Photo Restoration #72 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 08 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-72/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-72/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-72/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-72/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #71]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-71.jpg" width="100%" alt="Photo Restoration #71" style="padding:15px"/> <br><br> Photo Restoration #71 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-71.jpg" width="100%" alt="Photo Restoration #71" style="padding:15px"/> <br><br> Photo Restoration #71 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 04 Apr 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-71/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-71/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-71/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-71/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #70]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-70.jpg" width="100%" alt="Photo Restoration #70" style="padding:15px"/> <br><br> Photo Restoration #70 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-70.jpg" width="100%" alt="Photo Restoration #70" style="padding:15px"/> <br><br> Photo Restoration #70 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 30 Mar 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-70/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-70/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-70/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-70/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #69]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-69.jpg" width="100%" alt="Photo Restoration #69" style="padding:15px"/> <br><br> Photo Restoration #69 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-69.jpg" width="100%" alt="Photo Restoration #69" style="padding:15px"/> <br><br> Photo Restoration #69 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 26 Mar 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-69/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-69/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-69/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-69/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #68]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-68.jpg" width="100%" alt="Photo Restoration #68" style="padding:15px"/> <br><br> Photo Restoration #68 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-68.jpg" width="100%" alt="Photo Restoration #68" style="padding:15px"/> <br><br> Photo Restoration #68 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 22 Mar 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-68/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-68/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-68/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-68/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #67]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-67.jpg" width="100%" alt="Photo Restoration #67" style="padding:15px"/> <br><br> Photo Restoration #67 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-67.jpg" width="100%" alt="Photo Restoration #67" style="padding:15px"/> <br><br> Photo Restoration #67 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 18 Mar 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-67/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-67/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-67/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-67/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #66]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-66.jpg" width="100%" alt="Photo Restoration #66" style="padding:15px"/> <br><br> Photo Restoration #66 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-66.jpg" width="100%" alt="Photo Restoration #66" style="padding:15px"/> <br><br> Photo Restoration #66 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 14 Mar 2017 05:14:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-66/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-66/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-66/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-66/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #65]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-65.jpg" width="100%" alt="Photo Restoration #65" style="padding:15px"/> <br><br> Photo Restoration #65 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-65.jpg" width="100%" alt="Photo Restoration #65" style="padding:15px"/> <br><br> Photo Restoration #65 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 10 Mar 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-65/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-65/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-65/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-65/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #64]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-64.jpg" width="100%" alt="Photo Restoration #64" style="padding:15px"/> <br><br> Photo Restoration #64 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-64.jpg" width="100%" alt="Photo Restoration #64" style="padding:15px"/> <br><br> Photo Restoration #64 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hudpq/my_dad_middle_with_his_brothers_on_a_motorcycle/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 06 Mar 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-64/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-64/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-64/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-64/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #63]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-63.jpg" width="100%" alt="Photo Restoration #63" style="padding:15px"/> <br><br> Photo Restoration #63 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hhqaq/1982_texas_me_my_mom_and_great_aunt_connie/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-63.jpg" width="100%" alt="Photo Restoration #63" style="padding:15px"/> <br><br> Photo Restoration #63 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hhqaq/1982_texas_me_my_mom_and_great_aunt_connie/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 02 Mar 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-63/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-63/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-63/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-63/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #62]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-62.jpg" width="100%" alt="Photo Restoration #62" style="padding:15px"/> <br><br> Photo Restoration #62 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hid27/unmistakably_1970something/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-62.jpg" width="100%" alt="Photo Restoration #62" style="padding:15px"/> <br><br> Photo Restoration #62 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hid27/unmistakably_1970something/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 26 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-62/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-62/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-62/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-62/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #61]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-61.jpg" width="100%" alt="Photo Restoration #61" style="padding:15px"/> <br><br> Photo Restoration #61 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hjbtr/my_dad_with_his_chopper_in_the_80s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-61.jpg" width="100%" alt="Photo Restoration #61" style="padding:15px"/> <br><br> Photo Restoration #61 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hjbtr/my_dad_with_his_chopper_in_the_80s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 22 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-61/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-61/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-61/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-61/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #60]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-60.jpg" width="100%" alt="Photo Restoration #60" style="padding:15px"/> <br><br> Photo Restoration #60 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hkzo5/my_boss_playing_football_in_1971/" target="_blank">Reddit Post</a>. ]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-60.jpg" width="100%" alt="Photo Restoration #60" style="padding:15px"/> <br><br> Photo Restoration #60 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hkzo5/my_boss_playing_football_in_1971/" target="_blank">Reddit Post</a>. ]]></description>
 			<pubDate>Sat, 18 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-60/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-60/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-60/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-60/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #59]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-59.jpg" width="100%" alt="Photo Restoration #59" style="padding:15px"/> <br><br> Photo Restoration #59 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5h9z7v/surf_party_on_the_beach_in_the_1960s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-59.jpg" width="100%" alt="Photo Restoration #59" style="padding:15px"/> <br><br> Photo Restoration #59 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5h9z7v/surf_party_on_the_beach_in_the_1960s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 14 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-59/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-59/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-59/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-59/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #58]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-58.jpg" width="100%" alt="Photo Restoration #58" style="padding:15px"/> <br><br> Photo Restoration #58 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hahva/happy_53rd_anniversary_to_my_parents_1963/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-58.jpg" width="100%" alt="Photo Restoration #58" style="padding:15px"/> <br><br> Photo Restoration #58 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hahva/happy_53rd_anniversary_to_my_parents_1963/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 10 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-58/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-58/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-58/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-58/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #57]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-57.jpg" width="100%" alt="Photo Restoration #57" style="padding:15px"/> <br><br> Photo Restoration #57 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hcmfo/my_dads_high_school_photo_late_70s_he_had_a/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-57.jpg" width="100%" alt="Photo Restoration #57" style="padding:15px"/> <br><br> Photo Restoration #57 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hcmfo/my_dads_high_school_photo_late_70s_he_had_a/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 06 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-57/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-57/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-57/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-57/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #56]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-56.jpg" width="100%" alt="Photo Restoration #56" style="padding:15px"/> <br><br> Photo Restoration #56 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hd8tn/dad_his_friend_and_my_uncle_in_the_80s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-56.jpg" width="100%" alt="Photo Restoration #56" style="padding:15px"/> <br><br> Photo Restoration #56 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5hd8tn/dad_his_friend_and_my_uncle_in_the_80s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 02 Feb 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-56/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-56/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-56/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-56/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #55]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-55.jpg" width="100%" alt="Photo Restoration #55" style="padding:15px"/> <br><br> Photo Restoration #55 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gg0l1/my_friends_cool_70s_rollerskating_la_dude_dad/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-55.jpg" width="100%" alt="Photo Restoration #55" style="padding:15px"/> <br><br> Photo Restoration #55 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gg0l1/my_friends_cool_70s_rollerskating_la_dude_dad/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 28 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-55/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-55/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-55/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-55/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #54]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-54.jpg" width="100%" alt="Photo Restoration #54" style="padding:15px"/> <br><br> Photo Restoration #54 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gd7jz/my_uncle_and_grandfather_getting_pulled_over_on_a/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-54.jpg" width="100%" alt="Photo Restoration #54" style="padding:15px"/> <br><br> Photo Restoration #54 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gd7jz/my_uncle_and_grandfather_getting_pulled_over_on_a/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 24 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-54/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-54/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-54/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-54/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #53]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-53.jpg" width="100%" alt="Photo Restoration #53" style="padding:15px"/> <br><br> Photo Restoration #53 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gcbju/my_dad_and_uncle_at_their_joint_wedding_1970s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-53.jpg" width="100%" alt="Photo Restoration #53" style="padding:15px"/> <br><br> Photo Restoration #53 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gcbju/my_dad_and_uncle_at_their_joint_wedding_1970s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 21 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-53/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-53/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-53/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-53/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #52]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-52.jpg" width="100%" alt="Photo Restoration #52" style="padding:15px"/> <br><br> Photo Restoration #52 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbf8y/my_grandfather_trying_his_hand_as_an_actor_in_la/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-52.jpg" width="100%" alt="Photo Restoration #52" style="padding:15px"/> <br><br> Photo Restoration #52 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbf8y/my_grandfather_trying_his_hand_as_an_actor_in_la/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 17 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-52/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-52/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-52/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-52/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #51]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-51.jpg" width="100%" alt="Photo Restoration #51" style="padding:15px"/> <br><br> Photo Restoration #51 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbcfc/my_dad_in_the_iranian_army_circa_1980/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-51.jpg" width="100%" alt="Photo Restoration #51" style="padding:15px"/> <br><br> Photo Restoration #51 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbcfc/my_dad_in_the_iranian_army_circa_1980/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 13 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-51/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-51/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-51/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-51/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Green Bay Packers Proof of Concept Uniforms]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-packers-poc.jpg" width="100%" alt="Green Bay Packers Proof of Concept Uniforms" style="padding:15px"/> <br><br> We did some digging around the internet and found these old proof of concept designs for new Green Bay Packers Uniforms. What do you guys think of them? Is it nice to see fresh uniforms, or are the current ones cutting the cheese?]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-packers-poc.jpg" width="100%" alt="Green Bay Packers Proof of Concept Uniforms" style="padding:15px"/> <br><br> We did some digging around the internet and found these old proof of concept designs for new Green Bay Packers Uniforms. What do you guys think of them? Is it nice to see fresh uniforms, or are the current ones cutting the cheese?]]></description>
 			<pubDate>Thu, 12 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/green-bay-packers-poc-uniforms/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/green-bay-packers-poc-uniforms/</guid>
+			<link>http://localhost:12022/blog/green-bay-packers-poc-uniforms/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/green-bay-packers-poc-uniforms/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #50]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-50.jpg" width="100%" alt="Photo Restoration #50" style="padding:15px"/> <br><br> Photo Restoration #50 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbl2m/mom_and_auntie_in_the_early_80s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-50.jpg" width="100%" alt="Photo Restoration #50" style="padding:15px"/> <br><br> Photo Restoration #50 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gbl2m/mom_and_auntie_in_the_early_80s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 09 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-50/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-50/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-50/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-50/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #49]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-49.jpg" width="100%" alt="Photo Restoration #49" style="padding:15px"/> <br><br> Photo Restoration #49 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g9b1r/my_grandma_with_johnny_lee_at_gilleys_pasadena_tx/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-49.jpg" width="100%" alt="Photo Restoration #49" style="padding:15px"/> <br><br> Photo Restoration #49 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g9b1r/my_grandma_with_johnny_lee_at_gilleys_pasadena_tx/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 05 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-49/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-49/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-49/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-49/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #48]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-48.jpg" width="100%" alt="Photo Restoration #48" style="padding:15px"/> <br><br> Photo Restoration #48 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gaetc/trying_to_emulate_that_james_dean_look_back_in/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-48.jpg" width="100%" alt="Photo Restoration #48" style="padding:15px"/> <br><br> Photo Restoration #48 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5gaetc/trying_to_emulate_that_james_dean_look_back_in/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 01 Jan 2017 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-48/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-48/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-48/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-48/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #47]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-47.jpg" width="100%" alt="Photo Restoration #47" style="padding:15px"/> <br><br> Photo Restoration #47 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7889/my_dad_looking_dapper_in_1982/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-47.jpg" width="100%" alt="Photo Restoration #47" style="padding:15px"/> <br><br> Photo Restoration #47 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7889/my_dad_looking_dapper_in_1982/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 28 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-47/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-47/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-47/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-47/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #46]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-46.jpg" width="100%" alt="Photo Restoration #46" style="padding:15px"/> <br><br> Photo Restoration #46 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7ds0/found_this_photo_in_my_great_grandmothers_house/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-46.jpg" width="100%" alt="Photo Restoration #46" style="padding:15px"/> <br><br> Photo Restoration #46 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7ds0/found_this_photo_in_my_great_grandmothers_house/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 28 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-46/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-46/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-46/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-46/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #45]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-45.jpg" width="100%" alt="Photo Restoration #45" style="padding:15px"/> <br><br> Photo Restoration #45 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7h58/my_2022_year_old_parents_in_1976/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-45.jpg" width="100%" alt="Photo Restoration #45" style="padding:15px"/> <br><br> Photo Restoration #45 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g7h58/my_2022_year_old_parents_in_1976/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 20 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-45/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-45/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-45/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-45/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #44]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-44.jpg" width="100%" alt="Photo Restoration #44" style="padding:15px"/> <br><br> Photo Restoration #44 comes from this <a href="https://www.reddit.com/r/estoration/comments/5g76o6/request_grandmother_would_like_this_image/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-44.jpg" width="100%" alt="Photo Restoration #44" style="padding:15px"/> <br><br> Photo Restoration #44 comes from this <a href="https://www.reddit.com/r/estoration/comments/5g76o6/request_grandmother_would_like_this_image/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 15 Dec 2016 18:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-44/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-44/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-44/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-44/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #43]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-43.jpg" width="100%" alt="Photo Restoration #43" style="padding:15px"/> <br><br> Photo Restoration #43 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g46ud/my_father_with_me_1972/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-43.jpg" width="100%" alt="Photo Restoration #43" style="padding:15px"/> <br><br> Photo Restoration #43 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g46ud/my_father_with_me_1972/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 12 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-43/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-43/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-43/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-43/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #42]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-42.jpg" width="100%" alt="Photo Restoration #42" style="padding:15px"/> <br><br> Photo Restoration #42 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g56nu/my_dad_and_this_cool_pbr_towel_early_80s_i_think/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-42.jpg" width="100%" alt="Photo Restoration #42" style="padding:15px"/> <br><br> Photo Restoration #42 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g56nu/my_dad_and_this_cool_pbr_towel_early_80s_i_think/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 08 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-42/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-42/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-42/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-42/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #41]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-41.jpg" width="100%" alt="Photo Restoration #41" style="padding:15px"/> <br><br> Photo Restoration #41 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g5isa/i_found_this_old_picture_of_my_mom_and_dad_the/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-41.jpg" width="100%" alt="Photo Restoration #41" style="padding:15px"/> <br><br> Photo Restoration #41 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/5g5isa/i_found_this_old_picture_of_my_mom_and_dad_the/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 04 Dec 2016 04:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-41/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-41/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-41/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-41/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #40]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-40.jpg" width="100%" alt="Photo Restoration #40" style="padding:15px"/> <br><br> Photo Restoration #40 comes from this <a href="https://www.reddit.com/r/estoration/comments/5g3t0v/old_red_chevelle_please_help_restore_can_send/" target="_blank">Reddit Post</a>. ]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-40.jpg" width="100%" alt="Photo Restoration #40" style="padding:15px"/> <br><br> Photo Restoration #40 comes from this <a href="https://www.reddit.com/r/estoration/comments/5g3t0v/old_red_chevelle_please_help_restore_can_send/" target="_blank">Reddit Post</a>. ]]></description>
 			<pubDate>Tue, 29 Nov 2016 18:14:35 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-40/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-40/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-40/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-40/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #39]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-39.jpg" width="100%" alt="Photo Restoration #39" style="padding:15px"/> <br><br> Photo Restoration #39 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4ybhiv/me_and_grandad_1981/" target="_blank">Reddit Post</a>. ]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-39.jpg" width="100%" alt="Photo Restoration #39" style="padding:15px"/> <br><br> Photo Restoration #39 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4ybhiv/me_and_grandad_1981/" target="_blank">Reddit Post</a>. ]]></description>
 			<pubDate>Sat, 26 Nov 2016 00:00:00 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-39/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-39/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-39/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-39/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #38]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-38.jpg" width="100%" alt="Photo Restoration #38" style="padding:15px"/> <br><br> Photo Restoration #38 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y4le5/my_old_man_racing_sidecar_in_the_late_1970s_hes/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-38.jpg" width="100%" alt="Photo Restoration #38" style="padding:15px"/> <br><br> Photo Restoration #38 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y4le5/my_old_man_racing_sidecar_in_the_late_1970s_hes/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 22 Nov 2016 00:00:00 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-38/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-38/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-38/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-38/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #37]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-37.jpg" width="100%" alt="Photo Restoration #37" style="padding:15px"/> <br><br> Photo Restoration #37 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y46fk/grandpa_and_friends_on_a_fair_in_germany_1975/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-37.jpg" width="100%" alt="Photo Restoration #37" style="padding:15px"/> <br><br> Photo Restoration #37 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y46fk/grandpa_and_friends_on_a_fair_in_germany_1975/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 18 Nov 2016 00:00:00 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-37/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-37/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-37/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-37/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #36]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-36.jpg" width="100%" alt="Photo Restoration #36" style="padding:15px"/> <br><br> Photo Restoration #36 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y1t1e/my_dad_the_fbi_agent_at_a_bahamas_airport_late/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-36.jpg" width="100%" alt="Photo Restoration #36" style="padding:15px"/> <br><br> Photo Restoration #36 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4y1t1e/my_dad_the_fbi_agent_at_a_bahamas_airport_late/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 14 Nov 2016 00:00:00 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-36/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-36/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-36/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-36/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #35]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-35.jpg" width="100%" alt="Photo Restoration #35" style="padding:15px"/> <br><br> Photo Restoration #35 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xftxi/my_dad_1964_missile_testing_contractor/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-35.jpg" width="100%" alt="Photo Restoration #35" style="padding:15px"/> <br><br> Photo Restoration #35 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xftxi/my_dad_1964_missile_testing_contractor/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 10 Nov 2016 00:00:00 -0600</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-35/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-35/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-35/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-35/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #34]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-34.jpg" width="100%" alt="Photo Restoration #34" style="padding:15px"/> <br><br> Photo Restoration #34 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xfqsu/grandpa_at_lake_erie_with_his_boys_in_1963_my/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-34.jpg" width="100%" alt="Photo Restoration #34" style="padding:15px"/> <br><br> Photo Restoration #34 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xfqsu/grandpa_at_lake_erie_with_his_boys_in_1963_my/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 06 Nov 2016 00:00:00 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-34/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-34/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-34/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-34/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #33]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-33.jpg" width="100%" alt="Photo Restoration #33" style="padding:15px"/> <br><br> Photo Restoration #33 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xeyhx/parents_wedding_photo_50_years_ago_1966/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-33.jpg" width="100%" alt="Photo Restoration #33" style="padding:15px"/> <br><br> Photo Restoration #33 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xeyhx/parents_wedding_photo_50_years_ago_1966/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 02 Nov 2016 00:00:00 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-33/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-33/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-33/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-33/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #32]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-32.jpg" width="100%" alt="Photo Restoration #32" style="padding:15px"/> <br><br> Photo Restoration #32 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdrv7/48_beers_and_a_unicycle_my_dad_in_the_early_80s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-32.jpg" width="100%" alt="Photo Restoration #32" style="padding:15px"/> <br><br> Photo Restoration #32 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdrv7/48_beers_and_a_unicycle_my_dad_in_the_early_80s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 28 Oct 2016 19:19:41 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-32/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-32/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-32/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-32/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #31]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-31.jpg" width="100%" alt="Photo Restoration #31" style="padding:15px"/> <br><br> Photo Restoration #31 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdor2/1979_my_grandfathers_first_day_in_the_united/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-31.jpg" width="100%" alt="Photo Restoration #31" style="padding:15px"/> <br><br> Photo Restoration #31 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdor2/1979_my_grandfathers_first_day_in_the_united/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 24 Oct 2016 19:06:48 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-31/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-31/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-31/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-31/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #30]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-30.jpg" width="100%" alt="Photo Restoration #30" style="padding:15px"/> <br><br> Photo Restoration #30 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdgls/dads_passport_1977/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-30.jpg" width="100%" alt="Photo Restoration #30" style="padding:15px"/> <br><br> Photo Restoration #30 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdgls/dads_passport_1977/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 20 Oct 2016 19:47:33 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-30/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-30/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-30/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-30/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #29]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-29.jpg" width="100%" alt="Photo Restoration #29" style="padding:15px"/> <br><br> Photo Restoration #29 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdgux/my_uncle_on_the_far_right_70s/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-29.jpg" width="100%" alt="Photo Restoration #29" style="padding:15px"/> <br><br> Photo Restoration #29 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdgux/my_uncle_on_the_far_right_70s/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 16 Oct 2016 19:30:41 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-29/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-29/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-29/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-29/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #28]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-28.jpg" width="100%" alt="Photo Restoration #28" style="padding:15px"/> <br><br> Photo Restoration #28 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdkmz/my_pops_feeding_my_oldest_brother_like_a_boss/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-28.jpg" width="100%" alt="Photo Restoration #28" style="padding:15px"/> <br><br> Photo Restoration #28 comes from this <a href="https://www.reddit.com/r/OldSchoolCool/comments/4xdkmz/my_pops_feeding_my_oldest_brother_like_a_boss/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 12 Oct 2016 19:11:34 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-28/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-28/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-28/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-28/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #27]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-27.jpg" width="100%" alt="Photo Restoration #27" style="padding:15px"/> <br><br> Photo Restoration #27 comes from this <a href="https://www.reddit.com/r/estoration/comments/4x6i8g/hey_everyone_im_hoping_someone_can_restore_the/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-27.jpg" width="100%" alt="Photo Restoration #27" style="padding:15px"/> <br><br> Photo Restoration #27 comes from this <a href="https://www.reddit.com/r/estoration/comments/4x6i8g/hey_everyone_im_hoping_someone_can_restore_the/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 08 Oct 2016 19:41:35 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-27/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-27/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-27/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-27/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #26]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-26.jpg" width="100%" alt="Photo Restoration #26" style="padding:15px"/> <br><br> Photo Restoration #26 comes from this <a href="https://www.reddit.com/r/estoration/comments/4x5lh7/can_someone_please_fix_this_photo_of_my/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-26.jpg" width="100%" alt="Photo Restoration #26" style="padding:15px"/> <br><br> Photo Restoration #26 comes from this <a href="https://www.reddit.com/r/estoration/comments/4x5lh7/can_someone_please_fix_this_photo_of_my/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 04 Oct 2016 19:26:44 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-26/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-26/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-26/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-26/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #25]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-25.jpg" width="100%" alt="Photo Restoration #25" style="padding:15px"/> <br><br> Photo Restoration #25 comes from this <a href="https://www.reddit.com/r/estoration/comments/4u3lf0/this_is_the_only_picture_we_have_of_my/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-25.jpg" width="100%" alt="Photo Restoration #25" style="padding:15px"/> <br><br> Photo Restoration #25 comes from this <a href="https://www.reddit.com/r/estoration/comments/4u3lf0/this_is_the_only_picture_we_have_of_my/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 30 Sep 2016 19:42:38 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-25/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-25/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-25/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-25/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #24]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/b-share-24.jpg" width="100%" alt="Photo Restoration #24" style="padding:15px"/> <br><br> Photo Restoration #24 comes from this <a href="https://www.reddit.com/r/estoration/comments/4tn3ta/my_grandparents_50th_anniversary_is_coming_up_and/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/b-share-24.jpg" width="100%" alt="Photo Restoration #24" style="padding:15px"/> <br><br> Photo Restoration #24 comes from this <a href="https://www.reddit.com/r/estoration/comments/4tn3ta/my_grandparents_50th_anniversary_is_coming_up_and/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 24 Sep 2016 19:02:40 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-24/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-24/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-24/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-24/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #23]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-23.jpg" width="100%" alt="Photo Restoration #23" style="padding:15px"/> <br><br> Photo Restoration #23 comes from this <a href="https://www.reddit.com/r/estoration/comments/4tmrf3/today_is_the_13th_anniversary_of_my_grandpas/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-23.jpg" width="100%" alt="Photo Restoration #23" style="padding:15px"/> <br><br> Photo Restoration #23 comes from this <a href="https://www.reddit.com/r/estoration/comments/4tmrf3/today_is_the_13th_anniversary_of_my_grandpas/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 20 Sep 2016 19:00:27 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-23/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-23/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-23/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-23/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #22]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-22.jpg" width="100%" alt="Photo Restoration #22" style="padding:15px"/> <br><br> Photo Restoration #22 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t7uk3/could_someone_please_help_with_bringing_out_my/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-22.jpg" width="100%" alt="Photo Restoration #22" style="padding:15px"/> <br><br> Photo Restoration #22 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t7uk3/could_someone_please_help_with_bringing_out_my/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 16 Sep 2016 19:28:17 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-22/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-22/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-22/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-22/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #21]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-21.jpg" width="100%" alt="Photo Restoration #21" style="padding:15px"/> <br><br> Photo Restoration #21 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t88zg/combine_two_pictures_so_my_son_and_i_are_both/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-21.jpg" width="100%" alt="Photo Restoration #21" style="padding:15px"/> <br><br> Photo Restoration #21 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t88zg/combine_two_pictures_so_my_son_and_i_are_both/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 11 Sep 2016 19:55:13 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-21/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-21/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-21/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-21/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #20]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-20.jpg" width="100%" alt="Photo Restoration #20" style="padding:15px"/> <br><br> Photo Restoration #20 comes from this <a href="https://www.reddit.com/r/estoration/comments/4t45hf/please_can_you_help_restore_this_photo_of_my/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-20.jpg" width="100%" alt="Photo Restoration #20" style="padding:15px"/> <br><br> Photo Restoration #20 comes from this <a href="https://www.reddit.com/r/estoration/comments/4t45hf/please_can_you_help_restore_this_photo_of_my/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 07 Sep 2016 19:44:05 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-20/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-20/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-20/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-20/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #19]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-19.jpg" width="100%" alt="Photo Restoration #19" style="padding:15px"/> <br><br> Photo Restoration #19 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t2o1d/need_help_lightening_up_the_background_of_this/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-19.jpg" width="100%" alt="Photo Restoration #19" style="padding:15px"/> <br><br> Photo Restoration #19 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t2o1d/need_help_lightening_up_the_background_of_this/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 03 Sep 2016 19:39:16 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-19/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-19/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-19/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-19/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #18]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-18.jpg" width="100%" alt="Photo Restoration #18" style="padding:15px"/> <br><br> Photo Restoration #18 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t3du2/request_can_you_remove_drinkingstraw_in/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-18.jpg" width="100%" alt="Photo Restoration #18" style="padding:15px"/> <br><br> Photo Restoration #18 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4t3du2/request_can_you_remove_drinkingstraw_in/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Tue, 30 Aug 2016 19:25:04 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-18/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-18/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-18/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-18/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #17]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-17.jpg" width="100%" alt="Photo Restoration #17" style="padding:15px"/> <br><br> Photo Restoration #17 comes from this <a href="https://www.reddit.com/r/estoration/comments/4t49nd/remaking_my_dads_cookbook_for_his_70th_anyone/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-17.jpg" width="100%" alt="Photo Restoration #17" style="padding:15px"/> <br><br> Photo Restoration #17 comes from this <a href="https://www.reddit.com/r/estoration/comments/4t49nd/remaking_my_dads_cookbook_for_his_70th_anyone/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 26 Aug 2016 19:33:52 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-17/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-17/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-17/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-17/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #16]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-16.jpg" width="100%" alt="Photo Restoration #16" style="padding:15px"/> <br><br> Photo Restoration #16 comes from this <a href="https://www.reddit.com/r/estoration/comments/4spj3n/can_anyone_remove_the_window_glares_from_this/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-16.jpg" width="100%" alt="Photo Restoration #16" style="padding:15px"/> <br><br> Photo Restoration #16 comes from this <a href="https://www.reddit.com/r/estoration/comments/4spj3n/can_anyone_remove_the_window_glares_from_this/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Mon, 22 Aug 2016 19:31:24 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-16/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-16/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-16/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-16/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #15]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-15.jpg" width="100%" alt="Photo Restoration #15" style="padding:15px"/> <br><br> Photo Restoration #15 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4sz165/request_underexposed_picture_of_my_brother/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-15.jpg" width="100%" alt="Photo Restoration #15" style="padding:15px"/> <br><br> Photo Restoration #15 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4sz165/request_underexposed_picture_of_my_brother/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Thu, 18 Aug 2016 19:06:00 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-15/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-15/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-15/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-15/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #14]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-14.jpg" width="100%" alt="Photo Restoration #14" style="padding:15px"/> <br><br> Photo Restoration #14 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4sz165/request_underexposed_picture_of_my_brother/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-14.jpg" width="100%" alt="Photo Restoration #14" style="padding:15px"/> <br><br> Photo Restoration #14 comes from this <a href="https://www.reddit.com/r/picrequests/comments/4sz165/request_underexposed_picture_of_my_brother/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sun, 14 Aug 2016 19:30:19 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-14/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-14/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-14/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-14/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #13]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-13.jpg" width="100%" alt="Photo Restoration #13" style="padding:15px"/> <br><br> Photo Restoration #13 comes from this <a href="https://www.reddit.com/r/estoration/comments/4ssnj4/mum_passed_away_yesterday_its_probably_a_long/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-13.jpg" width="100%" alt="Photo Restoration #13" style="padding:15px"/> <br><br> Photo Restoration #13 comes from this <a href="https://www.reddit.com/r/estoration/comments/4ssnj4/mum_passed_away_yesterday_its_probably_a_long/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Wed, 10 Aug 2016 19:46:01 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-13/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-13/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-13/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-13/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #12]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-12.jpg" width="100%" alt="Photo Restoration #12" style="padding:15px"/> <br><br> Photo Restoration #12 comes from this <a href="https://www.reddit.com/r/estoration/comments/4se6jl/long_story_short_my_dad_recently_passed_and_we/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-12.jpg" width="100%" alt="Photo Restoration #12" style="padding:15px"/> <br><br> Photo Restoration #12 comes from this <a href="https://www.reddit.com/r/estoration/comments/4se6jl/long_story_short_my_dad_recently_passed_and_we/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Sat, 06 Aug 2016 19:59:20 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-12/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-12/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-12/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-12/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #11]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-11.jpg" width="100%" alt="Photo Restoration #11" style="padding:15px"/> <br><br> Photo Restoration #11 comes from this <a href="https://www.facebook.com/events/1681388528740448/1742782639267703/" target="_blank">Facebook Group</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-11.jpg" width="100%" alt="Photo Restoration #11" style="padding:15px"/> <br><br> Photo Restoration #11 comes from this <a href="https://www.facebook.com/events/1681388528740448/1742782639267703/" target="_blank">Facebook Group</a>.]]></description>
 			<pubDate>Wed, 03 Aug 2016 04:45:48 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-11/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-11/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-11/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-11/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #10]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-10.jpg" width="100%" alt="Photo Restoration #10" style="padding:15px"/> <br><br> Photo Restoration #10 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rv5rl/i_know_this_is_a_tough_one_but_can_anyone_restore/" target="_blank">Reddit post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-10.jpg" width="100%" alt="Photo Restoration #10" style="padding:15px"/> <br><br> Photo Restoration #10 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rv5rl/i_know_this_is_a_tough_one_but_can_anyone_restore/" target="_blank">Reddit post</a>.]]></description>
 			<pubDate>Sat, 30 Jul 2016 19:05:51 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-10/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-10/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-10/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-10/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #9]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-9.jpg" width="100%" alt="Photo Restoration #9" style="padding:15px"/> <br><br> Photo Restoration #9 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rux53/75th_anniversary_of_my_familys_business_id_like/" target="_blank">Reddit post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-9.jpg" width="100%" alt="Photo Restoration #9" style="padding:15px"/> <br><br> Photo Restoration #9 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rux53/75th_anniversary_of_my_familys_business_id_like/" target="_blank">Reddit post</a>.]]></description>
 			<pubDate>Tue, 26 Jul 2016 19:34:27 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-9/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-9/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-9/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-9/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #8]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-8.jpg" width="100%" alt="Photo Restoration #8" style="padding:15px"/> <br><br> Photo Restoration #8 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rlr0v/can_anyone_help_me_fix_the_creases_in_this_photo/" target="_blank">Reddit post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-8.jpg" width="100%" alt="Photo Restoration #8" style="padding:15px"/> <br><br> Photo Restoration #8 comes from this <a href="https://www.reddit.com/r/estoration/comments/4rlr0v/can_anyone_help_me_fix_the_creases_in_this_photo/" target="_blank">Reddit post</a>.]]></description>
 			<pubDate>Fri, 22 Jul 2016 19:22:49 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-8/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-8/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-8/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-8/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #7]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-7.jpg" width="100%" alt="Photo Restoration #7" style="padding:15px"/> <br><br> Photo Restoration #7 comes from this <a href="https://www.reddit.com/r/estoration/comments/4r0p12/if_someone_could_work_their_magic_on_this_it/" target="_blank">Reddit post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-7.jpg" width="100%" alt="Photo Restoration #7" style="padding:15px"/> <br><br> Photo Restoration #7 comes from this <a href="https://www.reddit.com/r/estoration/comments/4r0p12/if_someone_could_work_their_magic_on_this_it/" target="_blank">Reddit post</a>.]]></description>
 			<pubDate>Mon, 18 Jul 2016 19:39:54 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-7/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-7/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-7/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-7/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Black & White Colorization #1]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.comimages/20160715-fb-share-c1.jpg" width="100%" alt="Black & White Colorization #1" style="padding:15px"/> <br><br> Colorization #1 comes from this <a href="https://www.reddit.com/r/Colorization/comments/4s9sf7/groupcolor_2016_week_28_princess_barava_of/" target="_blank">Reddit Post</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022images/20160715-fb-share-c1.jpg" width="100%" alt="Black & White Colorization #1" style="padding:15px"/> <br><br> Colorization #1 comes from this <a href="https://www.reddit.com/r/Colorization/comments/4s9sf7/groupcolor_2016_week_28_princess_barava_of/" target="_blank">Reddit Post</a>.]]></description>
 			<pubDate>Fri, 15 Jul 2016 12:30:10 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/black-white-colorization-1/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/black-white-colorization-1/</guid>
+			<link>http://localhost:12022/blog/black-white-colorization-1/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/black-white-colorization-1/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #6]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-6.jpg" width="100%" alt="Photo Restoration #6" style="padding:15px"/> <br><br> Photo Restoration #6 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4rhicl/please_could_someone_help_repair_this_picture_its/" target="_blank">here</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-6.jpg" width="100%" alt="Photo Restoration #6" style="padding:15px"/> <br><br> Photo Restoration #6 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4rhicl/please_could_someone_help_repair_this_picture_its/" target="_blank">here</a>.]]></description>
 			<pubDate>Thu, 14 Jul 2016 19:34:32 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-6/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-6/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-6/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-6/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #5]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-5.jpg" width="100%" alt="Photo Restoration #5" style="padding:15px"/> <br><br> Photo Restoration #5 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4poii0/colorcorrection_of_1974_david_falconer_photograph/" target="_blank">here</a>. There was a simple request to just have the image color corrected, and although I was a few days late to the party, I feel like my correction were on par. I tried not to distort the luminance in the image or betray the contrast.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-5.jpg" width="100%" alt="Photo Restoration #5" style="padding:15px"/> <br><br> Photo Restoration #5 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4poii0/colorcorrection_of_1974_david_falconer_photograph/" target="_blank">here</a>. There was a simple request to just have the image color corrected, and although I was a few days late to the party, I feel like my correction were on par. I tried not to distort the luminance in the image or betray the contrast.]]></description>
 			<pubDate>Sun, 10 Jul 2016 21:04:58 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-5/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-5/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-5/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-5/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #4]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-4.jpg" width="100%" alt="Photo Restoration #4" style="padding:15px"/> <br><br> Photo Restoration #4 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4ptlay/my_friend_is_named_after_his_grandfather_who_died/" target="_blank">here</a><!--more-->. The original photo had seen some better days. There was extensive damage as well as discoloration. The original poster of the image stated his friend was named after his grandfather who passed away in a car accident in 1978. I spent about 30-45 minutes on this one and was pretty pleased with it, as was the original poster. Enjoy.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-4.jpg" width="100%" alt="Photo Restoration #4" style="padding:15px"/> <br><br> Photo Restoration #4 comes from the Reddit post <a href="https://www.reddit.com/r/estoration/comments/4ptlay/my_friend_is_named_after_his_grandfather_who_died/" target="_blank">here</a><!--more-->. The original photo had seen some better days. There was extensive damage as well as discoloration. The original poster of the image stated his friend was named after his grandfather who passed away in a car accident in 1978. I spent about 30-45 minutes on this one and was pretty pleased with it, as was the original poster. Enjoy.]]></description>
 			<pubDate>Sun, 03 Jul 2016 20:34:27 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-4/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-4/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-4/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-4/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #3]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/fb-share-3.jpg" width="100%" alt="Photo Restoration #3" style="padding:15px"/> <br><br> You may have noticed I do not have a very specific title for this photo restoration. That is because I have stumbled upon a <a href="http://www.reddit.com/r/estoration" target="_blank">sub reddit for photo restoration</a>, and it is just what I’ve always dreamt it would be. Side note – there really is a subreddit for everything. Because I have found this subreddit, I most likely will be going on there to find material for my fast and dirty photo restorations. You may or may not have know the first two photo restorations I did for the blog were merely photos taken from some Facebook groups. That was way more time consuming than the actual restoration part, so the subreddit is a welcomed addition to my process.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/fb-share-3.jpg" width="100%" alt="Photo Restoration #3" style="padding:15px"/> <br><br> You may have noticed I do not have a very specific title for this photo restoration. That is because I have stumbled upon a <a href="http://www.reddit.com/r/estoration" target="_blank">sub reddit for photo restoration</a>, and it is just what I’ve always dreamt it would be. Side note – there really is a subreddit for everything. Because I have found this subreddit, I most likely will be going on there to find material for my fast and dirty photo restorations. You may or may not have know the first two photo restorations I did for the blog were merely photos taken from some Facebook groups. That was way more time consuming than the actual restoration part, so the subreddit is a welcomed addition to my process.]]></description>
 			<pubDate>Thu, 30 Jun 2016 19:58:47 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-3/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-3/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-3/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-3/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/stoughton-orig1.jpg" width="100%" alt="Photo Restoration" style="padding:15px"/> <br><br> It's official. I've gone rogue with my photo restorations. Because I have always felt at home with a <a href="http://www.wacom.com/" target="_blank">wacom tablet</a> in lap and <a href="http://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a> staring me in the face, I have finally decided I will stalk the interwebs for any old photo that I can restore in a reasonable amount of time.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/stoughton-orig1.jpg" width="100%" alt="Photo Restoration" style="padding:15px"/> <br><br> It's official. I've gone rogue with my photo restorations. Because I have always felt at home with a <a href="http://www.wacom.com/" target="_blank">wacom tablet</a> in lap and <a href="http://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a> staring me in the face, I have finally decided I will stalk the interwebs for any old photo that I can restore in a reasonable amount of time.]]></description>
 			<pubDate>Fri, 24 Jun 2016 10:26:54 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-2/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-2/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-2/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-2/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Photo Restoration #1 - Edgerton Swimming Pool]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/pool1-b4.jpg" width="100%" alt="Photo Restoration #1 - Edgerton Swimming Pool" style="padding:15px"/> <br><br> Welcome to our first photo restoration. One of my favorite things to do is breathe new life into old photos with photo restoration. Over time, photos that are sitting in the basement or an old album somewhere will deteriorate. They lose color, contrast, sharpness, etc. In the modern age that we live in I truly believe that all these old photos should be restored to a respectable quality.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/pool1-b4.jpg" width="100%" alt="Photo Restoration #1 - Edgerton Swimming Pool" style="padding:15px"/> <br><br> Welcome to our first photo restoration. One of my favorite things to do is breathe new life into old photos with photo restoration. Over time, photos that are sitting in the basement or an old album somewhere will deteriorate. They lose color, contrast, sharpness, etc. In the modern age that we live in I truly believe that all these old photos should be restored to a respectable quality.]]></description>
 			<pubDate>Mon, 20 Jun 2016 13:15:47 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/photo-restoration-1/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/photo-restoration-1/</guid>
+			<link>http://localhost:12022/blog/photo-restoration-1/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/photo-restoration-1/</guid>
 		</item>
 		  
 		<item>
 			<title><![CDATA[Freelance Services Reborn]]></title>
-			<description><![CDATA[<img src="https://secondcropcreative.com/blog/images/logo-1x1.jpg" width="100%" alt="Freelance Services Reborn" style="padding:15px"/> <br><br> Over the past year I have been working feverishly in between dirty diapers, band practice and full time employment to consolidate all of my freelance services (photography, art, design & video) into one digital space. <a href="https://www.facebook.com/12oss/" target="_blank">Ross Harried Photography</a> will no longer be maintained, nor will <a href="http://12oss.com" target="_blank">12oss.com</a> and as a result I would like to invite you all to check out my new page that shows the breadth of services I truly encompass (not just photography), <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> & <a href="http://secondcropcreative.com" target="_blank">secondcropcreative.com</a>.]]></description>
+			<description><![CDATA[<img src="http://localhost:12022/blog/images/logo-1x1.jpg" width="100%" alt="Freelance Services Reborn" style="padding:15px"/> <br><br> Over the past year I have been working feverishly in between dirty diapers, band practice and full time employment to consolidate all of my freelance services (photography, art, design & video) into one digital space. <a href="https://www.facebook.com/12oss/" target="_blank">Ross Harried Photography</a> will no longer be maintained, nor will <a href="http://12oss.com" target="_blank">12oss.com</a> and as a result I would like to invite you all to check out my new page that shows the breadth of services I truly encompass (not just photography), <a href="https://www.facebook.com/secondcropcreative/" target="_blank">Second Crop Creative</a> & <a href="http://secondcropcreative.com" target="_blank">secondcropcreative.com</a>.]]></description>
 			<pubDate>Wed, 15 Jun 2016 00:00:00 -0500</pubDate>
-			<link>https://secondcropcreative.com/blog/freelance-services-reborn/</link>
-			<guid isPermaLink="true">https://secondcropcreative.com/blog/freelance-services-reborn/</guid>
+			<link>http://localhost:12022/blog/freelance-services-reborn/</link>
+			<guid isPermaLink="true">http://localhost:12022/blog/freelance-services-reborn/</guid>
 		</item>
 		 
 	</channel>
