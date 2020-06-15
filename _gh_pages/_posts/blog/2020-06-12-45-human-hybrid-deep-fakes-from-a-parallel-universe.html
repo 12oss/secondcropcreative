@@ -1,0 +1,156 @@
+---
+title: 45 Human Hybrid Deep Fakes from a Parallel Universe
+description: We live in a crazy world, and as a way for me to create a healthy daily schedule during this Covid-19 quarantine I gave myself a M-F project of photoshopping celebrities that share a name during my lunch breaks.
+layout: blog-posts
+date: 2020-06-19 08:30:35
+sticky: true
+tags:
+- unsolicited photoshop
+- human hybrids
+- Same Name
+- deep fakes
+excerpt: We live in a crazy world, and as a way for me to create a healthy daily schedule during this Covid-19 quarantine I gave myself a M-F project of photoshopping celebrities that share a name during my lunch breaks.
+image: /blog/images/same-name-bnr.jpg
+---
+<style type="text/css">
+.same-name-img {
+	text-align: center;
+	margin: auto;
+	padding-top: 15px;
+}
+
+/*
+.same-names {
+	text-align: center;
+	margin: auto;
+	width: 800px;
+}*/
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<div class="row max-850">
+		<div class="col-xs-12">
+			<h2 style="margin-bottom: 0px !important;">{{ page.title }}</h2>
+			<h2 style="margin-top: 0px !important;"><small>Unsolicited Photoshops of Second Crop Creative</small></h2>
+			<p>We live in a crazy world, and as a way for me to create a healthy daily schedule during this Covid-19 quarantine I gave myself a M-F project of photoshopping celebrities that share a name during my lunch breaks. Why you ask? Well, it began as a way to entertain myself and as a way to set daily goals in a lock-downed world that seemed a bit too stuffy for my liking. Imagine celebrities in a parallel universe. What would they look like? What would their occupations be? How ridiculous would they look? Does gender and/or race play a role?
+			</p>
+			<p>
+				I hope you enjoy the human hybrids I have created over the course of the last couple months. I've spent around 12-16 hours total just creating these master pieces (not to mention the hours of video editing) and I plan to continue the series with the help of people like you giving me suggestions for my next edits and/or photoshop series!</p>
+			<p><small><em>
+				Ross Harried is a web designer by day and a hobbyist photographer/Photoshop Guru by night.</em></small></p>
+		</div>
+		<div class="clearfix" style="padding: 20px"></div>
+	</div>
+	<div class="clearfix" style="padding: 15px;"></div>
+	<div class="row">
+		<div class="same-names">
+			{% for same-names in site.data.same-names %}
+			<div>
+				<div class="col-xs-12">
+					<div class="row">
+						<h1 style="text-align: left; padding-bottom: 30px;">{{ same-names.number }} - {{ same-names.name }}</h1>
+						<div itemscope itemtype="http://schema.org/VideoObject" class="row row-eq-height">
+							<div class="col-xs-12 col-sm-7">
+								<div class="embed-responsive embed-responsive-16by9">
+									<meta itemprop="thumbnailURL" content="{{ site.baseurl }}/blog/images/{{ same-names.thumbnail }}" />
+									<!--<meta itemprop="uploadDate" content="{ same-names.date }}" />-->
+									<meta itemprop="embedURL" content="http://youtube.com/embed/{{ same-names.video }}?rel=0&hd=1" />
+									<meta itemprop="name" content="{{ same-names.name }} Funny Human Hybrid Photoshop" />
+									<!--<meta itemprop="description" content="{{ same-names.description }}" />-->
+									<div class="youtube" id="{{ same-names.video }}">
+										<img data-src="{{ site.baseurl }}/blog/images/{{ same-names.thumbnail }}" width="100%" class="thumb lazyload" />
+									</div>
+								</div>
+								<p style="padding-top:10px; text-align: center;"><em>{{ same-names.name }} speed edit</em></p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.baseurl }}/blog/images/{{ same-names.image }}" class="lazyload same-name-img" alt="{{ same-names.name }} Funny Human Hybrid Photoshop" width="100%" data-sizes="auto" />
+								<p style="padding-top:10px; text-align: center;"><em>{{ same-names.name }} final result</em></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix" style="padding: 15px;"></div>
+			</div>
+			{% endfor %}
+		</div>
+		<!--<div class="col-xs-12 nopad">
+			<div class="row bg-inverse" style="padding-top:5%; padding-bottom:5%;">
+				<div itemscope itemtype="http://schema.org/VideoObject" class="row max-1080 row-eq-height" style="padding:15px">
+					<div class="col-xs-12 col-sm-10">
+						<div class="embed-responsive embed-responsive-16by9">
+							<meta itemprop="thumbnailURL" content="http://secondcropcreative.com{{ page.image }}" />
+							<meta itemprop="uploadDate" content="June 12, 2020" />
+							<meta itemprop="embedURL" content="http://youtube.com/embed/{{ page.yt-url }}?rel=0&hd=1" />
+							<meta itemprop="name" content="{{ page.title }}" />
+							<meta itemprop="description" content="{{ page.description }}" />
+							<div class="youtube" id="{{ page.yt-url }}">
+								<img data-src="{{ page.image }}" width="100%" class="thumb lazyload" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+	</div>
+</div>

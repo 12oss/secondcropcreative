@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Second Crop Blog 
+title: Second Crop Blog
 description: The Second Crop Blog. Adobe Photoshop Tutorials, Mashups, Makeovers and more.
 image: /assets/css/images/fb-share-icon.png
 ---
@@ -95,8 +95,6 @@ a.no-border {
 	border: none !important;
 }
 </style>
-
-
 <div class="creative-content max-850">
 	<div class="clearfix" style="padding: 15px;"></div>
 	<div class="col-xs-12 txt-center">
@@ -106,7 +104,8 @@ a.no-border {
 	<div class="row">
 		<div class="col-xs-12">
 			<section class="recent-blog-posts">
-				{% for post in paginator.posts %}
+				{% assign sorted = paginator.posts | sort: "stickiness" %}
+				{% for post in sorted %}
 				<article>
 					<div id="darken-bg" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image }}');" itemprop="image" title="{{ post.title }}">
 						<div class="center-pos">
@@ -139,39 +138,33 @@ a.no-border {
 				</article>
 				{% endfor %}
 			</section>
-
 			<!-- PAGINATION-->
 			{% if paginator.total_pages > 1 %}
-
 			<div class="pagination">
 				{% if paginator.previous_page %}
-					<a class="no-border" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true" title="previous_page"></i></a>
+				<a class="no-border" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true" title="previous_page"></i></a>
 				{% else %}
-					<span><!--<i class="fa fa-angle-left" aria-hidden="true" title="previous_page"></i>--></span>
+				<span>
+					<!--<i class="fa fa-angle-left" aria-hidden="true" title="previous_page"></i>--></span>
 				{% endif %}
-
 				{% for page in (1..paginator.total_pages) %}
-					{% if page == paginator.page %}
-						<span class="selected-page">{{ page }}</span>
-					{% elsif page == 1 %}
-						<a href="{{ site.baseurl }}/blog">{{ page }}</a>
-					{% else %}
-						<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-					{% endif %}
-				{% endfor %}
-
-				{% if paginator.next_page %}
-					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-right" aria-hidden="true" title="next_page"></i></a>
-					{% else %}
-					<span><!--<i class="fa fa-angle-right" aria-hidden="true" title="next_page"></i>--></span>
+				{% if page == paginator.page %}
+				<span class="selected-page">{{ page }}</span>
+				{% elsif page == 1 %}
+				<a href="{{ site.baseurl }}/blog">{{ page }}</a>
+				{% else %}
+				<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 				{% endif %}
-
+				{% endfor %}
+				{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-right" aria-hidden="true" title="next_page"></i></a>
+				{% else %}
+				<span>
+					<!--<i class="fa fa-angle-right" aria-hidden="true" title="next_page"></i>--></span>
+				{% endif %}
 			</div>
-
 			{% endif %}
 			<!--end PAGINATION-->
 		</div>
 	</div>
 </div>
-
-
