@@ -22,6 +22,7 @@ gem "minima"
  gem 'jekyll-sitemap', group: :jekyll_plugins
  gem 'jekyll-stickyposts', group: :jekyll_plugins
  gem "kramdown-parser-gfm"
+ gem "sprockets", "~> 3.7"
  #gem 'jekyll-github-metadata'
 
 
