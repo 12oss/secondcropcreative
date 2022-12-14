@@ -23,6 +23,7 @@ gem "minima"
  gem 'jekyll-stickyposts', group: :jekyll_plugins
  gem "kramdown-parser-gfm"
  gem "sprockets", "~> 3.7"
+ gem "webrick", "~> 1.7"
  #gem 'jekyll-github-metadata'
 
 
