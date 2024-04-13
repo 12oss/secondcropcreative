@@ -1,0 +1,266 @@
+---
+title: You Me At Six's Madison Showcase
+description: It wasn't just a concert—it was an experience.
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP MUSIC
+layout: blog-posts
+type: music
+date: 2014-11-02 08:30:35
+tags:
+- music
+- You Me at Six
+excerpt: It wasn't just a concert—it was an experience.
+image: /music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-034.jpg
+---
+<style type="text/css">
+/* Main CSS */
+.band-names {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+}
+
+.grid-wrapper>div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-wrapper>div>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	/*grid-auto-rows: 200px;*/
+	grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+
+.grid-wrapper .full {
+	grid-column: span 3;
+}
+
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<div class="row max-850">
+		<div class="col-xs-12">
+			<h2>{{ page.title }}</h2>
+			<p> <strong><small>BY {{ page.author }}</small></strong></p>
+			<p> {{ page.description }}</p>
+			<!-- BEGIN WRITING CONTENT IN HERE-->
+			<p>
+				On November 2, 2014, The Majestic in Madison, WI, became center stage for an evening of raw energy and sonic brilliance from the band You Me At Six.
+			</p>
+			<p>
+				Hailing from Weybridge, Surrey, You Me At Six comprises lead singer Josh Franceschi, guitarists Max Helyer and Chris Miller, bassist Matt Barnes, and drummer Daniel Flint. Formed in 2004, the band's name originated as a casual abbreviation for post-concert Friday night plans, embodying their spontaneous spirit.
+			</p>
+			<p>
+				Despite my limited knowledge, I found myself immersed in the band's rich history. From their initial success with the debut album "Take Off Your Colours" in 2008 to the chart-topping triumphs of "Hold Me Down" (2010), "Sinners Never Sleep" (2011), and "Cavalier Youth" (2014), You Me At Six's evolution is as captivating as their music.
+			</p>
+			<p>
+				As the band took to the stage, the crowd erupted in anticipation. With each chord and every lyric, You Me At Six proved why they're a force to be reckoned with in the rock scene. Hits like "Lived a Lie" and "Room to Breathe" resonated with the audience, leaving an indelible mark on Madison's music scene.
+			</p>
+			<p>
+				In the end, it wasn't just a concert—it was an experience. You Me At Six's performance transcended mere entertainment, leaving me in awe of their talent and hungry for more.
+			</p>
+			<p>If you want to stay up to date on all our music-related content, consider following me <a href="https://instagram.com/secondcropcreative" target="_blank">on Instagram!</a></p>
+		</div>
+		<div class="clearfix" style="padding: 20px"></div>
+		<section>
+			<div class="row max-1080">
+				<h3 class="txt-center band-names">You Me At Six</h3>
+				<div class="clearfix" style="padding: 20px"></div>
+				<div class="grid-wrapper">
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-001.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-002.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-003.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-004.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-005.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-006.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-007.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-008.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-009.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-010.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-011.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-012.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-013.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="wide">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-014.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-015.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-016.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-017.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-018.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-019.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-020.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-021.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-022.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-023.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-024.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-025.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-026.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-027.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-028.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-029.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-030.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="big">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-031.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div>
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-032.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="full">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-033.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="tall">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-034.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="tall">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-035.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+					<div class="tall">
+						<img src="/music/images/2014/20141102-you-me-at-six/20141102-you-me-at-six-036.jpg" alt="You Me at Six performing at The Majestic in Madison, WI November 2nd, 2014, photography by Ross Harried for Second Crop Music">
+					</div>
+				</div>
+				<div class="clearfix" style="padding: 20px"></div>
+			</div>
+		</section>
+	</div>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>
