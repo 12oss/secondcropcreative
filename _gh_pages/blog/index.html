@@ -87,6 +87,7 @@ div#darken-bg:before {
 	margin: 1px;
 	border: #ccc 1px solid;
 	color: #999;
+	line-height: 3;
 }
 
 .pagination a:last-child,
@@ -108,37 +109,37 @@ a.no-border {
 				{% assign sorted = paginator.posts | where:"type", "blog" %}
 				{% for post in sorted %}
 				<article class="lazyload">
-                    <div id="darken-bg" class="bg50-md bg50-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image }}');" itemprop="image" title="{{ post.title }}">
-                        <div class="center-pos">
-                            <div class="txt-center">
-                                <h1 style="margin-bottom: 10px;">
-                                    <a class="post-link-header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                                </h1>
-                                <div class="post-details">
-                                    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-                                    {% include read-time.html content = post.content %}
-                                </div>
-                                <ul class="tags">
-                                    <i class="fa fa-tags" aria-hidden="true"></i>
-                                    {% for tag in post.tags %}
-                                    <li class="tag-item">
-                                        <a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                                <a class="btn btn-default action-link" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                   <!-- <section class="blog-post-section">
+					<div id="darken-bg" class="bg50-md vh40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image }}');" itemprop="image" title="{{ post.title }}">
+						<div class="center-pos">
+							<div class="txt-center">
+								<h1 style="margin-bottom: 10px;">
+									<a class="post-link-header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+								</h1>
+								<div class="post-details">
+									<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+									{% include read-time.html content = post.content %}
+								</div>
+								<ul class="tags">
+									<i class="fa fa-tags" aria-hidden="true"></i>
+									{% for tag in post.tags %}
+									<li class="tag-item">
+										<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+									</li>
+									{% endfor %}
+								</ul>
+								<a class="btn btn-default action-link" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+							</div>
+						</div>
+					</div>
+					<!-- <section class="blog-post-section">
                         {{ post.excerpt | truncatewords:75 }}
                         <div class="gradient-hide"></div>
                     </section>-->
-                   <!-- <section class="blog-post-section txt-center">
+					<!-- <section class="blog-post-section txt-center">
                         <a class="btn btn-inverse action-link" href="{{ site.baseurl }}{{ post.url }}">Read Full Article</a>
                     </section>-->
-                   <div class="clearfix" style="padding: 20px"></div>
-                </article>
+					<div class="clearfix" style="padding: 20px"></div>
+				</article>
 				{% endfor %}
 			</section>
 			<!-- PAGINATION-->
