@@ -1,3 +1,27 @@
+<style type="text/css">
+sup.new-green {
+	animation: pulsate 1.4s infinite;
+	color: yellowgreen;
+
+}
+
+@keyframes pulsate {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.75;
+		transform: scale(1.5);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+</style>
 <div>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid max-1080">
@@ -30,14 +54,14 @@
 					</li>-->
 					<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdown-menu-left dropdown-inverse" role="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/photography/">Photography</a></li>
+							<!--<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/photography/">Photography</a></li>-->
 							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/video/">Video</a></li>
-<!--							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/design/">Design</a></li>-->
+							<!--							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/design/">Design</a></li>-->
 							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/cinemagraphs/">Cinemagraphs</a></li>
 							<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/perfectloops/">Perfect Loops</a></li>
 						</ul>
 					</li>
-					<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/music/">Music</a></li>
+					<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/music/">Music <sup class="new-green"><em>NEW!</em></sup></a></li>
 <!--					<li itemprop="name"><a itemprop="url" href="{{ site.baseurl }}/sports/">Sports</a></li>-->
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
