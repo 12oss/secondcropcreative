@@ -1,117 +1,173 @@
 ---
 layout: default
-title: Second Crop Music | Your Midwest Music Beacon for News, Reviews & Interviews
+title: Second Crop Music | Your Premier Source for Midwest Music Photography and Reviews
 description: Second Crop Music is the Midwest's Beacon for music news, music reviews & music interviews.
 image: /assets/css/images/fb-music-share-icon.png
 ---
 <style>
-ul.tags {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/* N E W   S T Y L E */
+.post-gallery {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    /* Adjust as needed */
+    grid-auto-rows: 400px;
+    grid-auto-flow: dense;
+
 }
 
-ul.tags li {
-    display: inline;
+.post-gallery>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.recent-blog-posts h1 {
-    text-transform: inherit !important;
+.post-title {
+    font-size: 22px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 24px;
+    padding-bottom: 10px;
 }
 
-.recent-blog-posts h1 a,
-.recent-blog-posts li a {
-    color: white !important
+.post-excerpt {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.recent-blog-posts #darken-bg {
-    background-position: 50% 50% !important;
-}
-
-li.tag-item:after {
-    content: ",";
-    margin-left: -3px;
-}
-
-li.tag-item:last-child:after {
-    content: "";
-}
-
-.post-details {
-    padding: 10px;
-}
-
-.blog-post-section {
+.post-img {
     position: relative;
-    padding: 20px;
+    overflow: hidden;
 }
 
-div#darken-bg:before {
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 55;
+.post-img a.post-link {
+    opacity: 0;
+}
+
+.post-img:hover a.post-link {
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+    opacity: 1;
+    font-weight: 900;
+}
+
+.post-img h2,
+.post-img p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    transform: scale(1.5);
+    /* Zoom in effect on hover */
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+    text-shadow: 0px 0px 30px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 5px white;
+
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+}
+
+.post-img:hover img {
+    transform: scale(1.25);
+    /* Zoom in effect on hover */
+}
+
+.post-img:hover h2,
+.post-img:hover p {
+    transform: scale(1);
+    /* Zoom in effect on hover */
+    text-shadow: 0 0 0 white;
+}
+
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 1;
-    content: ' ';
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Dark overlay */
+    opacity: 0;
+    /* Initially hidden */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.8s ease;
+    background: url('/assets/css/images/patterns/hover-black.png') top left;
 }
 
-.center-pos,
-.left-pos,
-.right-pos {
-    z-index: 99
+.post-img:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+
 }
+
+.post-img:hover .overlay:before {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1080px) {
+    .post-gallery {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        /* Adjust as needed */
+        grid-auto-rows: 400px;
+        grid-auto-flow: dense;
+
+    }
+}
+@media (max-width: 767px) {
+    .post-gallery {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        /* Adjust as needed */
+        grid-auto-rows: 400px;
+        grid-auto-flow: dense;
+
+    }
+}
+
+/* end  N E W   S T Y L E S  */
 
 h1.jumbo-font {
     text-transform: unset !important;
 }
 </style>
-<div class="creative-content max-850">
+<div class="creative-content">
     <div class="clearfix" style="padding: 15px;"></div>
     <div class="col-xs-12 txt-center">
-        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Music</h1>
-        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small><em><strong>The Midwest's Beacon for music news, music reviews &amp; music interviews.</strong></em></small></h2>
+        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Second Crop Music</h1>
+        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small style="letter-spacing: .4px;">Your Premier Source for Midwest Music Photography and Reviews</small></h2>
     </div>
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12" style="padding: 0px !important;">
             <section class="recent-blog-posts">
-                {% assign posts = site.posts | where:"type", "music" %}
-                {% for post in posts %}
-                <article class="lazyload">
-                    <div id="darken-bg" class="bg50-md vh40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image }}');" itemprop="image" title="{{ post.title }}">
-                        <div class="center-pos">
-                            <div class="txt-center">
-                                <h1 style="margin-bottom: 10px;">
-                                    <a class="post-link-header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                                </h1>
-                                <div class="post-details">
-                                    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-                                    {% include read-time.html content = post.content %}
-                                </div>
-                                <ul class="tags">
-                                    <i class="fa fa-tags" aria-hidden="true"></i>
-                                    {% for tag in post.tags %}
-                                    <li class="tag-item">
-                                        <a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                                <a class="btn btn-default action-link" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+                <div class="post-gallery">
+                    {% assign posts = site.posts | where:"type", "music" %}
+                    {% for post in posts %}
+                    <div class="post-img lazyload">
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <div class="overlay">
+                                <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
+                                <p class="post-excerpt proxima-nova-reg">{{ post.excerpt }}</p>
+                                <a href="{{ site.baseurl }}{{ post.url }}" class="btn-info btn-sm proxima-nova-condensed post-link">READ MORE</a>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                   <!-- <section class="blog-post-section">
-                        {{ post.excerpt | truncatewords:75 }}
-                        <div class="gradient-hide"></div>
-                    </section>-->
-                   <!-- <section class="blog-post-section txt-center">
-                        <a class="btn btn-inverse action-link" href="{{ site.baseurl }}{{ post.url }}">Read Full Article</a>
-                    </section>-->
-                    <div class="clearfix" style="padding: 20px"></div>
-                </article>
-                {% endfor %}
+                    {% endfor %}
+                </div>
             </section>
         </div>
     </div>

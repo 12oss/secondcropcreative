@@ -1,0 +1,94 @@
+---
+layout: default
+title: Second Crop Sports | The Midwest Sports Beacon for News, Reviews & Interviews
+description: Second Crop Sports is the Midwest's Beacon for sports news, sports reviews & sports interviews.
+image: /assets/css/images/fb-sports-share-icon.png
+---
+<style>
+/* N E W   S T Y L E */
+/* Style for slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    height: auto;
+    /* Ensure the container adjusts to its content */
+}
+
+/* Style for slides */
+.slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Show the first slide initially */
+.slide:first-child {
+    display: block;
+    opacity: 1;
+}
+
+/* Style for images within slides */
+.slide img {
+    width: 100%;
+    height: auto;
+    /* Ensure images maintain aspect ratio */
+    object-fit: cover;
+}
+
+/* end N E W S T Y L E S */
+h1.jumbo-font {
+    text-transform: unset !important;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<div class="creative-content">
+    <div class="clearfix" style="padding: 15px;"></div>
+    <div class="col-xs-12 txt-center">
+        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Second Crop Sports</h1>
+        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small><em><strong>The Midwest's beacon for sports news, sports reviews &amp; sports interviews.</strong></em></small></h2>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" style="padding: 0px !important;">
+            <div class="page-contain">
+                <div class="slideshow-container">
+                    <!-- Slides -->
+                    <div class="slide">
+                        <img src="http://placehold.it/1200x600/e8117f/" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="http://placehold.it/800" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="http://placehold.it/1200x600/850448/" alt="Slide 3">
+                    </div>
+                    <!-- Navigation buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+// JavaScript for slideshow functionality (optional)
+let slideIndex = 0;
+const slides = document.querySelectorAll('.slide');
+
+function showSlides() {
+    slides.forEach(slide => slide.style.display = 'none');
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = 'block';
+    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+}
+
+// Start slideshow
+showSlides();
+</script>

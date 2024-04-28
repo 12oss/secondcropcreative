@@ -1,0 +1,118 @@
+---
+layout: default
+title: Second Crop Music | Your Midwest Music Beacon for News, Reviews & Interviews
+description: Second Crop Music is the Midwest's Beacon for music news, music reviews & music interviews.
+image: /assets/css/images/fb-music-share-icon.png
+---
+<style>
+ul.tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tags li {
+    display: inline;
+}
+
+.recent-blog-posts h1 {
+    text-transform: inherit !important;
+}
+
+.recent-blog-posts h1 a,
+.recent-blog-posts li a {
+    color: white !important
+}
+
+.recent-blog-posts #darken-bg {
+    background-position: 50% 50% !important;
+}
+
+li.tag-item:after {
+    content: ",";
+    margin-left: -3px;
+}
+
+li.tag-item:last-child:after {
+    content: "";
+}
+
+.post-details {
+    padding: 10px;
+}
+
+.blog-post-section {
+    position: relative;
+    padding: 20px;
+}
+
+div#darken-bg:before {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 55;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    content: ' ';
+}
+
+.center-pos,
+.left-pos,
+.right-pos {
+    z-index: 99
+}
+
+h1.jumbo-font {
+    text-transform: unset !important;
+}
+</style>
+<div class="creative-content max-850">
+    <div class="clearfix" style="padding: 15px;"></div>
+    <div class="col-xs-12 txt-center">
+        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Music</h1>
+        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small><em><strong>The Midwest's Beacon for music news, music reviews &amp; music interviews.</strong></em></small></h2>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <section class="recent-blog-posts">
+                {% assign posts = site.posts | where:"type", "music" %}
+                {% for post in posts %}
+                <article class="lazyload">
+                    <div id="darken-bg" class="bg50-md vh40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image }}');" itemprop="image" title="{{ post.title }}">
+                        <div class="center-pos">
+                            <div class="txt-center">
+                                <h1 style="margin-bottom: 10px;">
+                                    <a class="post-link-header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                                </h1>
+                                <div class="post-details">
+                                    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                                    {% include read-time.html content = post.content %}
+                                </div>
+                                <ul class="tags">
+                                    <i class="fa fa-tags" aria-hidden="true"></i>
+                                    {% for tag in post.tags %}
+                                    <li class="tag-item">
+                                        <a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <a class="btn btn-default action-link" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <section class="blog-post-section">
+                        {{ post.excerpt | truncatewords:75 }}
+                        <div class="gradient-hide"></div>
+                    </section>-->
+                   <!-- <section class="blog-post-section txt-center">
+                        <a class="btn btn-inverse action-link" href="{{ site.baseurl }}{{ post.url }}">Read Full Article</a>
+                    </section>-->
+                    <div class="clearfix" style="padding: 20px"></div>
+                </article>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</div>
