@@ -137,6 +137,11 @@ image: /assets/css/images/fb-sports-share-icon.png
         grid-auto-flow: dense;
 
     }
+
+    .post-gallery>div {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }
 
 /* end  N E W   S T Y L E S  */
@@ -159,11 +164,14 @@ h1.jumbo-font {
                     {% for post in posts %}
                     <div class="post-img lazyload">
                         <img src="{{ post.image }}" alt="{{ post.title }}">
-                        <a href="{{ site.baseurl }}{{ post.url }}">
+                        <a href="{{ site.baseurl }}{{ post.slug }}">
                             <div class="overlay">
                                 <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
-                                <p class="post-excerpt proxima-nova-reg">{{ post.excerpt }}</p>
-                                <a href="{{ site.baseurl }}{{ post.url }}" class="btn-danger btn-sm proxima-nova-condensed post-link">READ MORE</a>
+                                <p class="post-excerpt proxima-nova-reg">
+                                    <!--{{ post.excerpt }}-->
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
+                                </p>
+                                <a href="{{ site.baseurl }}{{ post.url }}" class="btn-danger btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</a>
                             </div>
                         </a>
                     </div>

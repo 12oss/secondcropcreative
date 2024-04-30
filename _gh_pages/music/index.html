@@ -126,6 +126,7 @@ image: /assets/css/images/fb-music-share-icon.png
 
     }
 }
+
 @media (max-width: 767px) {
     .post-gallery {
         display: grid;
@@ -135,6 +136,11 @@ image: /assets/css/images/fb-music-share-icon.png
         grid-auto-rows: 400px;
         grid-auto-flow: dense;
 
+    }
+
+    .post-gallery>div {
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }
 
@@ -161,7 +167,11 @@ h1.jumbo-font {
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             <div class="overlay">
                                 <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
-                                <p class="post-excerpt proxima-nova-reg">{{ post.excerpt }}</p>
+                                <p class="post-excerpt proxima-nova-reg">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
+                                    <br>
+                                    {{ post.excerpt }}
+                                </p>
                                 <a href="{{ site.baseurl }}{{ post.url }}" class="btn-info btn-sm proxima-nova-condensed post-link">READ MORE</a>
                             </div>
                         </a>
