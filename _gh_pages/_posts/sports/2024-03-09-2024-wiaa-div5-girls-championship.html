@@ -1,0 +1,151 @@
+---
+title: 2024 WIAA Girls Division 5 Championship
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2024-03-09 08:30:35
+slug:
+tags:
+- sports
+- WIAA Playoffs
+- Albany/Monticello
+- Lena
+- Basketball
+excerpt:
+image: /sports/images/2024/20240309-state-champs/20240309-state-champs-044.jpg
+gallery-images:
+- 20240309-state-champs-001.jpg
+- 20240309-state-champs-002.jpg
+- 20240309-state-champs-003.jpg
+- 20240309-state-champs-004.jpg
+- 20240309-state-champs-005.jpg
+- 20240309-state-champs-006.jpg
+- 20240309-state-champs-007.jpg
+- 20240309-state-champs-008.jpg
+- 20240309-state-champs-009.jpg
+- 20240309-state-champs-010.jpg
+- 20240309-state-champs-011.jpg
+- 20240309-state-champs-012.jpg
+- 20240309-state-champs-013.jpg
+- 20240309-state-champs-014.jpg
+- 20240309-state-champs-015.jpg
+- 20240309-state-champs-016.jpg
+- 20240309-state-champs-017.jpg
+- 20240309-state-champs-018.jpg
+- 20240309-state-champs-019.jpg
+- 20240309-state-champs-020.jpg
+- 20240309-state-champs-021.jpg
+- 20240309-state-champs-022.jpg
+- 20240309-state-champs-023.jpg
+- 20240309-state-champs-024.jpg
+- 20240309-state-champs-025.jpg
+- 20240309-state-champs-026.jpg
+- 20240309-state-champs-027.jpg
+- 20240309-state-champs-028.jpg
+- 20240309-state-champs-029.jpg
+- 20240309-state-champs-030.jpg
+- 20240309-state-champs-031.jpg
+- 20240309-state-champs-032.jpg
+- 20240309-state-champs-033.jpg
+- 20240309-state-champs-034.jpg
+- 20240309-state-champs-035.jpg
+- 20240309-state-champs-036.jpg
+- 20240309-state-champs-037.jpg
+- 20240309-state-champs-038.jpg
+- 20240309-state-champs-039.jpg
+- 20240309-state-champs-040.jpg
+- 20240309-state-champs-041.jpg
+- 20240309-state-champs-042.jpg
+- 20240309-state-champs-043.jpg
+- 20240309-state-champs-044.jpg
+- 20240309-state-champs-045.jpg
+- 20240309-state-champs-046.jpg
+- 20240309-state-champs-047.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-1080">
+			<div class="clearfix" style="padding: 20px"></div>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20240309-state-champs/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20240309-state-champs/{{ image }}" alt="2024 WIAA Division 5 Champsion Game Between Albany/Monticello vs. Lena, March 9th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>

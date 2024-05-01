@@ -1,23 +1,45 @@
 ---
-title: 
-description: 
+title: 2024 WIAA Division 5 Boys Basketball Semifinal
+description:
 author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP Sports
+photographer: ROSS HARRIED for SECOND CROP SPORTS
 layout: blog-posts
 type: sports
-date: yyyy-mm-dd 08:30:35
+date: 2024-03-15 08:30:35
+slug:
 tags:
 - sports
-- 
-excerpt: 
-image: /sports/images/2024/
+- WIAA Playoffs
+- Almond-Bancroft
+- Abundant Life Christian
+- Basketball
+excerpt:
+image: /sports/images/2024/20240315-abundant-life/20240315-abundant-life-001.jpg
+gallery-images:
+- 20240315-abundant-life-001.jpg
+- 20240315-abundant-life-002.jpg
+- 20240315-abundant-life-003.jpg
+- 20240315-abundant-life-004.jpg
+- 20240315-abundant-life-005.jpg
+- 20240315-abundant-life-006.jpg
+- 20240315-abundant-life-007.jpg
+- 20240315-abundant-life-008.jpg
+- 20240315-abundant-life-009.jpg
+- 20240315-abundant-life-010.jpg
+- 20240315-abundant-life-011.jpg
+- 20240315-abundant-life-012.jpg
+- 20240315-abundant-life-013.jpg
+- 20240315-abundant-life-014.jpg
+- 20240315-abundant-life-015.jpg
+- 20240315-abundant-life-016.jpg
+- 20240315-abundant-life-017.jpg
+- 20240315-abundant-life-018.jpg
+- 20240315-abundant-life-019.jpg
 ---
 <style type="text/css">
 /* Main CSS */
-.sport-names {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-weight: 400;
+div.fancybox {
+	cursor: pointer;
 }
 
 
@@ -84,28 +106,18 @@ image: /sports/images/2024/
 	</div>
 </div>
 <div class="creative-content">
-	<div class="row max-850">
-		<div class="col-xs-12">
-			<h2>{{ page.title }}</h2>
-			<p> <strong><small>BY {{ page.author }}</small></strong></p>
-			
-				<!-- BEGIN WRITING CONTENT IN HERE-->
-			
-			<p>If you want to stay up to date on all our sports-related content, consider following me <a href="https://instagram.com/secondcropcreative" target="_blank">on Instagram!</a></p>
-		</div>
-	</div>
-		<div class="clearfix" style="padding: 20px"></div>
-		<section>
-			<div class="row">
-				
-				<div class="clearfix" style="padding: 20px"></div>
-				<div class="grid-wrapper">
-					<div class="wide">
-						<img src="/sports/images/2024/" alt=", photography by Ross Harried for Second Crop Sports">
-					</div>
+	<section>
+		<div class="row max-1080">
+			<div class="clearfix" style="padding: 20px"></div>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20240315-abundant-life/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20240315-abundant-life/{{ image }}" alt="WIAA Boys Division 5 Semifinal Game between Almond-Bancroft and Abundant Life Christian, March 15th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
 				</div>
-				<div class="clearfix" style="padding: 20px"></div>
+				{% endfor %}
 			</div>
-		</section>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
 	<div class="clearfix" style="padding: 30px;"></div>
 </div>

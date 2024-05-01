@@ -1,23 +1,57 @@
 ---
-title: 
-description: 
+title: 2024 WIAA Girls 3 Point Contest
+description:
 author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP Sports
+photographer: ROSS HARRIED for SECOND CROP SPORTS
 layout: blog-posts
 type: sports
-date: yyyy-mm-dd 08:30:35
+date: 2024-03-08 08:30:35
+slug:
 tags:
 - sports
-- 
-excerpt: 
-image: /sports/images/2024/
+- WIAA Playoffs
+- 3-pt Contest
+excerpt:
+image: /sports/images/2024/20240309-3pt/20240309-3pt-013.jpg
+gallery-images:
+- 20240309-3pt-001.jpg
+- 20240309-3pt-002.jpg
+- 20240309-3pt-003.jpg
+- 20240309-3pt-004.jpg
+- 20240309-3pt-005.jpg
+- 20240309-3pt-006.jpg
+- 20240309-3pt-007.jpg
+- 20240309-3pt-008.jpg
+- 20240309-3pt-009.jpg
+- 20240309-3pt-010.jpg
+- 20240309-3pt-011.jpg
+- 20240309-3pt-012.jpg
+- 20240309-3pt-013.jpg
+- 20240309-3pt-014.jpg
+- 20240309-3pt-015.jpg
+- 20240309-3pt-016.jpg
+- 20240309-3pt-017.jpg
+- 20240309-3pt-018.jpg
+- 20240309-3pt-019.jpg
+- 20240309-3pt-020.jpg
+- 20240309-3pt-021.jpg
+- 20240309-3pt-022.jpg
+- 20240309-3pt-023.jpg
+- 20240309-3pt-024.jpg
+- 20240309-3pt-025.jpg
+- 20240309-3pt-026.jpg
+- 20240309-3pt-027.jpg
+- 20240309-3pt-028.jpg
+- 20240309-3pt-029.jpg
+- 20240309-3pt-030.jpg
+- 20240309-3pt-031.jpg
+- 20240309-3pt-032.jpg
+- 20240309-3pt-033.jpg
 ---
 <style type="text/css">
 /* Main CSS */
-.sport-names {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-weight: 400;
+div.fancybox {
+	cursor: pointer;
 }
 
 
@@ -84,28 +118,18 @@ image: /sports/images/2024/
 	</div>
 </div>
 <div class="creative-content">
-	<div class="row max-850">
-		<div class="col-xs-12">
-			<h2>{{ page.title }}</h2>
-			<p> <strong><small>BY {{ page.author }}</small></strong></p>
-			
-				<!-- BEGIN WRITING CONTENT IN HERE-->
-			
-			<p>If you want to stay up to date on all our sports-related content, consider following me <a href="https://instagram.com/secondcropcreative" target="_blank">on Instagram!</a></p>
-		</div>
-	</div>
-		<div class="clearfix" style="padding: 20px"></div>
-		<section>
-			<div class="row">
-				
-				<div class="clearfix" style="padding: 20px"></div>
-				<div class="grid-wrapper">
-					<div class="wide">
-						<img src="/sports/images/2024/" alt=", photography by Ross Harried for Second Crop Sports">
-					</div>
+	<section>
+		<div class="row max-1080">
+			<div class="clearfix" style="padding: 20px"></div>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20240309-3pt/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20240309-3pt/{{ image }}" alt="2024 WIAA Girls 3 Point Contest, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
 				</div>
-				<div class="clearfix" style="padding: 20px"></div>
+				{% endfor %}
 			</div>
-		</section>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
 	<div class="clearfix" style="padding: 30px;"></div>
 </div>
