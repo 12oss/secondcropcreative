@@ -12,13 +12,14 @@ tags:
 -
 excerpt:
 image: /sports/images/2024/
+gallery-images:
+-
+-
 ---
 <style type="text/css">
 /* Main CSS */
-.sport-names {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-weight: 400;
+div.fancybox {
+	cursor: pointer;
 }
 
 
@@ -85,19 +86,19 @@ image: /sports/images/2024/
 	</div>
 </div>
 <div class="creative-content">
-	<div class="row max-850">
-		<section>
-			<div class="row max-1080">
-				<!--<h3 class="txt-center sport-names">Title</h3>-->
-				<div class="clearfix" style="padding: 20px"></div>
-				<div class="grid-wrapper">
-					<div>
-						<img src="/sports/images/2024/" alt=", photography by Ross Harried for Second Crop Sports">
-					</div>
+	<section>
+		<div class="row max-1080">
+			<!--<h3 class="txt-center sport-names">Title</h3>-->
+			<div class="clearfix" style="padding: 20px"></div>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/yyyy/yyyymmdd-NAME/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2022/20220930-homecoming/{{ image }}" alt="ALT, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
 				</div>
-				<div class="clearfix" style="padding: 20px"></div>
+				{% endfor %}
 			</div>
-		</section>
-	</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
 	<div class="clearfix" style="padding: 30px;"></div>
 </div>
