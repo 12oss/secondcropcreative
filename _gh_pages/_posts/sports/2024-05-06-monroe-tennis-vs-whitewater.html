@@ -1,0 +1,173 @@
+---
+title: Monroe Tennis vs. Whitewater
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2024-05-06 08:30:35
+slug:
+tags:
+- sports
+- Monroe
+- Whitewater
+- Tennis
+excerpt:
+image: /sports/images/2024/20240506-monroe-tennis/20240506-tennis-055.jpg
+gallery-images:
+- 20240506-tennis-001.jpg
+- 20240506-tennis-002.jpg
+- 20240506-tennis-003.jpg
+- 20240506-tennis-004.jpg
+- 20240506-tennis-005.jpg
+- 20240506-tennis-006.jpg
+- 20240506-tennis-007.jpg
+- 20240506-tennis-008.jpg
+- 20240506-tennis-009.jpg
+- 20240506-tennis-010.jpg
+- 20240506-tennis-011.jpg
+- 20240506-tennis-012.jpg
+- 20240506-tennis-013.jpg
+- 20240506-tennis-014.jpg
+- 20240506-tennis-015.jpg
+- 20240506-tennis-016.jpg
+- 20240506-tennis-017.jpg
+- 20240506-tennis-018.jpg
+- 20240506-tennis-019.jpg
+- 20240506-tennis-020.jpg
+- 20240506-tennis-021.jpg
+- 20240506-tennis-022.jpg
+- 20240506-tennis-023.jpg
+- 20240506-tennis-024.jpg
+- 20240506-tennis-025.jpg
+- 20240506-tennis-026.jpg
+- 20240506-tennis-027.jpg
+- 20240506-tennis-028.jpg
+- 20240506-tennis-029.jpg
+- 20240506-tennis-030.jpg
+- 20240506-tennis-031.jpg
+- 20240506-tennis-032.jpg
+- 20240506-tennis-033.jpg
+- 20240506-tennis-034.jpg
+- 20240506-tennis-035.jpg
+- 20240506-tennis-036.jpg
+- 20240506-tennis-037.jpg
+- 20240506-tennis-038.jpg
+- 20240506-tennis-039.jpg
+- 20240506-tennis-040.jpg
+- 20240506-tennis-041.jpg
+- 20240506-tennis-042.jpg
+- 20240506-tennis-043.jpg
+- 20240506-tennis-044.jpg
+- 20240506-tennis-045.jpg
+- 20240506-tennis-046.jpg
+- 20240506-tennis-047.jpg
+- 20240506-tennis-048.jpg
+- 20240506-tennis-049.jpg
+- 20240506-tennis-050.jpg
+- 20240506-tennis-051.jpg
+- 20240506-tennis-052.jpg
+- 20240506-tennis-053.jpg
+- 20240506-tennis-054.jpg
+- 20240506-tennis-055.jpg
+- 20240506-tennis-056.jpg
+- 20240506-tennis-057.jpg
+- 20240506-tennis-058.jpg
+- 20240506-tennis-059.jpg
+- 20240506-tennis-060.jpg
+- 20240506-tennis-061.jpg
+- 20240506-tennis-062.jpg
+- 20240506-tennis-063.jpg
+- 20240506-tennis-064.jpg
+- 20240506-tennis-065.jpg
+- 20240506-tennis-066.jpg
+- 20240506-tennis-067.jpg
+- 20240506-tennis-068.jpg
+- 20240506-tennis-069.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-850">
+			<!--<h3 class="txt-center sport-names">Title</h3>-->
+			<div class="clearfix" style="padding: 20px"></div>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20240506-monroe-tennis/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20240506-monroe-tennis/{{ image }}" alt="Monroe Tennis vs. Whitewater May 6th, 2024 in Monroe, WI, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>
