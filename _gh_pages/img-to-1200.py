@@ -24,5 +24,5 @@ def resize_images(directory, quality=95):
                     print(f"Error processing {file_path}: {e}")
 
 # Replace 'directory_path' with the path to the parent directory containing the images
-directory_path = '/Users/harriedr_1/Desktop/20240506-monroe-tennis'
+directory_path = '/Users/harriedr_1/Desktop/20240507-monroe-softball'
 resize_images(directory_path, quality=65)  # Adjust the quality level as desired
