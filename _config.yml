@@ -81,6 +81,10 @@ compress_html:
   ignore:
     envs: development  # disable compression in dev environment
 
+sass:
+  quiet_deps: true
+
+
 # Server
 source:           _gh_pages
 destination:      docs
