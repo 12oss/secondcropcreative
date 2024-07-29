@@ -5,7 +5,7 @@ from PIL import Image
 def resize_images(directory, quality=95):
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.endswith(('.jpg', '.jpeg', '.png')):
+            if file.endswith(('.jpg', '.jpeg', '.png', '.tif')):
                 file_path = os.path.join(root, file)
                 try:
                     img = Image.open(file_path)
