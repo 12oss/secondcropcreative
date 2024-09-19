@@ -4,6 +4,7 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     base64 (0.2.0)
+    bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
     em-websocket (0.5.3)
@@ -12,7 +13,11 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (4.26.1-arm64-darwin)
+    google-protobuf (4.27.5-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.5-x86_64-linux)
+      bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
@@ -71,6 +76,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.77.2-arm64-darwin)
       google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.2-x86_64-linux-gnu)
+      google-protobuf (>= 3.25, < 5.0)
     sprockets (3.7.3)
       base64
       concurrent-ruby (~> 1.0)
@@ -85,6 +92,7 @@ PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3, >= 4.3.3)
