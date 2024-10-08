@@ -1,0 +1,163 @@
+---
+title: Wisconsin Badgers vs. Purdue Boilermakers
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2024-10-05 08:30:35
+slug:
+tags:
+- sports
+- Wisconsin Badgers
+- Purdue Boilermakers
+- NCAA
+- Big Ten
+excerpt:
+image: /sports/images/2024/20241005-badgers/20241005-wisconsin-purdue-110.jpg
+gallery-images:
+- 20241005-wisconsin-purdue-003.jpg
+- 20241005-wisconsin-purdue-006.jpg
+- 20241005-wisconsin-purdue-007.jpg
+- 20241005-wisconsin-purdue-008.jpg
+- 20241005-wisconsin-purdue-017.jpg
+- 20241005-wisconsin-purdue-020.jpg
+- 20241005-wisconsin-purdue-022.jpg
+- 20241005-wisconsin-purdue-034.jpg
+- 20241005-wisconsin-purdue-035.jpg
+- 20241005-wisconsin-purdue-039.jpg
+- 20241005-wisconsin-purdue-040.jpg
+- 20241005-wisconsin-purdue-046.jpg
+- 20241005-wisconsin-purdue-057.jpg
+- 20241005-wisconsin-purdue-061.jpg
+- 20241005-wisconsin-purdue-065.jpg
+- 20241005-wisconsin-purdue-071.jpg
+- 20241005-wisconsin-purdue-074.jpg
+- 20241005-wisconsin-purdue-078.jpg
+- 20241005-wisconsin-purdue-080.jpg
+- 20241005-wisconsin-purdue-081.jpg
+- 20241005-wisconsin-purdue-084.jpg
+- 20241005-wisconsin-purdue-086.jpg
+- 20241005-wisconsin-purdue-101.jpg
+- 20241005-wisconsin-purdue-107.jpg
+- 20241005-wisconsin-purdue-118.jpg
+- 20241005-wisconsin-purdue-125.jpg
+- 20241005-wisconsin-purdue-128.jpg
+- 20241005-wisconsin-purdue-131.jpg
+- 20241005-wisconsin-purdue-143.jpg
+- 20241005-wisconsin-purdue-149.jpg
+- 20241005-wisconsin-purdue-152.jpg
+- 20241005-wisconsin-purdue-159.jpg
+- 20241005-wisconsin-purdue-014.jpg
+- 20241005-wisconsin-purdue-026.jpg
+- 20241005-wisconsin-purdue-037.jpg
+- 20241005-wisconsin-purdue-042.jpg
+- 20241005-wisconsin-purdue-050.jpg
+- 20241005-wisconsin-purdue-067.jpg
+- 20241005-wisconsin-purdue-069.jpg
+- 20241005-wisconsin-purdue-072.jpg
+- 20241005-wisconsin-purdue-077.jpg
+- 20241005-wisconsin-purdue-085.jpg
+- 20241005-wisconsin-purdue-091.jpg
+- 20241005-wisconsin-purdue-092.jpg
+- 20241005-wisconsin-purdue-094.jpg
+- 20241005-wisconsin-purdue-096.jpg
+- 20241005-wisconsin-purdue-097.jpg
+- 20241005-wisconsin-purdue-098.jpg
+- 20241005-wisconsin-purdue-104.jpg
+- 20241005-wisconsin-purdue-110.jpg
+- 20241005-wisconsin-purdue-112.jpg
+- 20241005-wisconsin-purdue-123.jpg
+- 20241005-wisconsin-purdue-140.jpg
+- 20241005-wisconsin-purdue-145.jpg
+- 20241005-wisconsin-purdue-148.jpg
+- 20241005-wisconsin-purdue-156.jpg
+- 20241005-wisconsin-purdue-157.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-850">
+			<!--<h3 class="txt-center sport-names">Title</h3>-->
+			<div class="clearfix" style="padding: 20px"></div>
+			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20241005-badgers/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20241005-badgers/{{ image }}" alt="Wisconsin Badgers vs. Purdue Boilermakers at Camp Randall Stadium October 5, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>

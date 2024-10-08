@@ -1,0 +1,135 @@
+---
+title: Wisconsin Badgers Men's Basketball Media Day
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2024-10-07 08:30:35
+slug:
+tags:
+- sports
+- Wisconsin Badgers
+- basketball
+- NCAA
+- Big Ten
+excerpt:
+image: /sports/images/2024/20241007-badgers/20241007-badgers-mbb-media-day-028.jpg
+gallery-images:
+- 20241007-badgers-mbb-media-day-002.jpg
+- 20241007-badgers-mbb-media-day-003.jpg
+- 20241007-badgers-mbb-media-day-008.jpg
+- 20241007-badgers-mbb-media-day-009.jpg
+- 20241007-badgers-mbb-media-day-010.jpg
+- 20241007-badgers-mbb-media-day-033.jpg
+- 20241007-badgers-mbb-media-day-035.jpg
+- 20241007-badgers-mbb-media-day-041.jpg
+- 20241007-badgers-mbb-media-day-042.jpg
+- 20241007-badgers-mbb-media-day-049.jpg
+- 20241007-badgers-mbb-media-day-055.jpg
+- 20241007-badgers-mbb-media-day-059.jpg
+- 20241007-badgers-mbb-media-day-071.jpg
+- 20241007-badgers-mbb-media-day-074.jpg
+- 20241007-badgers-mbb-media-day-077.jpg
+- 20241007-badgers-mbb-media-day-078.jpg
+- 20241007-badgers-mbb-media-day-079.jpg
+- 20241007-badgers-mbb-media-day-006.jpg
+- 20241007-badgers-mbb-media-day-019.jpg
+- 20241007-badgers-mbb-media-day-020.jpg
+- 20241007-badgers-mbb-media-day-024.jpg
+- 20241007-badgers-mbb-media-day-026.jpg
+- 20241007-badgers-mbb-media-day-028.jpg
+- 20241007-badgers-mbb-media-day-031.jpg
+- 20241007-badgers-mbb-media-day-037.jpg
+- 20241007-badgers-mbb-media-day-044.jpg
+- 20241007-badgers-mbb-media-day-060.jpg
+- 20241007-badgers-mbb-media-day-061.jpg
+- 20241007-badgers-mbb-media-day-068.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-850">
+			<!--<h3 class="txt-center sport-names">Title</h3>-->
+			<div class="clearfix" style="padding: 20px"></div>
+			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20241007-badgers/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20241007-badgers/{{ image }}" alt="Wisconsin Badgers Men's Basketball local media day at Nicholas Johnson Pavilion October 7, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>
