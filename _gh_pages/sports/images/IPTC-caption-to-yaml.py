@@ -10,20 +10,23 @@ def get_iptc_caption(image_path):
 # Function to process a directory and generate YAML for front matter
 def generate_yaml_for_page(directory_path):
     image_data = []
-    
+
     for filename in os.listdir(directory_path):
         if filename.lower().endswith(('.jpg', '.jpeg', '.png')):
             file_path = os.path.join(directory_path, filename)
             caption = get_iptc_caption(file_path)
             # Add each image and its caption as a dictionary
             image_data.append({'filename': filename, 'caption': caption})
+
+    # Sort the image_data list by filename
+    image_data.sort(key=lambda x: x['filename'])
     
     return image_data
 
 # Main function
 if __name__ == "__main__":
     # Set your image directory path here
-    directory_path = '/Users/harriedr_1/Documents/github/secondcropcreative/_gh_pages/sports/images/2024/20240907-badgers/'
+    directory_path = '/Users/harriedr_1/Documents/github/secondcropcreative/_gh_pages/sports/images/2024/20241116-badgers/'
     
     # Generate YAML content
     yaml_data = generate_yaml_for_page(directory_path)

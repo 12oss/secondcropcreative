@@ -16,8 +16,8 @@ def resize_images(input_folder, output_folder, max_file_size):
             subprocess.run(command, shell=True)
 
 if __name__ == "__main__":
-    input_folder = "/Users/harriedr_1/Desktop/_test-files"  # Change this to your input image folder path
-    output_folder = "/Users/harriedr_1/Desktop/_test-files/_resized"  # Change this to your output image folder path
-    max_file_size = "4MB"  # Maximum file size limit
+    input_folder = "/Users/harriedr_1/Desktop/_compress-me"  # Change this to your input image folder path
+    output_folder = "/Users/harriedr_1/Desktop/_compress-me/_resized"  # Change this to your output image folder path
+    max_file_size = "5MB"  # Maximum file size limit
 
     resize_images(input_folder, output_folder, max_file_size)
