@@ -1,0 +1,183 @@
+---
+layout: default
+title: Second Crop Creative | Your Gateway to Professional Portrait Photography in Southern Wisconsin
+description: Second Crop Creative offers high-quality portrait photography that captures your personality & style. Book a session today and let us bring your vision to life!
+image: /assets/css/images/fb-sports-share-icon.png
+---
+<style>
+/* N E W   S T Y L E */
+.post-gallery {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    /* Adjust as needed */
+    grid-auto-rows: 400px;
+    grid-auto-flow: dense;
+
+}
+
+.post-gallery>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-title {
+    font-size: 22px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.post-excerpt {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.post-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-img a.post-link {
+    opacity: 0;
+}
+
+.post-img:hover a.post-link {
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+    opacity: 1;
+    font-weight: 900;
+}
+
+.post-img h2,
+.post-img p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    transform: scale(1.5);
+    /* Zoom in effect on hover */
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+    text-shadow: 0px 0px 30px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 5px white;
+
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s all ease;
+    /* Smooth transition for hover effect */
+}
+
+.post-img:hover img {
+    transform: scale(1.25);
+    /* Zoom in effect on hover */
+}
+
+.post-img:hover h2,
+.post-img:hover p {
+    transform: scale(1);
+    /* Zoom in effect on hover */
+    text-shadow: 0 0 0 white;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Dark overlay */
+    opacity: 0;
+    /* Initially hidden */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.8s ease;
+    background: url('/assets/css/images/patterns/hover-black.png') top left;
+}
+
+.post-img:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+
+}
+
+.post-img:hover .overlay:before {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1080px) {
+    .post-gallery {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        /* Adjust as needed */
+        grid-auto-rows: 400px;
+        grid-auto-flow: dense;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .post-gallery {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        /* Adjust as needed */
+        grid-auto-rows: 400px;
+        grid-auto-flow: dense;
+
+    }
+
+    .post-gallery>div {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+/* end  N E W   S T Y L E S  */
+
+h1.jumbo-font {
+    text-transform: unset !important;
+}
+</style>
+<div class="creative-content">
+    <div class="clearfix" style="padding: 15px;"></div>
+    <div class="col-xs-12 txt-center">
+        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Second Crop Portraits</h1>
+        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small style="letter-spacing: .4px;">Professional portrait photography that tells your unique story.</small></h2>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" style="padding: 0px !important;">
+            <section class="recent-blog-posts">
+                <div class="post-gallery">
+                    {% assign posts = site.posts | where:"type", "portraits" %}
+                    {% for post in posts %}
+                    <div class="post-img lazyload">
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                        <a href="{{ site.baseurl }}{{ post.slug }}">
+                            <div class="overlay">
+                                <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
+                                <p class="post-excerpt proxima-nova-reg">
+                                    <!--{{ post.excerpt }}-->
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
+                                </p>
+                                <a href="{{ site.baseurl }}{{ post.url }}" class="btn-success btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</a>
+                            </div>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
