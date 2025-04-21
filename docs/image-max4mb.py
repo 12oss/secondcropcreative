@@ -1,23 +1,34 @@
 import os
 import subprocess
 
-def resize_images(input_folder, output_folder, max_file_size):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+def resize_images(input_folder, output_folder, max_file_size_mb):
+    max_file_size_bytes = max_file_size_mb * 1024 * 1024
 
-    # Iterate over all files in the input folder
-    for filename in os.listdir(input_folder):
-        if filename.endswith(('.png', '.jpg', '.jpeg', '.gif')):
-            input_path = os.path.join(input_folder, filename)
-            output_path = os.path.join(output_folder, filename)
+    for root, _, files in os.walk(input_folder):
+        for filename in files:
+            if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+                input_path = os.path.join(root, filename)
 
-            # Execute ImageMagick command to resize and compress the image
-            command = f"convert '{input_path}' -define jpeg:extent={max_file_size} '{output_path}'"
-            subprocess.run(command, shell=True)
+                # Skip files already under max size
+                if os.path.getsize(input_path) <= max_file_size_bytes:
+                    print(f"Skipping (under {max_file_size_mb}MB): {input_path}")
+                    continue
+
+                # Build output folder path
+                rel_path = os.path.relpath(root, input_folder)
+                output_dir = os.path.join(output_folder, rel_path)
+                os.makedirs(output_dir, exist_ok=True)
+
+                output_path = os.path.join(output_dir, filename)
+
+                # Use ImageMagick v7+ syntax
+                command = f"magick '{input_path}' -define jpeg:extent={max_file_size_mb}MB '{output_path}'"
+                subprocess.run(command, shell=True)
+                print(f"Compressed: {input_path} → {output_path}")
 
 if __name__ == "__main__":
-    input_folder = "/Users/harriedr_1/Desktop/_compress-me"  # Change this to your input image folder path
-    output_folder = "/Users/harriedr_1/Desktop/_compress-me/_resized"  # Change this to your output image folder path
-    max_file_size = "5MB"  # Maximum file size limit
+    input_folder = "/Users/harriedr/Desktop/_compress-me"
+    output_folder = "/Users/harriedr/Desktop/_compress-me/_resized"
+    max_file_size_mb = 5
 
-    resize_images(input_folder, output_folder, max_file_size)
+    resize_images(input_folder, output_folder, max_file_size_mb)
