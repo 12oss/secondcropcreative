@@ -1,0 +1,24 @@
+version: 2
+updates:
+  # JavaScript / npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      js-dev:
+        patterns:
+          - "*"
+        # auto‑merge as soon as our Pages build succeeds
+        auto-merge: true
+
+  # Ruby / Bundler (Jekyll + plugins)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      ruby:
+        patterns:
+          - "*"
+        auto-merge: true
