@@ -1,0 +1,144 @@
+---
+title: New Glarus Girls vs. Cuba City
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2024-02-29 08:30:35
+slug:
+tags:
+- sports
+- New Glarus
+- Cuba CIty
+- Basketball
+excerpt:
+image: /sports/images/2024/20240229-ng-bball/20240229-ng-bball-009.jpg
+gallery-images:
+- 20240229-ng-bball-001.jpg
+- 20240229-ng-bball-002.jpg
+- 20240229-ng-bball-003.jpg
+- 20240229-ng-bball-004.jpg
+- 20240229-ng-bball-005.jpg
+- 20240229-ng-bball-006.jpg
+- 20240229-ng-bball-007.jpg
+- 20240229-ng-bball-008.jpg
+- 20240229-ng-bball-009.jpg
+- 20240229-ng-bball-010.jpg
+- 20240229-ng-bball-011.jpg
+- 20240229-ng-bball-012.jpg
+- 20240229-ng-bball-013.jpg
+- 20240229-ng-bball-014.jpg
+- 20240229-ng-bball-015.jpg
+- 20240229-ng-bball-016.jpg
+- 20240229-ng-bball-017.jpg
+- 20240229-ng-bball-018.jpg
+- 20240229-ng-bball-019.jpg
+- 20240229-ng-bball-020.jpg
+- 20240229-ng-bball-021.jpg
+- 20240229-ng-bball-022.jpg
+- 20240229-ng-bball-023.jpg
+- 20240229-ng-bball-024.jpg
+- 20240229-ng-bball-025.jpg
+- 20240229-ng-bball-026.jpg
+- 20240229-ng-bball-027.jpg
+- 20240229-ng-bball-028.jpg
+- 20240229-ng-bball-029.jpg
+- 20240229-ng-bball-030.jpg
+- 20240229-ng-bball-031.jpg
+- 20240229-ng-bball-032.jpg
+- 20240229-ng-bball-033.jpg
+- 20240229-ng-bball-034.jpg
+- 20240229-ng-bball-035.jpg
+- 20240229-ng-bball-036.jpg
+- 20240229-ng-bball-037.jpg
+- 20240229-ng-bball-038.jpg
+- 20240229-ng-bball-039.jpg
+- 20240229-ng-bball-040.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-850">
+			<div class="clearfix" style="padding: 20px"></div>
+			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2024/20240229-ng-bball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2024/20240229-ng-bball/{{ image }}" alt="New Glarus Girls vs. Cuba City, February 29th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>

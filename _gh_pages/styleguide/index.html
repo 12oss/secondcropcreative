@@ -3,6 +3,94 @@ layout: default
 title: Second Crop Creative | Style Guide
 description: Second Crop Creative Style Guide
 ---
+<style>
+	/*TEST STYLINGE*/
+.post-gallery {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); /* Adjust as needed */
+	grid-auto-rows: 400px;
+	grid-auto-flow: dense;
+
+}
+.post-gallery>div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.post-title{
+	font-size: 22px;
+	letter-spacing: 2px;
+ 	line-height: 22px;
+ 	text-transform: uppercase;
+}
+.post-excerpt{
+	font-size: 1.2rem;
+	line-height: 12px;
+	padding-bottom: 15px;
+}
+.post-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.post-img a{
+	opacity: 0;
+}
+
+.post-img:hover a {
+  transition: .4s all ease-out; /* Smooth transition for hover effect */
+  opacity: 1;
+  letter-spacing: 1.5px;
+}
+
+.post-img h2, .post-img p {
+	color: white;
+	text-align: center;
+	margin: 0;
+	transform: scale(1.5); /* Zoom in effect on hover */
+	transition: .4s all ease-out; /* Smooth transition for hover effect */
+	text-shadow: 0px 0px 30px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 5px white;
+
+}
+.post-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .4s all ease-out; /* Smooth transition for hover effect */
+}
+
+.post-img:hover img {
+  transform: scale(1.25); /* Zoom in effect on hover */
+}
+
+.post-img:hover h2, .post-img:hover p{
+  transform: scale(1); /* Zoom in effect on hover */
+  text-shadow: 0 0 0 white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* Dark overlay */
+  opacity: 0; /* Initially hidden */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.8s ease;
+  background:url('/assets/css/images/patterns/hover-black.png') top left;
+}
+
+.post-img:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+
+</style>
 <div class="creative-content">
 	<div class="row">
 		<div class="jumbotron col-xs-12">
@@ -21,22 +109,28 @@ description: Second Crop Creative Style Guide
 	<div class="row" style="text-align:center">
 		<div class="col-xs-6 col-sm-4 bg-primary"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-primary</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 		<div class="col-xs-6 col-sm-4 bg-success"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-success</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 		<div class="col-xs-6 col-sm-4 bg-info"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-info</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 		<div class="col-xs-6 col-sm-4 bg-warning"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-warning</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 		<div class="col-xs-6 col-sm-4 bg-danger"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-danger</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 		<div class="col-xs-6 col-sm-4 bg-inverse"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
 			<p class="text-light">.bg-inverse</p>
-			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" /> </div>
+			<img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
+		</div>
 	</div>
 	<div class="row" style="text-align:center">
 		<div class="col-xs-6 bg-primary dark-boxshadow"> <img src="{{ site.baseurl }}/assets/css/images/clear.gif" width="100%" height="20" />
@@ -153,7 +247,7 @@ description: Second Crop Creative Style Guide
 	<div class="clearfix"></div>
 	<!-- FULL WIDTH BANNER WITH COPY -->
 	<div class="row">
-		<div class="bg33-md bg40-sm bg-half-xs dark-boxshadow" style="background-image:url('http://lorempixel.com/1600/550/people/2/');">
+		<div class="bg33-md bg40-sm bg-half-xs dark-boxshadow" style="background-image:url('https://placehold.co/1600x550');">
 			<!--need to inline the image as a bg-img -->
 			<!-- many different ratios to choose from-->
 			<!-- need this div to left/center/right copy-->
@@ -188,7 +282,7 @@ description: Second Crop Creative Style Guide
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active" id="left-ban">
 								<h3>Left Banner</h3>
-								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;http://lorempixel.com/1600/550/people/2/&#39;);&quot;&gt;
+								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;https://placehold.co/1600x550&#39;);&quot;&gt;
 	&lt;!--need to inline the image as a bg-img --&gt;
 	&lt;!-- many different ratios to choose from--&gt;
 	&lt;!-- need this div to left/center/right copy--&gt;
@@ -203,7 +297,7 @@ description: Second Crop Creative Style Guide
 							</div>
 							<div role="tabpanel" class="tab-pane" id="center-ban">
 								<h3>Centered banner</h3>
-								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;http://lorempixel.com/1600/550/people/2/&#39;);&quot;&gt;
+								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;https://placehold.co/1600x550&#39;);&quot;&gt;
 	&lt;!--need to inline the image as a bg-img --&gt;
 	&lt;!-- many different ratios to choose from--&gt;
 	&lt;!-- need this div to left/center/right copy--&gt;
@@ -218,7 +312,7 @@ description: Second Crop Creative Style Guide
 							</div>
 							<div role="tabpanel" class="tab-pane" id="right-ban">
 								<h3>Right Banner</h3>
-								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;http://lorempixel.com/1600/550/people/2/&#39;);&quot;&gt;
+								<pre class="language-markup"><code>&lt;div class=&quot;bg33-md bg40-sm bg-half-xs dark-boxshadow&quot; style=&quot;background-image:url(&#39;https://placehold.co/1600x550&#39;);&quot;&gt;
 	&lt;!--need to inline the image as a bg-img --&gt;
 	&lt;!-- many different ratios to choose from--&gt;
 	&lt;!-- need this div to left/center/right copy--&gt;
@@ -629,7 +723,7 @@ description: Second Crop Creative Style Guide
 								</button>
 								<h4 class="modal-title" id="myModalLabel">Modal title</h4>
 							</div>
-							<div class="modal-body"> <img src="http://lorempixel.com/1920/1080/transport/10/" width="100%" />
+							<div class="modal-body"> <img src="https://placehold.co/1920x1080" width="100%" />
 								<p>This is a regular ole p tag in the 'modal-body'</p>
 							</div>
 							<div class="modal-footer">
@@ -657,7 +751,7 @@ description: Second Crop Creative Style Guide
 						&lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Modal title&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;modal-body&quot;&gt;
-						&lt;img src=&quot;http://lorempixel.com/1920/1080/transport/10/&quot; width=&quot;100%&quot;/&gt;
+						&lt;img src=&quot;https://placehold.co/1920x1080&quot; width=&quot;100%&quot;/&gt;
 						&lt;p&gt;This is a regular ole p tag in the &#39;modal-body&#39;&lt;/p&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;modal-footer&quot;&gt;
@@ -845,9 +939,66 @@ description: Second Crop Creative Style Guide
 	<div class="clearfix"></div>
 	<section class="row nopad">
 		<div class="col-xs-12 nopad">
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- TEST PORTION-->
+			<div class="row">
+				<div class="post-gallery">
+					<div class="post-img">
+						<img src="https://placehold.co/1920x1080" alt="Image 1">
+						<div class="overlay">
+							<h2 class="post-title proxima-nova-bold">Title 1</h2>
+							<p class="post-excerpt proxima-nova-reg">Description 1</p>
+							<a href="#" class="btn-inverse btn-sm proxima-nova-condensed">MORE CTA</a>
+						</div>
+					</div>
+					<div class="post-img">
+						<img src="https://placehold.co/1080x1920" alt="Image 2">
+						<div class="overlay">
+							<h2 class="post-title proxima-nova-bold">Title 2</h2>
+							<p class="post-excerpt proxima-nova-reg">Description 2</p>
+							<a href="#" class="btn-inverse btn-sm proxima-nova-condensed">MORE CTA</a>
+						</div>
+					</div>
+					<div class="post-img">
+						<img src="https://placehold.co/640x850" alt="Image 3">
+						<div class="overlay">
+							<h2 class="post-title proxima-nova-bold">Title 3</h2>
+							<p class="post-excerpt proxima-nova-reg">Description 3</p>
+							<a href="#" class="btn-inverse btn-sm proxima-nova-condensed">MORE CTA</a>
+						</div>
+					</div>
+					<div class="post-img">
+						<img src="https://placehold.co/4840x2160" alt="Image 4">
+						<div class="overlay">
+							<h2 class="post-title proxima-nova-bold">Title 4</h2>
+							<p class="post-excerpt proxima-nova-reg">Description 4</p>
+							<a href="#" class="btn-inverse btn-sm proxima-nova-condensed">MORE CTA</a>
+						</div>
+					</div>
+					<!-- Add more thumbnails here -->
+				</div>
+			</div>
+			<!-- end TEST-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
+			<!-- *#*#*#*#*#*#*#*#*#*#*##*#*#*#*#*#*#-->
 			<div class="row porto">
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-primary nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/1/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -859,7 +1010,7 @@ description: Second Crop Creative Style Guide
 					</div>
 				</div>
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-success nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/2/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -871,7 +1022,7 @@ description: Second Crop Creative Style Guide
 					</div>
 				</div>
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-info nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/3/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -883,7 +1034,7 @@ description: Second Crop Creative Style Guide
 					</div>
 				</div>
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-danger nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/4/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -895,7 +1046,7 @@ description: Second Crop Creative Style Guide
 					</div>
 				</div>
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-warning nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/5/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -907,7 +1058,7 @@ description: Second Crop Creative Style Guide
 					</div>
 				</div>
 				<div class="porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-inverse nopad">
-					<img width="100%" alt="City" src="http://lorempixel.com/640/640/city/6/">
+					<img width="100%" alt="City" src="https://placehold.co/640">
 					<div class="porto-info">
 						<div class="info-content">
 							<a href="#">
@@ -927,7 +1078,7 @@ description: Second Crop Creative Style Guide
 						<h3>Portfolio Thumbs</h3>
 						<pre class="language-markup"><code>&lt;div class=&quot;row porto&quot;&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/1/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;hhttps://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -939,7 +1090,7 @@ description: Second Crop Creative Style Guide
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/2/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;https://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -951,7 +1102,7 @@ description: Second Crop Creative Style Guide
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/3/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;hhttps://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -963,7 +1114,7 @@ description: Second Crop Creative Style Guide
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/4/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;https://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -975,7 +1126,7 @@ description: Second Crop Creative Style Guide
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/5/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;https://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -987,7 +1138,7 @@ description: Second Crop Creative Style Guide
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;porto-item col-xs-12 col-sm-6 col-md-4 col-lg-3 nopad&quot;&gt;
-		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;http://lorempixel.com/640/640/city/6/&quot;&gt;
+		&lt;img width=&quot;100%&quot; alt=&quot;City&quot; src=&quot;https://placehold.co/640&quot;&gt;
 		&lt;div class=&quot;porto-info&quot;&gt;
 			&lt;div class=&quot;info-content&quot;&gt;
 				&lt;a href=&quot;#&quot;&gt;
@@ -1153,124 +1304,97 @@ description: Second Crop Creative Style Guide
 					<div class="isotope-box">
 						<div class="grid-sizer"></div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/nature/7/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/2/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/9/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/4/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/6/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/5/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/1/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/2/" class="lazyload" />
+							<img data-src="hhttps://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/6/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/8/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/9/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/1/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/4/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/8/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/5/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/animals/1/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/nature/9/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/8/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/9/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/nature/1/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/nature/7/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/2/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/9/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/4/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/6/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/5/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/1/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/2/" class="lazyload" />
+							<img data-src="https://placehold.co/240x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/6/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/8/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/people/9/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/1/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/4/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/animals/8/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/5/" class="lazyload" />
-						</div>
-						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/animals/1/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/nature/9/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/8/" class="lazyload" />
-						</div>
-						<div class="grid-item">
-							<img data-src="http://lorempixel.com/240/300/people/9/" class="lazyload" />
-						</div>
-						<div class="grid-item grid-item--width2">
-							<img data-src="http://lorempixel.com/480/300/nature/1/" class="lazyload" />
+							<img data-src="https://placehold.co/480x300" class="lazyload" />
 						</div>
 					</div>
 				</div>
@@ -1287,19 +1411,19 @@ description: Second Crop Creative Style Guide
 	&lt;div class=&quot;isotope-box&quot;&gt;
 		&lt;div class=&quot;grid-sizer&quot;&gt;&lt;/div&gt;
 		&lt;div class=&quot;grid-item grid-item--width2&quot;&gt;
-			&lt;img data-src=&quot;http://lorempixel.com/480/300/nature/7/&quot; class=&quot;lazyload&quot; /&gt;
+			&lt;img data-src=&quot;https://placehold.co/480x300&quot; class=&quot;lazyload&quot; /&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;grid-item grid-item--width2&quot;&gt;
-			&lt;img data-src=&quot;http://lorempixel.com/480/300/people/2/&quot; class=&quot;lazyload&quot; /&gt;
+			&lt;img data-src=&quot;https://placehold.co/480x300&quot; class=&quot;lazyload&quot; /&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;grid-item&quot;&gt;
-			&lt;img data-src=&quot;http://lorempixel.com/240/300/animals/9/&quot; class=&quot;lazyload&quot; /&gt;
+			&lt;img data-src=&quot;https://placehold.co/240x300&quot; class=&quot;lazyload&quot; /&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;grid-item grid-item--width2&quot;&gt;
-			&lt;img data-src=&quot;http://lorempixel.com/480/300/people/4/&quot; class=&quot;lazyload&quot; /&gt;
+			&lt;img data-src=&quot;https://placehold.co/480x300&quot; class=&quot;lazyload&quot; /&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;grid-item&quot;&gt;
-			&lt;img data-src=&quot;http://lorempixel.com/240/300/people/6/&quot; class=&quot;lazyload&quot; /&gt;
+			&lt;img data-src=&quot;https://placehold.co/240x300&quot; class=&quot;lazyload&quot; /&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;

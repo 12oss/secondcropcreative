@@ -1,3 +1,4 @@
+
 /*async breaks my smooth scroll to....*/
 /*function f1 is defined around everything so that I can async all js and then run all this code after page loads in*/
 function f1() {
