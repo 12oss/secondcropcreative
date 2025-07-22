@@ -1,0 +1,154 @@
+---
+title: 2022 WIAA Division 3 Football Championship Game - Monroe vs. West Salem
+description: 
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP SPORTS
+layout: blog-posts
+type: sports
+date: 2022-11-18 08:30:35
+slug:
+tags:
+- sports
+- Monroe
+- Football
+- Football Playoffs
+excerpt: 
+image: /sports/images/2022/20221118-state/20221118-state-035.jpg
+gallery-images:
+- 20221118-state-001.jpg
+- 20221118-state-002.jpg
+- 20221118-state-003.jpg
+- 20221118-state-004.jpg
+- 20221118-state-005.jpg
+- 20221118-state-006.jpg
+- 20221118-state-007.jpg
+- 20221118-state-008.jpg
+- 20221118-state-009.jpg
+- 20221118-state-010.jpg
+- 20221118-state-011.jpg
+- 20221118-state-012.jpg
+- 20221118-state-013.jpg
+- 20221118-state-014.jpg
+- 20221118-state-015.jpg
+- 20221118-state-016.jpg
+- 20221118-state-018.jpg
+- 20221118-state-019.jpg
+- 20221118-state-020.jpg
+- 20221118-state-021.jpg
+- 20221118-state-022.jpg
+- 20221118-state-023.jpg
+- 20221118-state-024.jpg
+- 20221118-state-025.jpg
+- 20221118-state-026.jpg
+- 20221118-state-027.jpg
+- 20221118-state-028.jpg
+- 20221118-state-029.jpg
+- 20221118-state-030.jpg
+- 20221118-state-031.jpg
+- 20221118-state-032.jpg
+- 20221118-state-033.jpg
+- 20221118-state-034.jpg
+- 20221118-state-035.jpg
+- 20221118-state-036.jpg
+- 20221118-state-037.jpg
+- 20221118-state-038.jpg
+- 20221118-state-039.jpg
+- 20221118-state-040.jpg
+- 20221118-state-041.jpg
+- 20221118-state-042.jpg
+- 20221118-state-043.jpg
+- 20221118-state-044.jpg
+- 20221118-state-045.jpg
+- 20221118-state-046.jpg
+- 20221118-state-047.jpg
+- 20221118-state-048.jpg
+- 20221118-state-049.jpg
+- 20221118-state-050.jpg
+- 20221118-state-051.jpg
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+		<div class="row max-850">
+			<div class="clearfix" style="padding: 20px"></div>
+			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
+			<div class="grid-wrapper">
+				{% for image in page.gallery-images %}
+				<div href="/sports/images/2022/20221118-state/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/2022/20221118-state/{{ image }}" alt="Monroe vs. West Salem, 2022 WIAA Division 3 Championship Game, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="clearfix" style="padding: 20px"></div>
+		</div>
+	</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>

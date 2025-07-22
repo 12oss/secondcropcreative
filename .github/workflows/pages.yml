@@ -1,0 +1,33 @@
+name: Deploy Pages (extra disk)
+on:
+  push:
+    branches: [master]          # ← change if your branch is different
+    paths: ['docs/**']
+permissions:
+  contents: read
+  pages:   write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet \
+                      /usr/local/lib/android \
+                      /opt/hostedtoolcache
+          docker system prune -af || true
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - uses: actions/deploy-pages@v4
+
+
+

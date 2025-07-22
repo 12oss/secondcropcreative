@@ -55,19 +55,41 @@ paginate_path: "/blog/page:num/"
 #http://coopcoding.com/blog/my-jekyll-setup-for-this-blog/
 permalink: /:categories/:title/
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: "_posts/blog"
     values:
-      layout: "default"
+      type: "blog"
+      layout: "blog-posts"
       category: "blog"
+  - scope:
+      path: "_posts/sports"
+    values:
+      type: "sports"
+      layout: "blog-posts"
+      category: "sports"
+  - scope:
+      path: "_posts/music"
+    values:
+      type: "music"
+      layout: "blog-posts"
+      category: "music"
+  - scope:
+      path: "_posts/portraits"
+    values:
+      type: "portraits"
+      layout: "blog-posts"
+      category: "portraits"
+
 
 #html compress
 compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment
+
+sass:
+  quiet_deps: true
+
 
 # Server
 source:           _gh_pages
