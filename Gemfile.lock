@@ -42,6 +42,8 @@ GEM
     google-protobuf (4.30.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
+    google-protobuf (4.26.1-x86_64-linux)
+      rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
@@ -144,6 +146,7 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
+
   aarch64-linux
   aarch64-linux-android
   aarch64-linux-gnu
@@ -155,6 +158,9 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  arm64-darwin-21
+  arm64-darwin-22
+  arm64-darwin-23
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
