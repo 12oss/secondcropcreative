@@ -1,8 +1,11 @@
 # Ignore docs files
 .DS_Store
-.sass-cache
+.sass-cache/
 .jekyll-metadata
-# _gh_pages
+.jekyll-cache/
+node_modules/
+vendor/
+_gh_pages
 
 docs/.DS_Store
 
