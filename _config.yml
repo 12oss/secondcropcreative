@@ -73,6 +73,12 @@ defaults:
       type: "music"
       layout: "blog-posts"
       category: "music"
+  - scope:
+      path: "_posts/portraits"
+    values:
+      type: "portraits"
+      layout: "blog-posts"
+      category: "portraits"
 
 
 #html compress

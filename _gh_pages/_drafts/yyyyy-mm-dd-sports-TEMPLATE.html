@@ -13,8 +13,9 @@ tags:
 excerpt:
 image: /sports/images/2024/
 gallery-images:
--
--
+##use the python script in image directory to grab captions to yaml
+
+
 ---
 <style type="text/css">
 /* Main CSS */
@@ -87,13 +88,13 @@ div.fancybox {
 </div>
 <div class="creative-content">
 	<section>
-		<div class="row max-850">
-			<!--<h3 class="txt-center sport-names">Title</h3>-->
+		<!--<h3 class="txt-center sport-names">Title</h3>-->
 			<div class="clearfix" style="padding: 20px"></div>
+			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/sports/images/yyyy/yyyymmdd-NAME/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/sports/images/yyyy/yyyymmdd-NAME/{{ image }}" alt="ALT, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				<div href="/sports/images/yyyy/yyyymmdd-name/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="/sports/images/yyyy/yyyymmdd-name/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>
