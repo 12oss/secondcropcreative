@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem 'jekyll', '~> 4.3', '>= 4.3.3'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
@@ -20,10 +20,11 @@ gem "minima"
  gem 'jekyll-paginate', group: :jekyll_plugins
  gem 'jekyll-seo-tag', group: :jekyll_plugins
  gem 'jekyll-sitemap', group: :jekyll_plugins
- gem 'jekyll-stickyposts', group: :jekyll_plugins
+# gem 'jekyll-stickyposts', group: :jekyll_plugins
  gem "kramdown-parser-gfm"
  gem "sprockets", "~> 3.7"
  gem "webrick", "~> 1.7"
+ gem 'logger'
  #gem 'jekyll-github-metadata'
 
 
