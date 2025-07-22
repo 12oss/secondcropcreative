@@ -24,6 +24,7 @@ gem "minima"
  gem "kramdown-parser-gfm"
  gem "sprockets", "~> 3.7"
  gem "webrick", "~> 1.7"
+ gem 'logger'
  #gem 'jekyll-github-metadata'
 
 
