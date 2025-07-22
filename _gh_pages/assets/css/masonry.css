@@ -2,119 +2,210 @@
 /*landscape = 880x550 (8x5)*/
 /*portrait = 440x550* (11x14)*/
 
+/*THIS IS FOR MUSIC BLOG POSTS*/
 
+.grid-wrapper>div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-wrapper>div>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	/*grid-auto-rows: 200px;*/
+	grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+
+.grid-wrapper .full {
+	grid-column: span 3;
+}
+
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+.grid-wrapper .short {
+	grid-column: span 1;
+	grid-row: span 1;
+}
+
+@media (max-width: 767px) {
+	.grid-wrapper {
+		grid-template-columns: 1fr;
+		/* Display one image per row on mobile */
+	}
+
+	.grid-wrapper>div {
+		grid-column: span 3;
+	}
+
+	.grid-wrapper .wide {
+		grid-column: span 3;
+	}
+
+	.grid-wrapper .big {
+		grid-column: span 3;
+		grid-row: span 1;
+	}
+}
+
+/* end MUSIC BLOG POSTS */
 /*Masonry Baked Css*/
 /* fluid 6 columns */
-.grid-sizer, .grid-item {
+.grid-sizer,
+.grid-item {
 	width: 16.666667%;
 }
+
 /* 2 columns */
 .grid-item--width2 {
 	width: 33.33333%;
 }
+
 /*masonry dependent styles*/
 
 #grid-container .grid-sizer {
 	width: 100%
 }
+
 #grid-container .grid-item {
 	width: 100%;
 }
+
 #grid-container .grid-item--width2 {
 	width: 100%;
 }
+
 #grid-container .grid-item img {
 	display: block;
 	width: 100%;
 	height: auto !important;
 	opacity: 1;
 }
+
 /* 1 columns by default  on mobile*/
 
 #grid-container .grid-item {
 	width: 100%;
 }
+
 #grid-container .grid-item--width2 {
 	width: 100%;
 }
+
 #grid-container .grid-sizer {
 	width: 100%;
 }
 
 @media screen and (min-width: 600px) {
-/* 3 columns */
-#grid-container .grid-sizer {
-	width: 33.33333%;
-}
-#grid-container .grid-item {
-	width: 33.33333%;
-}
-#grid-container .grid-item--width2 {
-	width: 66.66667%;
-}
+
+	/* 3 columns */
+	#grid-container .grid-sizer {
+		width: 33.33333%;
+	}
+
+	#grid-container .grid-item {
+		width: 33.33333%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 66.66667%;
+	}
 }
 
 @media screen and (min-width: 768px) {
-/* 4 columns */
-#grid-container .grid-sizer {
-	width: 25%;
-}
-#grid-container .grid-item {
-	width: 25%;
-}
-#grid-container .grid-item--width2 {
-	width: 50%;
-}
+
+	/* 4 columns */
+	#grid-container .grid-sizer {
+		width: 25%;
+	}
+
+	#grid-container .grid-item {
+		width: 25%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 50%;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-/* 5 columns */
-#grid-container .grid-sizer {
-	width: 20%;
-}
-#grid-container .grid-item {
-	width: 20%;
-}
-#grid-container .grid-item--width2 {
-	width: 40%;
-}
+
+	/* 5 columns */
+	#grid-container .grid-sizer {
+		width: 20%;
+	}
+
+	#grid-container .grid-item {
+		width: 20%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 40%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
-/* 6 columns */
-#grid-container .grid-sizer {
-	width: 16.666667%;
-}
-#grid-container .grid-item {
-	width: 16.666667%;
-}
-#grid-container .grid-item--width2 {
-	width: 33.333333%;
-}
+
+	/* 6 columns */
+	#grid-container .grid-sizer {
+		width: 16.666667%;
+	}
+
+	#grid-container .grid-item {
+		width: 16.666667%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 33.333333%;
+	}
 }
 
 @media screen and (min-width: 1600px) {
-/* 6 columns */
-#grid-container .grid-sizer {
-	width: 16.6667%;
-}
-#grid-container .grid-item {
-	width: 16.6667%;
-}
-#grid-container .grid-item--width2 {
-	width: 33.33333%;
-}
+
+	/* 6 columns */
+	#grid-container .grid-sizer {
+		width: 16.6667%;
+	}
+
+	#grid-container .grid-item {
+		width: 16.6667%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 33.33333%;
+	}
 }
 
 @media screen and (min-width: 1800px) {
-/* 8 columns */
-#grid-container .grid-sizer {
-	width: 12.5%;
-}
-#grid-container .grid-item {
-	width: 12.5%;
-}
-#grid-container .grid-item--width2 {
-	width: 25%;
-}
+
+	/* 8 columns */
+	#grid-container .grid-sizer {
+		width: 12.5%;
+	}
+
+	#grid-container .grid-item {
+		width: 12.5%;
+	}
+
+	#grid-container .grid-item--width2 {
+		width: 25%;
+	}
 }
