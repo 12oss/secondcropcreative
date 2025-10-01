@@ -10,7 +10,7 @@ type: BlogPosting
 <head>
 	{% seo %} {% include header.html %}
 	<style>
-@font-face {
+		@font-face {
 		font-family: 'FontAwesome';
 		src: url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.eot');
 		src: url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.eot?') format('embedded-opentype'),
@@ -165,7 +165,7 @@ a.dark-boxshadow:hover {
 {% include critical.min.css %}
 /*END GLOBAL CRITICAL CSS*/
 	</style>
-<!--	{% include hotjar.html %}-->
+	<!--	{% include hotjar.html %}-->
 </head>
 
 <body class="site">
@@ -205,9 +205,19 @@ a.dark-boxshadow:hover {
 		{% include footer.html %}
 	</footer>
 	{% include analytics.html %}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Blog",
+		"name": "Second Crop Creative Blog",
+		"url": "https://secondcropcreative.com/blog/",
+		"description": "Sports, music, portrait photography and tutorials by Ross Harried.",
+		"publisher": {
+			"@type": "Person",
+			"name": "Ross Harried"
+		}
+	}
+	</script>
 </body>
 
 </html>
-
-
-

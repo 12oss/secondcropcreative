@@ -80,6 +80,18 @@ defaults:
       layout: "blog-posts"
       category: "portraits"
 
+#collections
+collections:
+  sports:
+    output: true
+    permalink: /sports/:title/
+  music:
+    output: true
+    permalink: /music/:title/
+  portraits:
+    output: true
+    permalink: /portraits/:title/
+
 
 #html compress
 compress_html:
