@@ -1,0 +1,143 @@
+---
+layout: default
+title: Hire a Wisconsin Drone Pilot | FAA Part 107 Certified Aerial Photography
+description: Professional Wisconsin drone photography and aerial video by FAA Part 107 certified pilot Ross Harried. Serving Madison, Monroe, and Green County with aerial photos for businesses, real estate, farms, sports, and events. Contact me to hire for your next project.
+image: /drone/images/20230913-gctv-drone-001.jpg  # pick a strong aerial hero photo
+permalink: /drone/
+images:
+  - 15-dronefile.jpg
+  - 16-dronefile.jpg
+  - 17-dronefile.jpg
+  - 23-dronefile.jpg
+  - 27-dronefile.jpg
+  - 28-dronefile.jpg
+  - 29-dronefile.jpg
+  - 31-dronefile.jpg
+  - 32-dronefile.jpg
+  - 33-dronefile.jpg
+  - 35-dronefile.jpg
+  - 38-dronefile.jpg
+  - 39-dronefile.jpg
+  - 20220625-new-glarus-001.jpg
+  - 20220625-new-glarus-002.jpg
+  - 20220625-new-glarus-004.jpg
+  - 20220625-new-glarus-005.jpg
+  - 20220625-new-glarus-007.jpg
+  - 20220826-tobacco-harvest-001.jpg
+  - 20220826-tobacco-harvest-002.jpg
+  - 20220826-tobacco-harvest-005.jpg
+  - 20230130-monroe-town-square-snow-clearing-004.jpg
+  - 20230130-monroe-town-square-snow-clearing-007.jpg
+  - 20230130-monroe-town-square-snow-clearing-009.jpg
+  - 20230526-paoli-drone-008.jpg
+  - 20230601-historic-courthouse-crane-001.jpg
+  - 20230601-historic-courthouse-crane-004.jpg
+  - 20230707-bank-of-new-glarus-drone-002.jpg
+  - 20230707-monroe-culvers-001.jpg
+  - 20230707-monroe-mcdonalds-001.jpg
+  - 20230718-malchow-harvest-001.jpg
+  - 20230718-malchow-harvest-004.jpg
+  - 20230721-tims-003.jpg
+  - 20230721-tims-008.jpg
+  - 20230913-gctv-drone-001.jpg
+  - 20230919-rural-drone-002.jpg
+  - 20230930-klaben-drone-022.jpg
+  - 20240209-drone-damage-004.jpg
+  - 20240209-drone-damage-008.jpg
+  - 20240209-drone-damage-014.jpg
+  - 20240615-balloons-drone-001.jpg
+  - 20240624-apple-grove-drone-004.jpg
+  - 20240624-generations-drone-001.jpg
+  - 20240915-green-county-ymca-construction-002.jpg
+  - 20240915-green-county-ymca-construction-004.jpg
+  - 20241018-drone-fire-004.jpg
+  - 20241018-drone-fire-007.jpg
+  - 20241021-ihm-harris-drone-004.jpg
+  - 20241021-ihm-harris-drone-009.jpg
+  - 20241210-monroe-chamber-building-001.jpg
+  - 20250406-web-001.jpg
+  - 20250406-web-006.jpg
+  - 20250516-roof-golf-drone-002.jpg
+  - 20250516-roof-golf-drone-003.jpg
+  - 20250516-roof-golf-drone-007.jpg
+  - 20250530-ymca-pano-002.jpg
+  - 20250530-ymca-pano-009.jpg
+  - 20250614-balloon-drone-006.jpg
+  - 20250706-july-brewery-drone-005.jpg
+  - 20250722-americinn-drone-001.jpg
+  - 20250830-sunset-shores-drone-003.jpg
+  - 20250830-sunset-shores-drone-004.jpg
+  - 20250830-sunset-shores-drone-011.jpg
+  - PANO0003-13-Pano.jpg
+  - PANO0003-14-Pano.jpg
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Drone Photography & Aerial Imaging",
+  "provider": {
+    "@type": "Person",
+    "name": "Ross Harried",
+    "url": "https://secondcropcreative.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Monroe",
+      "addressRegion": "WI",
+      "addressCountry": "US"
+    }
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Wisconsin" },
+    { "@type": "Place", "name": "Madison" },
+    { "@type": "Place", "name": "Green County" }
+  ],
+  "description": "FAA Part 107 certified drone pilot offering aerial photography and videography across Wisconsin."
+}
+</script>
+
+
+<style>
+.masonry {
+  columns: 1;
+  column-gap: 12px;
+}
+@media (min-width: 640px) { .masonry { columns: 2; } }
+@media (min-width: 900px) { .masonry { columns: 3; } }
+@media (min-width: 1280px){ .masonry { columns: 4; } }
+
+.masonry figure {
+  break-inside: avoid;
+  margin: 0 0 12px;
+}
+
+.masonry img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+</style>
+
+<div class="creative-content max-1080">
+  <header class="page-header txt-center">
+    <h1>Wisconsin Drone Photography <br><small>by an FAA Part 107 Certified Pilot</small></h1>
+  <p class="max-850">
+    Looking for professional <strong>drone photography in Wisconsin</strong>? I’m Ross Harried, an <strong>FAA Part 107 certified drone pilot</strong> based in Monroe and working across Madison, Green County, and beyond. I provide <em>aerial photos and video for businesses, farms, real estate, sports, events, and landscapes</em> — delivering safe, creative, and fully licensed results that showcase your project from above.  
+    <a href="/contact/">Get in touch today</a> to hire me for your next project.
+  </p>
+  </header>
+
+  <section class="masonry">
+    {% for img in page.images %}
+      <figure>
+        <img
+          src="{{ site.cdn_url }}/drone/images/{{ img }}"
+          alt="Drone photography by Ross Harried"
+          loading="lazy"
+          decoding="async">
+      </figure>
+    {% endfor %}
+  </section>
+</div>

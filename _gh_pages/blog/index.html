@@ -107,7 +107,7 @@ a.no-border {
 				{% assign sorted = paginator.posts %}
 				{% for post in sorted %}
 				<article class="lazyload">
-					<div id="darken-bg" class="bg50-md vh40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ post.image | default: "/assets/css/images/fb-share-icon.png" }}');" itemprop="image" title="{{ post.title }}">
+					<div id="darken-bg" class="bg50-md vh40-sm bg-half-xs dark-boxshadow" style="background-image:url('{{ site.cdn_url }}{{ post.image | default: "/assets/css/images/fb-share-icon.png" }}');" itemprop="image" title="{{ post.title }}">
 						<div class="center-pos">
 							<div class="txt-center">
 								<h1 style="margin-bottom:10px;">
