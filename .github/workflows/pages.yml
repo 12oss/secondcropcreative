@@ -1,7 +1,7 @@
 name: Deploy Pages (extra disk)
 on:
   push:
-    branches: [master]          # ← change if your branch is different
+    branches: [master]          # ← keep or change to your default branch
     paths: ['docs/**']
 permissions:
   contents: read
@@ -14,20 +14,43 @@ jobs:
     steps:
       - name: Free disk space
         run: |
-          sudo rm -rf /usr/share/dotnet \
-                      /usr/local/lib/android \
-                      /opt/hostedtoolcache
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/hostedtoolcache
           docker system prune -af || true
 
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
+      - name: Audit size of docs
+        run: |
+          du -sh docs
+          echo "Largest files (>5MB):"
+          find docs -type f -size +5M -print0 | xargs -0 ls -lh | sort -k5 -h || true
+
+      - name: Stage deploy payload (filtered)
+        run: |
+          rsync -av docs/ site/ \
+            --delete \
+            --exclude 'assets/originals/' \
+            --exclude 'originals/' \
+            --exclude 'raw/' \
+            --exclude 'backup/' \
+            --exclude 'video/' \
+            --exclude '*.psd' \
+            --exclude '*.tif' \
+            --exclude '*.tiff' \
+            --exclude '*.zip' \
+            --exclude '.DS_Store'
+          du -sh site
+
+      # (Optional) Trim very large images to get under 10GB quickly
+      # - name: Trim oversized images for deploy
+      #   run: |
+      #     find site -type f -size +8M -iregex '.*\.\(jpg\|jpeg\|png\)' -print -delete
+      #     du -sh site
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: site
 
       - uses: actions/deploy-pages@v4
-
-
-
