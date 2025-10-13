@@ -16,6 +16,7 @@ tags:
 - Big Ten
 excerpt:
 image: /sports/images/2024/20240907-badgers/20240907-badgers-vs-south-dakota-049.jpg
+gallery-base: /sports/images/2024/20240907-badgers/
 gallery-images:
   - filename: 20240907-badgers-vs-south-dakota-005.jpg
     caption: "Wisconsin Badgers Head Coach Luke Fickell walks out of the tunnel at Camp Randall Stadium on September 07, 2024 in Madison, Wisconsin."
@@ -142,7 +143,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -158,7 +159,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -192,8 +193,8 @@ div.fancybox {
 			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/sports/images/2024/20240907-badgers/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/sports/images/2024/20240907-badgers/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
+				<div src="{{ site.cdn_url }}/sports/images/2024/20240907-badgers/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/sports/images/2024/20240907-badgers/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>

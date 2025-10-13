@@ -15,6 +15,7 @@ tags:
 - Tobacco Heritage Days
 excerpt: Montgomery Gentry featuring Eddie Montgomery makes a stop in Edgerton, WI to headline the annual Edgerton Tobacco Heritgage Days.
 image: /music/images/2025/20250719-montgomery-gentry/20250719-tdays-041.jpg
+gallery_base: /music/images/2025/20250719-montgomery-gentry/
 gallery-images:
 - 20250719-tdays-025.jpg
 - 20250719-tdays-028.jpg
@@ -66,7 +67,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -82,7 +83,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -115,8 +116,8 @@ div.fancybox {
 			<div class="clearfix" style="padding: 20px"></div>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/music/images/2025/20250719-montgomery-gentry/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/music/images/2025/20250719-montgomery-gentry/{{ image }}" alt="Montgomery Gentry featuring Eddie Montgomery performs at Tobacco Heritage Days in Edgerton, WI, July 19th, 2025, photography by Ross Harried for Second Crop Music" title="Click to View Larger">
+				<div href="{{ site.cdn_url }}/music/images/2025/20250719-montgomery-gentry/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/music/images/2025/20250719-montgomery-gentry/{{ image }}" alt="Montgomery Gentry featuring Eddie Montgomery performs at Tobacco Heritage Days in Edgerton, WI, July 19th, 2025, photography by Ross Harried for Second Crop Music" title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>

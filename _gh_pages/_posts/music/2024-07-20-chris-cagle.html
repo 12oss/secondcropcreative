@@ -14,6 +14,7 @@ tags:
 - Tobacco Heritage Days
 excerpt: Chris Cagle makes his way to Edgerton, WI to headline the annual Edgerton Tobacco Heritgage Days.
 image: /music/images/2024/20240720-chriscagle/20240720-chris-cagle-001.jpg
+gallery_base: /music/images/2024/20240720-chriscagle/
 gallery-images:
 - 20240720-chris-cagle-001.jpg
 - 20240720-chris-cagle-002.jpg
@@ -100,7 +101,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -116,7 +117,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -149,8 +150,8 @@ div.fancybox {
 			<div class="clearfix" style="padding: 20px"></div>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/music/images/2024/20240720-chriscagle/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/music/images/2024/20240720-chriscagle/{{ image }}" alt="Chris Cagle performs at Tobacco Heritage Days in Edgerton, WI, July 20th, 2024, photography by Ross Harried for Second Crop Music" title="Click to View Larger">
+				<div href="{{ site.cdn_url }}/music/images/2024/20240720-chriscagle/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/music/images/2024/20240720-chriscagle/{{ image }}" alt="Chris Cagle performs at Tobacco Heritage Days in Edgerton, WI, July 20th, 2024, photography by Ross Harried for Second Crop Music" title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>

@@ -15,6 +15,7 @@ tags:
 - Big Ten
 excerpt:
 image: /sports/images/2024/20241007-badgers/20241007-badgers-mbb-media-day-028.jpg
+gallery-base: /sports/images/2024/20241007-badgers/
 gallery-images:
   - filename: 20241007-badgers-mbb-media-day-019.jpg
     caption: "Wisconsin Badgers Head Coach Greg Gard looks on during a practice at the Nicholas Johnson Pavilion on October 7, 2024 in Madison, WI."
@@ -103,7 +104,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -119,7 +120,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -153,8 +154,8 @@ div.fancybox {
 			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/sports/images/2024/20241007-badgers/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/sports/images/2024/20241007-badgers/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
+				<div src="{{ site.cdn_url }}/sports/images/2024/20241007-badgers/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/sports/images/2024/20241007-badgers/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>

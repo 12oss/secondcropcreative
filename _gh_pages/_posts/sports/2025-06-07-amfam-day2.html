@@ -12,6 +12,7 @@ tags:
 - PGA
 excerpt:
 image: /sports/images/2025/20250607-amfam-day2/20250607-amfam-day2-080.jpg
+gallery-base: /sports/images/2025/20250607-amfam-day2/
 gallery-images:
   - filename: 20250607-amfam-day2-001.jpg
     caption: "Mario Tiziani lines up a putt on hole 10 during round 2 of The American Family Insurance Championship at TPC Wisconsin in Madison, Wisconsin on June 7th, 2025."
@@ -143,7 +144,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -159,7 +160,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -193,8 +194,8 @@ div.fancybox {
 			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/sports/images/2025/20250607-amfam-day2/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/sports/images/2025/20250607-amfam-day2/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
+				<div src="{{ site.cdn_url }}/sports/images/2025/20250607-amfam-day2/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/sports/images/2025/20250607-amfam-day2/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>

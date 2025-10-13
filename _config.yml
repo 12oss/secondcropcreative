@@ -49,6 +49,11 @@ logo: /assets/css/images/flat-logo-alt.png
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+
+#CDN paths
+cdn_url: https://cdn.secondcropcreative.com
+
+
 # Permalinks
 # HELPFUL
 #https://mmistakes.github.io/minimal-mistakes/docs/configuration/

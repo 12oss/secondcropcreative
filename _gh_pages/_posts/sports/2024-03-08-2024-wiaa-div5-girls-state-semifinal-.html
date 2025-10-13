@@ -15,6 +15,7 @@ tags:
 - WIAA Basketball Playoffs
 excerpt:
 image: /sports/images/2024/20240308-state-bball/20240308-state-bball-021.jpg
+gallery-base: /sports/images/2024/20240308-state-bball/
 gallery-images:
 - 20240308-state-bball-001.jpg
 - 20240308-state-bball-002.jpg
@@ -88,7 +89,7 @@ div.fancybox {
 		z-index: -1;
 		opacity: 0.8;
 		/*1600x640 bg img for desktop*/
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		-ms-background-size: cover;
@@ -104,7 +105,7 @@ div.fancybox {
 	/*Small Images for Mobile*/
 	/*500x500 for mobile bg*/
 	#blog-hero {
-		background-image: url('{{ page.image }}');
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
 		background-position: center;
 	}
 }
@@ -137,8 +138,8 @@ div.fancybox {
 			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
 			<div class="grid-wrapper">
 				{% for image in page.gallery-images %}
-				<div href="/sports/images/2024/20240308-state-bball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="/sports/images/2024/20240308-state-bball/{{ image }}" alt="Albany/Monticello vs. Argyle/Pecatonica WIAA Division 5 Semifinal, March 8th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
+				<div src="{{ site.cdn_url }}/sports/images/2024/20240308-state-bball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
+					<img src="{{ site.cdn_url }}/sports/images/2024/20240308-state-bball/{{ image }}" alt="Albany/Monticello vs. Argyle/Pecatonica WIAA Division 5 Semifinal, March 8th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
 				</div>
 				{% endfor %}
 			</div>
