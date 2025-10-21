@@ -5,124 +5,136 @@ description: Second Crop Sports is the Midwest's Beacon for sports photography.
 image: /assets/css/images/fb-sports-share-icon.png
 ---
 <style>
-/* N E W   S T Y L E */
+/* ==== SECOND CROP SPORTS GRID - 4 ACROSS, SQUARE, NO WHITE GAPS ==== */
+
 .post-gallery {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    grid-auto-rows: 400px;
-    grid-auto-flow: dense;
+  display: grid;
+  gap: 0;                                   /* remove all white space */
+  grid-template-columns: repeat(4, 1fr);    /* 4 across desktop */
+  grid-auto-flow: dense;
 }
 
-.post-gallery>div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 1199px) {
+  .post-gallery {
+    grid-template-columns: repeat(3, 1fr);  /* 3 across large tablets */
+  }
+}
+@media (max-width: 899px) {
+  .post-gallery {
+    grid-template-columns: repeat(2, 1fr);  /* 2 across small tablets */
+  }
+}
+@media (max-width: 599px) {
+  .post-gallery {
+    grid-template-columns: 1fr;             /* 1 across phones */
+  }
 }
 
+/* each tile */
+.post-img {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1.05;                      /* perfect square */
+  background: #f2f2f2;
+}
+
+/* fallback square if browser doesn’t support aspect-ratio */
+@supports not (aspect-ratio: 1 / 1.05) {
+  .post-img::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  .post-img > img,
+  .post-img > .overlay {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+/* image fills the box */
+.post-img img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.post-img:hover img {
+  transform: scale(1.25);
+}
+
+/* overlay (hover effect) */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-image: url('/assets/css/images/patterns/hover-black.png');
+  background-position: top left;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.8s ease;
+}
+
+.post-img:hover .overlay {
+  opacity: 1;
+}
+
+/* title & text */
 .post-title {
-    font-size: 22px;
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 24px;
-    padding-bottom: 10px;
+  font-size: 22px;
+  padding: 0 10% 10px;
+  line-height: 24px;
+  color: white;
 }
 
 .post-excerpt {
-    font-size: 1.2rem;
-    padding-bottom: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.post-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.post-img a.post-link {
-    opacity: 0;
-}
-
-.post-img:hover a.post-link {
-    transition: .4s all ease;
-    opacity: 1;
-    font-weight: 900;
+  font-size: 1.2rem;
+  padding: 0 10% 15px;
+  color: white;
 }
 
 .post-img h2,
 .post-img p {
-    color: white;
-    text-align: center;
-    margin: 0;
-    transform: scale(1.5);
-    transition: .4s all ease;
-    text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
-}
-
-.post-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: .4s all ease;
-}
-
-.post-img:hover img {
-    transform: scale(1.25);
+  transform: scale(1.5);
+  transition: 0.4s all ease;
+  text-shadow: 0 0 30px white, 0 0 20px white, 0 0 10px white;
 }
 
 .post-img:hover h2,
 .post-img:hover p {
-    transform: scale(1);
-    text-shadow: 0 0 0 white;
+  transform: scale(1);
+  text-shadow: none;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.8s ease;
-    background: url('/assets/css/images/patterns/hover-black.png') top left;
+/* button */
+.post-img a.post-link {
+  opacity: 0;
+}
+.post-img:hover a.post-link {
+  opacity: 1;
+  font-weight: 900;
+  transition: 0.4s all ease;
 }
 
-.post-img:hover .overlay {
-    opacity: 1;
+/* general cleanup */
+.post-gallery > div {
+  display: block;
+}
+.col-xs-12[style*="padding: 0px"] {
+  padding: 0 !important;
 }
 
-.post-img:hover .overlay:before {
-    background-color: rgba(0, 0, 0, 0.75);
-}
-
-@media (max-width: 1080px) {
-    .post-gallery {
-        grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-    }
-}
-
-@media (max-width: 767px) {
-    .post-gallery {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-    }
-
-    .post-gallery>div {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-}
-
-/* end  N E W   S T Y L E S  */
 h1.jumbo-font {
-    text-transform: unset !important;
+  text-transform: unset !important;
 }
 </style>
+
 
 <div class="creative-content">
   <div class="clearfix" style="padding: 15px;"></div>
@@ -136,46 +148,45 @@ h1.jumbo-font {
   <div class="row">
     <div class="col-xs-12" style="padding: 0px !important;">
       <section class="recent-blog-posts">
-        <div class="post-gallery">
           {% assign posts = site.posts | where:"type", "sports" %}
           {% assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" %}
-          {% assign widths = "480,800,1200" | split: "," %}
-          {% for post in posts %}
-            <div class="post-img lazyload">
-              {%- comment -%} Normalize post.image to a path-only value {%- endcomment -%}
-              {% assign raw = post.image | default: "" %}
-              {% assign path_only = raw | replace: site.cdn_url, "" | replace: "https://cdn.secondcropcreative.com", "" %}
-              {% if path_only == "" %}{% assign path_only = raw %}{% endif %}
-              {% assign first_char = path_only | slice: 0,1 %}
-              {% if first_char != "/" %}{% assign path_only = "/" | append: path_only %}{% endif %}
+          {% assign widths = "480,960,1440" | split: "," %}
 
-              {% capture thumb_srcset %}
+          <div class="post-gallery">
+            {% for post in posts %}
+              {% assign image_path = post.image | default: "" %}
+              {% unless image_path %}{% continue %}{% endunless %}
+              {% unless image_path contains "/" %}{% assign image_path = "/" | append: image_path %}{% endunless %}
+
+              {% capture srcset %}
                 {% for w in widths %}
-                  {{ cf_prefix }}/width={{ w }},quality=85,format=auto{{ path_only }} {{ w }}w{% unless forloop.last %}, {% endunless %}
+                  {{ cf_prefix }}/width={{ w }},quality=85,format=auto{{ image_path }} {{ w }}w{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
               {% endcapture %}
 
-              <img
-                src="{{ cf_prefix }}/width=800,quality=85,format=auto{{ path_only }}"
-                srcset="{{ thumb_srcset | strip }}"
-                sizes="(min-width:1080px) 25vw, (min-width:768px) 33vw, 100vw"
-                alt="{{ post.title | escape }}"
-                loading="lazy"
-                decoding="async">
+              {% assign fallback_w = 960 %}
+              <div class="post-img">
+                <a href="{{ post.url | relative_url }}" class="post-link-wrap" aria-label="{{ post.title | escape }}">
+                  <img
+                    src="{{ cf_prefix }}/width={{ fallback_w }},quality=85,format=auto{{ image_path }}"
+                    srcset="{{ srcset | strip }}"
+                    sizes="(min-width:1080px) 25vw, (min-width:768px) 33vw, 100vw"
+                    alt="{{ post.title | escape }}"
+                    {% if forloop.first %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %}
+                    decoding="async">
+                  <div class="overlay">
+                    <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
+                    <p class="post-excerpt proxima-nova-reg">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
+                    </p>
+                    <span class="btn-danger btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</span>
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </section>
 
-              <a href="{{ site.baseurl }}{{ post.slug }}">
-                <div class="overlay">
-                  <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
-                  <p class="post-excerpt proxima-nova-reg">
-                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
-                  </p>
-                  <a href="{{ site.baseurl }}{{ post.url }}" class="btn-danger btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</a>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
     </div>
   </div>
 
