@@ -97,15 +97,29 @@ images:
 }
 </script>
 
-
 <style>
 .masonry {
   columns: 1;
   column-gap: 12px;
 }
-@media (min-width: 640px) { .masonry { columns: 2; } }
-@media (min-width: 900px) { .masonry { columns: 3; } }
-@media (min-width: 1280px){ .masonry { columns: 3; } }
+
+@media (min-width:640px) {
+  .masonry {
+    columns: 2;
+  }
+}
+
+@media (min-width:900px) {
+  .masonry {
+    columns: 3;
+  }
+}
+
+@media (min-width:1280px) {
+  .masonry {
+    columns: 3;
+  }
+}
 
 .masonry figure {
   break-inside: avoid;
@@ -123,17 +137,30 @@ images:
 <div class="creative-content">
   <header class="page-header txt-center">
     <h1>Wisconsin Drone Photography <br><small>by an FAA Part 107 Certified Pilot</small></h1>
-  <p class="max-850">
-    Looking for professional <strong>drone photography in Wisconsin</strong>? I’m Ross Harried, an <strong>FAA Part 107 certified drone pilot</strong> based in Monroe and working across Madison, Green County, and beyond. I provide <em>aerial photos and video for businesses, farms, real estate, sports, events, and landscapes</em> — delivering safe, creative, and fully licensed results that showcase your project from above.  
-    <a href="/contact/">Get in touch today</a> to hire me for your next project.
-  </p>
+    <p class="max-850">
+      Looking for professional <strong>drone photography in Wisconsin</strong>? I’m Ross Harried, an <strong>FAA Part 107 certified drone pilot</strong> based in Monroe and working across Madison, Green County, and beyond. I provide <em>aerial photos and video for businesses, farms, real estate, sports, events, and landscapes</em> — delivering safe, creative, and fully licensed results that showcase your project from above.  
+      <a href="/contact/">Get in touch today</a> to hire me for your next project.
+    </p>
   </header>
 
   <section class="masonry">
+    {% assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" %}
+    {% assign widths = "480,960,1440,1920" | split: "," %}
     {% for img in page.images %}
+      {% assign clean = img | strip | remove_first: "/" %}
+      {% assign path = "/drone/images/" | append: clean %}
+
+      {% capture srcset %}
+        {% for w in widths %}
+          {{ cf_prefix }}/width={{ w }},quality=85,format=auto{{ path }} {{ w }}w{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      {% endcapture %}
+
       <figure>
         <img
-          src="{{ site.cdn_url }}/drone/images/{{ img }}"
+          src="{{ cf_prefix }}/width=1200,quality=85,format=auto{{ path }}"
+          srcset="{{ srcset | strip }}"
+          sizes="(min-width:1280px) 33vw, (min-width:900px) 33vw, (min-width:640px) 50vw, 100vw"
           alt="Drone photography by Ross Harried"
           loading="lazy"
           decoding="async">

@@ -10,10 +10,8 @@ image: /assets/css/images/fb-sports-share-icon.png
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    /* Adjust as needed */
     grid-auto-rows: 400px;
     grid-auto-flow: dense;
-
 }
 
 .post-gallery>div {
@@ -48,7 +46,6 @@ image: /assets/css/images/fb-sports-share-icon.png
 
 .post-img:hover a.post-link {
     transition: .4s all ease;
-    /* Smooth transition for hover effect */
     opacity: 1;
     font-weight: 900;
 }
@@ -59,11 +56,8 @@ image: /assets/css/images/fb-sports-share-icon.png
     text-align: center;
     margin: 0;
     transform: scale(1.5);
-    /* Zoom in effect on hover */
     transition: .4s all ease;
-    /* Smooth transition for hover effect */
-    text-shadow: 0px 0px 30px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 5px white;
-
+    text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
 
 .post-img img {
@@ -71,21 +65,17 @@ image: /assets/css/images/fb-sports-share-icon.png
     height: 100%;
     object-fit: cover;
     transition: .4s all ease;
-    /* Smooth transition for hover effect */
 }
 
 .post-img:hover img {
     transform: scale(1.25);
-    /* Zoom in effect on hover */
 }
 
 .post-img:hover h2,
 .post-img:hover p {
     transform: scale(1);
-    /* Zoom in effect on hover */
     text-shadow: 0 0 0 white;
 }
-
 
 .overlay {
     position: absolute;
@@ -94,9 +84,7 @@ image: /assets/css/images/fb-sports-share-icon.png
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
-    /* Dark overlay */
     opacity: 0;
-    /* Initially hidden */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,8 +95,6 @@ image: /assets/css/images/fb-sports-share-icon.png
 
 .post-img:hover .overlay {
     opacity: 1;
-    /* Show overlay on hover */
-
 }
 
 .post-img:hover .overlay:before {
@@ -117,25 +103,13 @@ image: /assets/css/images/fb-sports-share-icon.png
 
 @media (max-width: 1080px) {
     .post-gallery {
-        display: grid;
-        grid-gap: 0px;
         grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-        /* Adjust as needed */
-        grid-auto-rows: 400px;
-        grid-auto-flow: dense;
-
     }
 }
 
 @media (max-width: 767px) {
     .post-gallery {
-        display: grid;
-        grid-gap: 0px;
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        /* Adjust as needed */
-        grid-auto-rows: 400px;
-        grid-auto-flow: dense;
-
     }
 
     .post-gallery>div {
@@ -145,56 +119,72 @@ image: /assets/css/images/fb-sports-share-icon.png
 }
 
 /* end  N E W   S T Y L E S  */
-
 h1.jumbo-font {
     text-transform: unset !important;
 }
 </style>
+
 <div class="creative-content">
-    <div class="clearfix" style="padding: 15px;"></div>
-    <div class="col-xs-12 txt-center">
-        <h1 class="jumbo-font" style=" margin-bottom: 0px;">Second Crop Sports</h1>
-        <h2 style=" margin-bottom: 35px; margin-top: 0px;"><small style="letter-spacing: .4px;">Your Gateway to Professional Sports Photography in Wisconsin</small></h2>
-    </div>
-    <div class="row">
-        <div class="col-xs-12" style="padding: 0px !important;">
-            <section class="recent-blog-posts">
-                <div class="post-gallery">
-                    {% assign posts = site.posts | where:"type", "sports" %}
-                    {% for post in posts %}
-                    <div class="post-img lazyload">
-                        {% if site.cdn_url %}
-                        <img src="{{ site.cdn_url }}{{ post.image }}" alt="{{ post.title }}">
-                        {% else %}
-                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-                        {% endif %}
-                        <a href="{{ site.baseurl }}{{ post.slug }}">
-                            <div class="overlay">
-                                <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
-                                <p class="post-excerpt proxima-nova-reg">
-                                    <!--{{ post.excerpt }}-->
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
-                                </p>
-                                <a href="{{ site.baseurl }}{{ post.url }}" class="btn-danger btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</a>
-                            </div>
-                        </a>
-                    </div>
-                    {% endfor %}
+  <div class="clearfix" style="padding: 15px;"></div>
+  <div class="col-xs-12 txt-center">
+    <h1 class="jumbo-font" style=" margin-bottom: 0px;">Second Crop Sports</h1>
+    <h2 style=" margin-bottom: 35px; margin-top: 0px;">
+      <small style="letter-spacing: .4px;">Your Gateway to Professional Sports Photography in Wisconsin</small>
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12" style="padding: 0px !important;">
+      <section class="recent-blog-posts">
+        <div class="post-gallery">
+          {% assign posts = site.posts | where:"type", "sports" %}
+          {% assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" %}
+          {% assign widths = "480,800,1200" | split: "," %}
+          {% for post in posts %}
+            <div class="post-img lazyload">
+              {%- comment -%} Normalize post.image to a path-only value {%- endcomment -%}
+              {% assign raw = post.image | default: "" %}
+              {% assign path_only = raw | replace: site.cdn_url, "" | replace: "https://cdn.secondcropcreative.com", "" %}
+              {% if path_only == "" %}{% assign path_only = raw %}{% endif %}
+              {% assign first_char = path_only | slice: 0,1 %}
+              {% if first_char != "/" %}{% assign path_only = "/" | append: path_only %}{% endif %}
+
+              {% capture thumb_srcset %}
+                {% for w in widths %}
+                  {{ cf_prefix }}/width={{ w }},quality=85,format=auto{{ path_only }} {{ w }}w{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              {% endcapture %}
+
+              <img
+                src="{{ cf_prefix }}/width=800,quality=85,format=auto{{ path_only }}"
+                srcset="{{ thumb_srcset | strip }}"
+                sizes="(min-width:1080px) 25vw, (min-width:768px) 33vw, 100vw"
+                alt="{{ post.title | escape }}"
+                loading="lazy"
+                decoding="async">
+
+              <a href="{{ site.baseurl }}{{ post.slug }}">
+                <div class="overlay">
+                  <h2 class="post-title proxima-nova-bold">{{ post.title }}</h2>
+                  <p class="post-excerpt proxima-nova-reg">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %-d, %Y" }}
+                  </p>
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="btn-danger btn-sm proxima-nova-condensed post-link">SEE THE PHOTOS</a>
                 </div>
-            </section>
+              </a>
+            </div>
+          {% endfor %}
         </div>
+      </section>
     </div>
-    <div class="clearfix" style="padding: 30px;"></div>
-    <div class="max-550 txt-left" style="line-height: 16px;">
-        <p><small>From the Friday night lights of high school football to the intensity of Division I athletics and professional sports, I cover it all. Based in Wisconsin, I am available for hire on assignment, freelance coverage, or ongoing partnerships for any sports-related project. My work has been published nationally through outlets like ESPN, Fox Sports, The Washington Post, and Getty Images.
-            </small></p>
-        <p><small>
-                Whether you need game-day action shots, athlete portraits, media day coverage, team branding content, or wire service submissions, I bring over 15 years of experience in photography and design to every assignment. My approach is fast, reliable, and professional—delivering images on deadline that capture the story and emotion behind every play.
-            </small></p>
-        <p><small>
-                If your team, publication, or organization needs a photographer for football, basketball, volleyball, baseball, hockey, golf, gymnastics, track and field, or any other sport, I can provide complete coverage tailored to your needs.
-            </small></p>
-        <p><small>
-                👉 Now booking assignments across Wisconsin and the Midwest. Contact me today to discuss your next game or event.</small></p>
-    </div>
+  </div>
+
+  <div class="clearfix" style="padding: 30px;"></div>
+
+  <div class="max-550 txt-left" style="line-height: 16px;">
+    <p><small>From the Friday night lights of high school football to the intensity of Division I athletics and professional sports, I cover it all. Based in Wisconsin, I am available for hire on assignment, freelance coverage, or ongoing partnerships for any sports-related project. My work has been published nationally through outlets like ESPN, Fox Sports, The Washington Post, and Getty Images.</small></p>
+    <p><small>Whether you need game-day action shots, athlete portraits, media day coverage, team branding content, or wire service submissions, I bring over 15 years of experience in photography and design to every assignment. My approach is fast, reliable, and professional—delivering images on deadline that capture the story and emotion behind every play.</small></p>
+    <p><small>If your team, publication, or organization needs a photographer for football, basketball, volleyball, baseball, hockey, golf, gymnastics, track and field, or any other sport, I can provide complete coverage tailored to your needs.</small></p>
+    <p><small>👉 Now booking assignments across Wisconsin and the Midwest. Contact me today to discuss your next game or event.</small></p>
+  </div>
 </div>

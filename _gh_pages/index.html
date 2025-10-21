@@ -4,41 +4,51 @@ title: Wisconsin Freelance Sports Photographer – Second Crop Creative
 description: Wisconsin freelance sports photographer offering wire service coverage, athlete portraits, and FAA-certified drone work. Published in ESPN, NYT & more.
 image: /assets/css/images/fb-share-icon.png
 ---
-<style>
-    @media (min-width: 768px) {
-        /*Large Images for Desktops*/
-        #hp-hero {
-            background-image: url('{{ site.baseurl }}/images/hero-20250903-1.jpg');
-            background-position: center;
-        }
-        #hp-photo1 {
-            background-image: url('{{ site.baseurl }}/images/hero-20250903-4.jpg');
-            background-position: center;
-        }
+{% assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" %}
+{% comment %}
+  Paths for hero/background images (desktop & mobile)
+{% endcomment %}
+{% assign hero1_d = "/images/hero-20250903-1.jpg" %}
+{% assign hero1_m = "/images/hero-500-20250903-1.jpg" %}
+{% assign photo1_d = "/images/hero-20250903-4.jpg" %}
+{% assign photo1_m = "/images/hero-500-20250903-4.jpg" %}
+{% assign photo2_d = "/images/hero-20250903-6.jpg" %}
+{% assign photo2_m = "/images/hero-500-20250903-6.jpg" %}
 
-        #hp-photo2 {
-            background-image: url('{{ site.baseurl }}/images/hero-20250903-6.jpg');
-            background-position: center;
-        }
-        
-    }
-    
-    @media (max-width: 767px) {
-        /*Small Images for Mobile*/
+<style>
+    /* Desktop backgrounds (bigger widths) */
+    @media (min-width: 768px) {
         #hp-hero {
-            background-image: url('{{ site.baseurl }}/images/hero-500-20250903-1.jpg');
+            background-image: url('{{ cf_prefix }}/width=2200,quality=85,format=auto{{ hero1_d }}');
             background-position: center;
         }
         #hp-photo1 {
-            background-image: url('{{ site.baseurl }}/images/hero-500-20250903-4.jpg');
+            background-image: url('{{ cf_prefix }}/width=2200,quality=85,format=auto{{ photo1_d }}');
             background-position: center;
         }
         #hp-photo2 {
-            background-image: url('{{ site.baseurl }}/images/hero-500-20250903-6.jpg');
+            background-image: url('{{ cf_prefix }}/width=2200,quality=85,format=auto{{ photo2_d }}');
+            background-position: center;
+        }
+    }
+
+    /* Mobile backgrounds (smaller widths) */
+    @media (max-width: 767px) {
+        #hp-hero {
+            background-image: url('{{ cf_prefix }}/width=900,quality=85,format=auto{{ hero1_m }}');
+            background-position: center;
+        }
+        #hp-photo1 {
+            background-image: url('{{ cf_prefix }}/width=900,quality=85,format=auto{{ photo1_m }}');
+            background-position: center;
+        }
+        #hp-photo2 {
+            background-image: url('{{ cf_prefix }}/width=900,quality=85,format=auto{{ photo2_m }}');
             background-position: center;
         }
     }
 </style>
+
 <div class="creative-content">
     
     <!-- begin INTRO-->
@@ -85,8 +95,8 @@ image: /assets/css/images/fb-share-icon.png
         <div class="max-550">
             <div class="row">
                 <div class="col-xs-12 txt-center">
-                	<h1 class="txt-inherit proxima-nova-light">Work Featured In</h1>
-                	<img src="{{ site.baseurl }}/images/as-seen-in.png" alt="Second Crop Creative Featured Works in ESPN, Fox Sports, The Athletic, NBC Sports Network, CBS Sports, The New York Times, Barstool Sports, Yahoo! Sports, The Washington Post, Forbes, ABC News and many more.">
+                    <h1 class="txt-inherit proxima-nova-light">Work Featured In</h1>
+                    <img src="{{ cf_prefix }}/width=1200,quality=85,format=auto/images/as-seen-in.png" alt="Second Crop Creative Featured Works in ESPN, Fox Sports, The Athletic, NBC Sports Network, CBS Sports, The New York Times, Barstool Sports, Yahoo! Sports, The Washington Post, Forbes, ABC News and many more.">
                 </div>
             </div>
         </div>
@@ -173,42 +183,7 @@ image: /assets/css/images/fb-share-icon.png
     <!-- end LEADIN -->
     <!-- begin VIDEO-->
     <!--<section id="hp-video">
-        <div class="row dark-boxshadow bg-inverse">
-            <div class="max-850">
-                <div class="row" style="position:relative;">
-                    <div class="clear" style="padding:50px;"></div>
-                    <div class="col-xs-12 pad-it copy-container-center">
-                        <h1 style="display:inline;" class="txt-inherit light-success">Unforgettable Wedding Videography to Relive Your Special Day</h1>
-                        <p style="color:rgba(255,255,255,1); padding-bottom:15px;" class="max-850">Your wedding day is a once-in-a-lifetime event, and our goal is to preserve those precious memories for eternity. With our wedding videography services, you can revisit the laughter, tears, and heartfelt moments with crystal clarity. Share your wedding film with loved ones, future generations, and relish in the joy of reminiscing about the day you said "I do." Trust Second Crop Creative to capture the essence of your wedding day through our exceptional videography services. Contact us today to discuss your vision, and let us create a wedding film that will forever hold a special place in your heart.</p>
-                        <a href="{{ site.baseurl }}/video-services" class="btn btn-success action-link" type="button">EXPLORE VIDEO SERVICES</a>
-                        <div class="clear" style="padding:25px;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="max-1080">
-                <div itemscope itemtype="http://schema.org/VideoObject" class="col-xs-12 pad-it">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <meta itemprop="thumbnailURL" content="http://secondcropcreative.com/video/images/sydney-keegan-thumb.jpg" />
-                        <meta itemprop="uploadDate" content="December 13, 2022" />
-                        <meta itemprop="embedURL" content="http://youtube.com/embed/hz9GGWiyba0?rel=0&hd=1" />
-                        <meta itemprop="name" content="Sydney & Keegan" />
-                        <meta itemprop="description" content="Sydney & Keegan's Wedding - October 29, 2022" />
-                        <div class="youtube" id="hz9GGWiyba0">
-                            <img data-src="/video/images/sydney-keegan-thumb.jpg" width="100%" class="thumb lazyload" />
-                        </div>
-                    </div>
-                    <div class="clear" style="padding:50px;"></div>
-                </div>
-                <div class="max-850 light-success">
-                    <div class="col-xs-12 padit copy-container-center">
-                        <div class="clear" style="padding:5px;"></div>
-                        <p>Ready to embark on a photography journey that will leave you breathless? Contact Second Crop Creative today to discuss your photography and drone service needs in Monroe, WI, and beyond. Let's capture the moments that matter most, together!</p>
-                        <a href="{{ site.baseurl }}/contact" class="btn btn-transparent" type="button">CONTACT US</a>
-                        <div class="clear" style="padding:50px;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        ...
     </section>-->
     <!-- end VIDEO-->
 </div>

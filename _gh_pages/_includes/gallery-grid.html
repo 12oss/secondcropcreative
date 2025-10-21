@@ -1,25 +1,19 @@
-{%- comment -%} 3-column responsive grid + clean URLs + Fancybox v3 div/href version {%- endcomment -%}
+{%- comment -%} 3-col masonry + Cloudflare Image Resizing (srcset + sizes, absolute URLs) {%- endcomment -%}
 <style>
 .grid-wrapper-new {
   column-count: 1;
-  column-gap: 12px;
+  column-gap: 12px
 }
 
-@media (min-width: 640px) {
+@media (min-width:640px) {
   .grid-wrapper-new {
-    column-count: 2;
+    column-count: 2
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width:900px) {
   .grid-wrapper-new {
-    column-count: 3;
-  }
-}
-
-@media (min-width: 1280px) {
-  .grid-wrapper-new {
-    column-count: 3;
+    column-count: 3
   }
 }
 
@@ -28,7 +22,7 @@
   width: 100%;
   margin: 0 0 12px;
   break-inside: avoid;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .grid-wrapper-new img {
@@ -36,27 +30,69 @@
   height: auto;
   display: block;
   border-radius: 6px;
-  transition: opacity 0.25s ease;
+  transition: opacity .25s ease
 }
 
 .grid-wrapper-new img:hover {
-  opacity: 0.88;
+  opacity: .88
 }
 </style>
+
 <div class="row">
-  <div class="clearfix" style="padding: 20px"></div>
-<!--  <h3 class="txt-center txt-uppercase">Click to view full size...</h3>-->
-  {%- comment -%} Build clean base URL from config + front matter {%- endcomment -%}
-  {% assign gallery_path = page['gallery-base'] %}
-  {% assign base = site.cdn_url | append: gallery_path %}
+  <div class="clearfix" style="padding:20px"></div>
+
+  {%- comment -%} Normalize gallery base: ensure leading & trailing slashes {%- endcomment -%}
+  {%- assign gallery_path = page['gallery-base'] | default: "" -%}
+  {%- if gallery_path == nil -%}{%- assign gallery_path = "" -%}{%- endif -%}
+  {%- assign first_char = gallery_path | slice: 0, 1 -%}
+  {%- if gallery_path != "" and first_char != "/" -%}
+    {%- assign gallery_path = "/" | append: gallery_path -%}
+  {%- endif -%}
+  {%- assign last_char = gallery_path | slice: -1, 1 -%}
+  {%- if gallery_path != "" and last_char != "/" -%}
+    {%- assign gallery_path = gallery_path | append: "/" -%}
+  {%- endif -%}
+
+  {%- comment -%} Cloudflare Image Resizing setup {%- endcomment -%}
+  {%- assign widths = "480,960,1440" | split: "," -%}
+  {%- assign fallback_w = 960 -%}
+  {%- assign lightbox_w = 2000 -%}
+  {%- assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" -%}
+
   <div class="grid-wrapper-new">
-    {% for image in page['gallery-images'] %}
-    {% assign file = image.filename | strip | uri_escape %}
-    <div href="{{ base }}{{ file }}" data-fancybox-group="gallery" class="fancybox" data-caption="{{ image.caption }}">
-      <img src="{{ base }}{{ file }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Creative." title="Click to View Larger Image" loading="lazy" decoding="async">
-    </div>
-    {% endfor %}
+    {%- for image in page['gallery-images'] -%}
+      {%- if image.filename -%}
+        {%- assign file_raw = image.filename -%}
+        {%- assign caption  = image.caption | default: "" -%}
+      {%- else -%}
+        {%- assign file_raw = image -%}
+        {%- assign caption  = "" -%}
+      {%- endif -%}
+      {%- assign file = file_raw | strip | remove_first: "/" | uri_escape -%}
+
+      {%- comment -%} Absolute origin URL for the original image {%- endcomment -%}
+      {%- assign origin_url = site.cdn_url | append: gallery_path | append: file -%}
+
+      {%- capture srcset -%}
+        {%- for w in widths -%}
+          {{ cf_prefix }}/width={{ w }},quality=85,format=auto/{{ origin_url }} {{ w }}w{%- unless forloop.last -%}, {%- endunless -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      <div href="{{ cf_prefix }}/width={{ lightbox_w }},quality=90,format=auto/{{ origin_url }}"
+           data-fancybox-group="gallery"
+           class="fancybox"
+           {%- if caption != "" -%} data-caption="{{ caption | escape }}"{%- endif -%}>
+        <img
+          src="{{ cf_prefix }}/width={{ fallback_w }},quality=85,format=auto/{{ origin_url }}"
+          srcset="{{ srcset | strip }}"
+          sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+          alt="{% if caption != "" %}{{ caption | escape }}{% else %}Photography by Ross Harried{% endif %} for Second Crop Creative."
+          title="Click to View Larger Image"
+          loading="lazy"
+          decoding="async">
+      </div>
+    {%- endfor -%}
   </div>
 </div>
-<div class="clearfix" style="padding: 20px"></div>
-</div>
+<div class="clearfix" style="padding:20px"></div>
