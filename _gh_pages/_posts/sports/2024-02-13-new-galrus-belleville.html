@@ -1,47 +1,48 @@
 ---
-title: New Glarus vs. Belleville Basketball
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "New Glarus vs. Belleville Basketball"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-02-13 08:30:35
 slug:
 tags:
-- sports
-- New Glarus
-- Belleville
-- Basketball
-excerpt:
+  - sports
+  - New Glarus
+  - Belleville
+  - Basketball
+excerpt: ""
 image: /sports/images/2024/20240213-ng-bball/20240213-ng-bball-011.jpg
 gallery-base: /sports/images/2024/20240213-ng-bball/
 gallery-images:
-- 20240213-ng-bball-001.jpg
-- 20240213-ng-bball-002.jpg
-- 20240213-ng-bball-003.jpg
-- 20240213-ng-bball-004.jpg
-- 20240213-ng-bball-005.jpg
-- 20240213-ng-bball-006.jpg
-- 20240213-ng-bball-007.jpg
-- 20240213-ng-bball-008.jpg
-- 20240213-ng-bball-009.jpg
-- 20240213-ng-bball-010.jpg
-- 20240213-ng-bball-011.jpg
-- 20240213-ng-bball-012.jpg
-- 20240213-ng-bball-013.jpg
-- 20240213-ng-bball-014.jpg
-- 20240213-ng-bball-015.jpg
-- 20240213-ng-bball-016.jpg
-- 20240213-ng-bball-017.jpg
-- 20240213-ng-bball-018.jpg
-- 20240213-ng-bball-019.jpg
-- 20240213-ng-bball-020.jpg
-- 20240213-ng-bball-021.jpg
-- 20240213-ng-bball-022.jpg
-- 20240213-ng-bball-023.jpg
-- 20240213-ng-bball-024.jpg
-- 20240213-ng-bball-025.jpg
+  - filename: "20240213-ng-bball-001.jpg"
+  - filename: "20240213-ng-bball-002.jpg"
+  - filename: "20240213-ng-bball-003.jpg"
+  - filename: "20240213-ng-bball-004.jpg"
+  - filename: "20240213-ng-bball-005.jpg"
+  - filename: "20240213-ng-bball-006.jpg"
+  - filename: "20240213-ng-bball-007.jpg"
+  - filename: "20240213-ng-bball-008.jpg"
+  - filename: "20240213-ng-bball-009.jpg"
+  - filename: "20240213-ng-bball-010.jpg"
+  - filename: "20240213-ng-bball-011.jpg"
+  - filename: "20240213-ng-bball-012.jpg"
+  - filename: "20240213-ng-bball-013.jpg"
+  - filename: "20240213-ng-bball-014.jpg"
+  - filename: "20240213-ng-bball-015.jpg"
+  - filename: "20240213-ng-bball-016.jpg"
+  - filename: "20240213-ng-bball-017.jpg"
+  - filename: "20240213-ng-bball-018.jpg"
+  - filename: "20240213-ng-bball-019.jpg"
+  - filename: "20240213-ng-bball-020.jpg"
+  - filename: "20240213-ng-bball-021.jpg"
+  - filename: "20240213-ng-bball-022.jpg"
+  - filename: "20240213-ng-bball-023.jpg"
+  - filename: "20240213-ng-bball-024.jpg"
+  - filename: "20240213-ng-bball-025.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -112,19 +113,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240213-ng-bball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240213-ng-bball/{{ image }}" alt="New Glarus vs Belleville, February 13th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

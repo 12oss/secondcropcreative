@@ -167,20 +167,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<!--<h3 class="txt-center sport-names">Title</h3>-->
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2025/20250204-badgers/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2025/20250204-badgers/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Sports." title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

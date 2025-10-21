@@ -1,45 +1,46 @@
 ---
-title: 2024 WIAA Division 2 Boys Basketball Semifinal
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "2024 WIAA Division 2 Boys Basketball Semifinal"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-03-15 08:30:35
 slug:
 tags:
-- sports
-- WIAA Playoffs
-- Wisconsin Lutheran
-- Nicolet
-- Basketball
-excerpt:
+  - sports
+  - WIAA Playoffs
+  - Wisconsin Lutheran
+  - Nicolet
+  - Basketball
+excerpt: ""
 image: /sports/images/2024/20240315-wisco-nicolet/20240315-wisco-nicolet-013.jpg
 gallery-base: /sports/images/2024/20240315-wisco-nicolet/
 gallery-images:
-- 20240315-wisco-nicolet-001.jpg
-- 20240315-wisco-nicolet-002.jpg
-- 20240315-wisco-nicolet-003.jpg
-- 20240315-wisco-nicolet-004.jpg
-- 20240315-wisco-nicolet-005.jpg
-- 20240315-wisco-nicolet-006.jpg
-- 20240315-wisco-nicolet-007.jpg
-- 20240315-wisco-nicolet-008.jpg
-- 20240315-wisco-nicolet-009.jpg
-- 20240315-wisco-nicolet-010.jpg
-- 20240315-wisco-nicolet-011.jpg
-- 20240315-wisco-nicolet-012.jpg
-- 20240315-wisco-nicolet-013.jpg
-- 20240315-wisco-nicolet-014.jpg
-- 20240315-wisco-nicolet-015.jpg
-- 20240315-wisco-nicolet-016.jpg
-- 20240315-wisco-nicolet-017.jpg
-- 20240315-wisco-nicolet-018.jpg
-- 20240315-wisco-nicolet-019.jpg
-- 20240315-wisco-nicolet-020.jpg
-- 20240315-wisco-nicolet-021.jpg
-- 20240315-wisco-nicolet-022.jpg
+  - filename: "20240315-wisco-nicolet-001.jpg"
+  - filename: "20240315-wisco-nicolet-002.jpg"
+  - filename: "20240315-wisco-nicolet-003.jpg"
+  - filename: "20240315-wisco-nicolet-004.jpg"
+  - filename: "20240315-wisco-nicolet-005.jpg"
+  - filename: "20240315-wisco-nicolet-006.jpg"
+  - filename: "20240315-wisco-nicolet-007.jpg"
+  - filename: "20240315-wisco-nicolet-008.jpg"
+  - filename: "20240315-wisco-nicolet-009.jpg"
+  - filename: "20240315-wisco-nicolet-010.jpg"
+  - filename: "20240315-wisco-nicolet-011.jpg"
+  - filename: "20240315-wisco-nicolet-012.jpg"
+  - filename: "20240315-wisco-nicolet-013.jpg"
+  - filename: "20240315-wisco-nicolet-014.jpg"
+  - filename: "20240315-wisco-nicolet-015.jpg"
+  - filename: "20240315-wisco-nicolet-016.jpg"
+  - filename: "20240315-wisco-nicolet-017.jpg"
+  - filename: "20240315-wisco-nicolet-018.jpg"
+  - filename: "20240315-wisco-nicolet-019.jpg"
+  - filename: "20240315-wisco-nicolet-020.jpg"
+  - filename: "20240315-wisco-nicolet-021.jpg"
+  - filename: "20240315-wisco-nicolet-022.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -110,19 +111,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240315-wisco-nicolet/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240315-wisco-nicolet/{{ image }}" alt="WIAA Boys Division 2 Semifinal Game between Wisconsin Lutheran and Nicolet, March 15th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

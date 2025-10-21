@@ -1,52 +1,53 @@
 ---
-title: Monroe/New Glarus vs Edgewood Swim
-description: 
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe/New Glarus vs. Edgewood Swim"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2023-09-26 08:30:35
 slug:
 tags:
-- sports
-- Monroe/New Glarus Swim
-excerpt: 
+  - sports
+  - Monroe/New Glarus Swim
+excerpt: ""
 image: /sports/images/2023/20230926-swim/20230926-swim-017.jpg
-gallery_base: /sports/images/2023/20230926-swim/
+gallery-base: /sports/images/2023/20230926-swim/
 gallery-images:
-- 20230926-swim-001.jpg
-- 20230926-swim-002.jpg
-- 20230926-swim-003.jpg
-- 20230926-swim-004.jpg
-- 20230926-swim-005.jpg
-- 20230926-swim-006.jpg
-- 20230926-swim-007.jpg
-- 20230926-swim-008.jpg
-- 20230926-swim-009.jpg
-- 20230926-swim-010.jpg
-- 20230926-swim-011.jpg
-- 20230926-swim-012.jpg
-- 20230926-swim-013.jpg
-- 20230926-swim-014.jpg
-- 20230926-swim-015.jpg
-- 20230926-swim-016.jpg
-- 20230926-swim-017.jpg
-- 20230926-swim-018.jpg
-- 20230926-swim-019.jpg
-- 20230926-swim-020.jpg
-- 20230926-swim-021.jpg
-- 20230926-swim-022.jpg
-- 20230926-swim-023.jpg
-- 20230926-swim-024.jpg
-- 20230926-swim-025.jpg
-- 20230926-swim-026.jpg
-- 20230926-swim-027.jpg
-- 20230926-swim-028.jpg
-- 20230926-swim-029.jpg
-- 20230926-swim-030.jpg
-- 20230926-swim-031.jpg
-- 20230926-swim-032.jpg
+  - filename: "20230926-swim-001.jpg"
+  - filename: "20230926-swim-002.jpg"
+  - filename: "20230926-swim-003.jpg"
+  - filename: "20230926-swim-004.jpg"
+  - filename: "20230926-swim-005.jpg"
+  - filename: "20230926-swim-006.jpg"
+  - filename: "20230926-swim-007.jpg"
+  - filename: "20230926-swim-008.jpg"
+  - filename: "20230926-swim-009.jpg"
+  - filename: "20230926-swim-010.jpg"
+  - filename: "20230926-swim-011.jpg"
+  - filename: "20230926-swim-012.jpg"
+  - filename: "20230926-swim-013.jpg"
+  - filename: "20230926-swim-014.jpg"
+  - filename: "20230926-swim-015.jpg"
+  - filename: "20230926-swim-016.jpg"
+  - filename: "20230926-swim-017.jpg"
+  - filename: "20230926-swim-018.jpg"
+  - filename: "20230926-swim-019.jpg"
+  - filename: "20230926-swim-020.jpg"
+  - filename: "20230926-swim-021.jpg"
+  - filename: "20230926-swim-022.jpg"
+  - filename: "20230926-swim-023.jpg"
+  - filename: "20230926-swim-024.jpg"
+  - filename: "20230926-swim-025.jpg"
+  - filename: "20230926-swim-026.jpg"
+  - filename: "20230926-swim-027.jpg"
+  - filename: "20230926-swim-028.jpg"
+  - filename: "20230926-swim-029.jpg"
+  - filename: "20230926-swim-030.jpg"
+  - filename: "20230926-swim-031.jpg"
+  - filename: "20230926-swim-032.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -117,19 +118,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2023/20230926-swim/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2023/20230926-swim/{{ image }}" alt="Monroe/New Glarus Swim vs Edgewood, September 26th, 2023, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

@@ -1,62 +1,62 @@
 ---
-title: Monroe Softball vs Edgewood
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe Softball vs Edgewood"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-05-21 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Edgewood
-- Softball
-excerpt:
+  - sports
+  - Monroe
+  - Edgewood
+  - Softball
+excerpt: ""
 image: /sports/images/2024/20240521-softball/20240521-softball-018.jpg
 gallery-base: /sports/images/2024/20240521-softball/
 gallery-images:
-- 20240521-softball-001.jpg
-- 20240521-softball-002.jpg
-- 20240521-softball-003.jpg
-- 20240521-softball-004.jpg
-- 20240521-softball-005.jpg
-- 20240521-softball-006.jpg
-- 20240521-softball-007.jpg
-- 20240521-softball-008.jpg
-- 20240521-softball-009.jpg
-- 20240521-softball-010.jpg
-- 20240521-softball-011.jpg
-- 20240521-softball-012.jpg
-- 20240521-softball-013.jpg
-- 20240521-softball-014.jpg
-- 20240521-softball-015.jpg
-- 20240521-softball-016.jpg
-- 20240521-softball-017.jpg
-- 20240521-softball-018.jpg
-- 20240521-softball-019.jpg
-- 20240521-softball-020.jpg
-- 20240521-softball-021.jpg
-- 20240521-softball-022.jpg
-- 20240521-softball-023.jpg
-- 20240521-softball-024.jpg
-- 20240521-softball-025.jpg
-- 20240521-softball-026.jpg
-- 20240521-softball-027.jpg
-- 20240521-softball-028.jpg
-- 20240521-softball-029.jpg
-- 20240521-softball-030.jpg
-- 20240521-softball-031.jpg
-- 20240521-softball-032.jpg
-- 20240521-softball-033.jpg
-- 20240521-softball-034.jpg
-- 20240521-softball-035.jpg
-- 20240521-softball-036.jpg
-- 20240521-softball-037.jpg
-- 20240521-softball-038.jpg
-- 20240521-softball-039.jpg
--
+  - filename: "20240521-softball-001.jpg"
+  - filename: "20240521-softball-002.jpg"
+  - filename: "20240521-softball-003.jpg"
+  - filename: "20240521-softball-004.jpg"
+  - filename: "20240521-softball-005.jpg"
+  - filename: "20240521-softball-006.jpg"
+  - filename: "20240521-softball-007.jpg"
+  - filename: "20240521-softball-008.jpg"
+  - filename: "20240521-softball-009.jpg"
+  - filename: "20240521-softball-010.jpg"
+  - filename: "20240521-softball-011.jpg"
+  - filename: "20240521-softball-012.jpg"
+  - filename: "20240521-softball-013.jpg"
+  - filename: "20240521-softball-014.jpg"
+  - filename: "20240521-softball-015.jpg"
+  - filename: "20240521-softball-016.jpg"
+  - filename: "20240521-softball-017.jpg"
+  - filename: "20240521-softball-018.jpg"
+  - filename: "20240521-softball-019.jpg"
+  - filename: "20240521-softball-020.jpg"
+  - filename: "20240521-softball-021.jpg"
+  - filename: "20240521-softball-022.jpg"
+  - filename: "20240521-softball-023.jpg"
+  - filename: "20240521-softball-024.jpg"
+  - filename: "20240521-softball-025.jpg"
+  - filename: "20240521-softball-026.jpg"
+  - filename: "20240521-softball-027.jpg"
+  - filename: "20240521-softball-028.jpg"
+  - filename: "20240521-softball-029.jpg"
+  - filename: "20240521-softball-030.jpg"
+  - filename: "20240521-softball-031.jpg"
+  - filename: "20240521-softball-032.jpg"
+  - filename: "20240521-softball-033.jpg"
+  - filename: "20240521-softball-034.jpg"
+  - filename: "20240521-softball-035.jpg"
+  - filename: "20240521-softball-036.jpg"
+  - filename: "20240521-softball-037.jpg"
+  - filename: "20240521-softball-038.jpg"
+  - filename: "20240521-softball-039.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -127,20 +127,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<!--<h3 class="txt-center sport-names">Title</h3>-->
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240521-softball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240521-softball/{{ image }}" alt="Monroe Softball vs Edgewood, May 21, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

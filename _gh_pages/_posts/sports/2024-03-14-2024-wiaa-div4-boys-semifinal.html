@@ -1,55 +1,56 @@
 ---
-title: 2024 WIAA Division 4 Boys Basketball Semifinal
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "2024 WIAA Division 4 Boys Basketball Semifinal"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-03-14 08:30:35
 slug:
 tags:
-- sports
-- WIAA Playoffs
-- Mineral Point
-- Aquinas
-- Basketball
-excerpt:
+  - sports
+  - WIAA Playoffs
+  - Mineral Point
+  - Aquinas
+  - Basketball
+excerpt: ""
 image: /sports/images/2024/20240314-semi-finals/20240314-semi-finals-031.jpg
 gallery-base: /sports/images/2024/20240314-semi-finals/
 gallery-images:
-- 20240314-semi-finals-001.jpg
-- 20240314-semi-finals-002.jpg
-- 20240314-semi-finals-003.jpg
-- 20240314-semi-finals-004.jpg
-- 20240314-semi-finals-005.jpg
-- 20240314-semi-finals-006.jpg
-- 20240314-semi-finals-007.jpg
-- 20240314-semi-finals-008.jpg
-- 20240314-semi-finals-009.jpg
-- 20240314-semi-finals-010.jpg
-- 20240314-semi-finals-011.jpg
-- 20240314-semi-finals-012.jpg
-- 20240314-semi-finals-013.jpg
-- 20240314-semi-finals-014.jpg
-- 20240314-semi-finals-015.jpg
-- 20240314-semi-finals-016.jpg
-- 20240314-semi-finals-017.jpg
-- 20240314-semi-finals-018.jpg
-- 20240314-semi-finals-019.jpg
-- 20240314-semi-finals-020.jpg
-- 20240314-semi-finals-021.jpg
-- 20240314-semi-finals-022.jpg
-- 20240314-semi-finals-023.jpg
-- 20240314-semi-finals-024.jpg
-- 20240314-semi-finals-025.jpg
-- 20240314-semi-finals-026.jpg
-- 20240314-semi-finals-027.jpg
-- 20240314-semi-finals-028.jpg
-- 20240314-semi-finals-029.jpg
-- 20240314-semi-finals-030.jpg
-- 20240314-semi-finals-031.jpg
-- 20240314-semi-finals-032.jpg
+  - filename: "20240314-semi-finals-001.jpg"
+  - filename: "20240314-semi-finals-002.jpg"
+  - filename: "20240314-semi-finals-003.jpg"
+  - filename: "20240314-semi-finals-004.jpg"
+  - filename: "20240314-semi-finals-005.jpg"
+  - filename: "20240314-semi-finals-006.jpg"
+  - filename: "20240314-semi-finals-007.jpg"
+  - filename: "20240314-semi-finals-008.jpg"
+  - filename: "20240314-semi-finals-009.jpg"
+  - filename: "20240314-semi-finals-010.jpg"
+  - filename: "20240314-semi-finals-011.jpg"
+  - filename: "20240314-semi-finals-012.jpg"
+  - filename: "20240314-semi-finals-013.jpg"
+  - filename: "20240314-semi-finals-014.jpg"
+  - filename: "20240314-semi-finals-015.jpg"
+  - filename: "20240314-semi-finals-016.jpg"
+  - filename: "20240314-semi-finals-017.jpg"
+  - filename: "20240314-semi-finals-018.jpg"
+  - filename: "20240314-semi-finals-019.jpg"
+  - filename: "20240314-semi-finals-020.jpg"
+  - filename: "20240314-semi-finals-021.jpg"
+  - filename: "20240314-semi-finals-022.jpg"
+  - filename: "20240314-semi-finals-023.jpg"
+  - filename: "20240314-semi-finals-024.jpg"
+  - filename: "20240314-semi-finals-025.jpg"
+  - filename: "20240314-semi-finals-026.jpg"
+  - filename: "20240314-semi-finals-027.jpg"
+  - filename: "20240314-semi-finals-028.jpg"
+  - filename: "20240314-semi-finals-029.jpg"
+  - filename: "20240314-semi-finals-030.jpg"
+  - filename: "20240314-semi-finals-031.jpg"
+  - filename: "20240314-semi-finals-032.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -120,19 +121,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240314-semi-finals/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240314-semi-finals/{{ image }}" alt="WIAA Boys Division 4 Semifinal Game between Mineral Point and Aquinas, March 14th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

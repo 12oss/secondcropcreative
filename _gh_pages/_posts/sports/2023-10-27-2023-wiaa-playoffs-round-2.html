@@ -1,51 +1,52 @@
 ---
-title: WIAA 2023 Playoffs Round 2 - Monroe Vs. McFarland
-description: 
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "WIAA 2023 Playoffs Round 2 - Monroe vs. McFarland"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2023-10-27 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Football
-- Football Playoffs
-excerpt: 
+  - sports
+  - Monroe
+  - Football
+  - Football Playoffs
+excerpt: ""
 image: /sports/images/2023/20231027-playoffs2/20231027-playoffs2-015.jpg
-gallery_base: /sports/images/2023/20231027-playoffs2/
+gallery-base: /sports/images/2023/20231027-playoffs2/
 gallery-images:
-- 20231027-playoffs2-001.jpg
-- 20231027-playoffs2-002.jpg
-- 20231027-playoffs2-003.jpg
-- 20231027-playoffs2-004.jpg
-- 20231027-playoffs2-005.jpg
-- 20231027-playoffs2-006.jpg
-- 20231027-playoffs2-007.jpg
-- 20231027-playoffs2-008.jpg
-- 20231027-playoffs2-009.jpg
-- 20231027-playoffs2-010.jpg
-- 20231027-playoffs2-011.jpg
-- 20231027-playoffs2-012.jpg
-- 20231027-playoffs2-013.jpg
-- 20231027-playoffs2-014.jpg
-- 20231027-playoffs2-015.jpg
-- 20231027-playoffs2-016.jpg
-- 20231027-playoffs2-017.jpg
-- 20231027-playoffs2-018.jpg
-- 20231027-playoffs2-019.jpg
-- 20231027-playoffs2-020.jpg
-- 20231027-playoffs2-021.jpg
-- 20231027-playoffs2-022.jpg
-- 20231027-playoffs2-023.jpg
-- 20231027-playoffs2-024.jpg
-- 20231027-playoffs2-025.jpg
-- 20231027-playoffs2-026.jpg
-- 20231027-playoffs2-027.jpg
-- 20231027-playoffs2-028.jpg
-- 20231027-playoffs2-029.jpg
+  - filename: "20231027-playoffs2-001.jpg"
+  - filename: "20231027-playoffs2-002.jpg"
+  - filename: "20231027-playoffs2-003.jpg"
+  - filename: "20231027-playoffs2-004.jpg"
+  - filename: "20231027-playoffs2-005.jpg"
+  - filename: "20231027-playoffs2-006.jpg"
+  - filename: "20231027-playoffs2-007.jpg"
+  - filename: "20231027-playoffs2-008.jpg"
+  - filename: "20231027-playoffs2-009.jpg"
+  - filename: "20231027-playoffs2-010.jpg"
+  - filename: "20231027-playoffs2-011.jpg"
+  - filename: "20231027-playoffs2-012.jpg"
+  - filename: "20231027-playoffs2-013.jpg"
+  - filename: "20231027-playoffs2-014.jpg"
+  - filename: "20231027-playoffs2-015.jpg"
+  - filename: "20231027-playoffs2-016.jpg"
+  - filename: "20231027-playoffs2-017.jpg"
+  - filename: "20231027-playoffs2-018.jpg"
+  - filename: "20231027-playoffs2-019.jpg"
+  - filename: "20231027-playoffs2-020.jpg"
+  - filename: "20231027-playoffs2-021.jpg"
+  - filename: "20231027-playoffs2-022.jpg"
+  - filename: "20231027-playoffs2-023.jpg"
+  - filename: "20231027-playoffs2-024.jpg"
+  - filename: "20231027-playoffs2-025.jpg"
+  - filename: "20231027-playoffs2-026.jpg"
+  - filename: "20231027-playoffs2-027.jpg"
+  - filename: "20231027-playoffs2-028.jpg"
+  - filename: "20231027-playoffs2-029.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -116,19 +117,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2023/20231027-playoffs2/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2023/20231027-playoffs2/{{ image }}" alt="Monroe vs McFarland WIAA Playoffs Round 2, October 27th, 2023, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

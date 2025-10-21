@@ -1,44 +1,44 @@
 ---
-title: Monroe Baseball vs Big Foot
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe Baseball vs Big Foot"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-05-20 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Big Foot
-- Baseball
-excerpt:
+  - sports
+  - Monroe
+  - Big Foot
+  - Baseball
+excerpt: ""
 image: /sports/images/2024/20240520-monroe-baseball/20240520-baseball-012.jpg
 gallery-base: /sports/images/2024/20240520-monroe-baseball/
 gallery-images:
-- 20240520-baseball-001.jpg
-- 20240520-baseball-002.jpg
-- 20240520-baseball-003.jpg
-- 20240520-baseball-004.jpg
-- 20240520-baseball-005.jpg
-- 20240520-baseball-006.jpg
-- 20240520-baseball-007.jpg
-- 20240520-baseball-008.jpg
-- 20240520-baseball-009.jpg
-- 20240520-baseball-010.jpg
-- 20240520-baseball-011.jpg
-- 20240520-baseball-012.jpg
-- 20240520-baseball-013.jpg
-- 20240520-baseball-014.jpg
-- 20240520-baseball-015.jpg
-- 20240520-baseball-016.jpg
-- 20240520-baseball-017.jpg
-- 20240520-baseball-018.jpg
-- 20240520-baseball-019.jpg
-- 20240520-baseball-020.jpg
-- 20240520-baseball-021.jpg
-
+  - filename: "20240520-baseball-001.jpg"
+  - filename: "20240520-baseball-002.jpg"
+  - filename: "20240520-baseball-003.jpg"
+  - filename: "20240520-baseball-004.jpg"
+  - filename: "20240520-baseball-005.jpg"
+  - filename: "20240520-baseball-006.jpg"
+  - filename: "20240520-baseball-007.jpg"
+  - filename: "20240520-baseball-008.jpg"
+  - filename: "20240520-baseball-009.jpg"
+  - filename: "20240520-baseball-010.jpg"
+  - filename: "20240520-baseball-011.jpg"
+  - filename: "20240520-baseball-012.jpg"
+  - filename: "20240520-baseball-013.jpg"
+  - filename: "20240520-baseball-014.jpg"
+  - filename: "20240520-baseball-015.jpg"
+  - filename: "20240520-baseball-016.jpg"
+  - filename: "20240520-baseball-017.jpg"
+  - filename: "20240520-baseball-018.jpg"
+  - filename: "20240520-baseball-019.jpg"
+  - filename: "20240520-baseball-020.jpg"
+  - filename: "20240520-baseball-021.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -109,20 +109,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<!--<h3 class="txt-center sport-names">Title</h3>-->
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240520-monroe-baseball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240520-monroe-baseball/{{ image }}" alt="Monroe Baseball vs Big Foot, May 20th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

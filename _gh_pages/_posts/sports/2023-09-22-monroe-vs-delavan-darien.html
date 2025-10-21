@@ -1,39 +1,40 @@
 ---
-title: Monroe vs. Delavan Darien Football
-description: 
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe vs. Delavan Darien Football"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2023-09-22 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Football
-excerpt: 
+  - sports
+  - Monroe
+  - Football
+excerpt: ""
 image: /sports/images/2023/20230922-delavan/20230922-delavan-018.jpg
-gallery_base: /sports/images/2023/20230922-delavan/
+gallery-base: /sports/images/2023/20230922-delavan/
 gallery-images:
-- 20230922-delavan-001.jpg
-- 20230922-delavan-002.jpg
-- 20230922-delavan-003.jpg
-- 20230922-delavan-004.jpg
-- 20230922-delavan-005.jpg
-- 20230922-delavan-006.jpg
-- 20230922-delavan-007.jpg
-- 20230922-delavan-008.jpg
-- 20230922-delavan-009.jpg
-- 20230922-delavan-010.jpg
-- 20230922-delavan-011.jpg
-- 20230922-delavan-012.jpg
-- 20230922-delavan-013.jpg
-- 20230922-delavan-014.jpg
-- 20230922-delavan-015.jpg
-- 20230922-delavan-016.jpg
-- 20230922-delavan-017.jpg
-- 20230922-delavan-018.jpg
+  - filename: "20230922-delavan-001.jpg"
+  - filename: "20230922-delavan-002.jpg"
+  - filename: "20230922-delavan-003.jpg"
+  - filename: "20230922-delavan-004.jpg"
+  - filename: "20230922-delavan-005.jpg"
+  - filename: "20230922-delavan-006.jpg"
+  - filename: "20230922-delavan-007.jpg"
+  - filename: "20230922-delavan-008.jpg"
+  - filename: "20230922-delavan-009.jpg"
+  - filename: "20230922-delavan-010.jpg"
+  - filename: "20230922-delavan-011.jpg"
+  - filename: "20230922-delavan-012.jpg"
+  - filename: "20230922-delavan-013.jpg"
+  - filename: "20230922-delavan-014.jpg"
+  - filename: "20230922-delavan-015.jpg"
+  - filename: "20230922-delavan-016.jpg"
+  - filename: "20230922-delavan-017.jpg"
+  - filename: "20230922-delavan-018.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -104,19 +105,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2023/20230922-delavan/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2023/20230922-delavan/{{ image }}" alt="Monroe vs. Delaven Darien Football, September 22nd, 2023, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

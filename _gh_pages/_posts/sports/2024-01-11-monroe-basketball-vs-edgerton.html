@@ -1,43 +1,44 @@
 ---
-title: Monroe vs. Edgerton Basketball
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe vs. Edgerton Basketball"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-01-11 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Edgerton
-- Basketball
-excerpt:
+  - sports
+  - Monroe
+  - Edgerton
+  - Basketball
+excerpt: ""
 image: /sports/images/2024/20240111-bball-edgerton/20240111-bball-edgerton-008.jpg
-gallery_base: /sports/images/2024/20240111-bball-edgerton/
+gallery-base: /sports/images/2024/20240111-bball-edgerton/
 gallery-images:
-- 20240111-bball-edgerton-001.jpg
-- 20240111-bball-edgerton-002.jpg
-- 20240111-bball-edgerton-003.jpg
-- 20240111-bball-edgerton-004.jpg
-- 20240111-bball-edgerton-005.jpg
-- 20240111-bball-edgerton-006.jpg
-- 20240111-bball-edgerton-007.jpg
-- 20240111-bball-edgerton-008.jpg
-- 20240111-bball-edgerton-009.jpg
-- 20240111-bball-edgerton-010.jpg
-- 20240111-bball-edgerton-011.jpg
-- 20240111-bball-edgerton-012.jpg
-- 20240111-bball-edgerton-013.jpg
-- 20240111-bball-edgerton-014.jpg
-- 20240111-bball-edgerton-015.jpg
-- 20240111-bball-edgerton-016.jpg
-- 20240111-bball-edgerton-017.jpg
-- 20240111-bball-edgerton-018.jpg
-- 20240111-bball-edgerton-019.jpg
-- 20240111-bball-edgerton-020.jpg
-- 20240111-bball-edgerton-021.jpg
+  - filename: "20240111-bball-edgerton-001.jpg"
+  - filename: "20240111-bball-edgerton-002.jpg"
+  - filename: "20240111-bball-edgerton-003.jpg"
+  - filename: "20240111-bball-edgerton-004.jpg"
+  - filename: "20240111-bball-edgerton-005.jpg"
+  - filename: "20240111-bball-edgerton-006.jpg"
+  - filename: "20240111-bball-edgerton-007.jpg"
+  - filename: "20240111-bball-edgerton-008.jpg"
+  - filename: "20240111-bball-edgerton-009.jpg"
+  - filename: "20240111-bball-edgerton-010.jpg"
+  - filename: "20240111-bball-edgerton-011.jpg"
+  - filename: "20240111-bball-edgerton-012.jpg"
+  - filename: "20240111-bball-edgerton-013.jpg"
+  - filename: "20240111-bball-edgerton-014.jpg"
+  - filename: "20240111-bball-edgerton-015.jpg"
+  - filename: "20240111-bball-edgerton-016.jpg"
+  - filename: "20240111-bball-edgerton-017.jpg"
+  - filename: "20240111-bball-edgerton-018.jpg"
+  - filename: "20240111-bball-edgerton-019.jpg"
+  - filename: "20240111-bball-edgerton-020.jpg"
+  - filename: "20240111-bball-edgerton-021.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -108,19 +109,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240111-bball-edgerton/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240111-bball-edgerton/{{ image }}" alt="Monroe vs. Edgerton, January 5th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

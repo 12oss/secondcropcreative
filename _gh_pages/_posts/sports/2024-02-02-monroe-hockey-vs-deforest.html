@@ -1,36 +1,37 @@
 ---
-title: Monroe vs. DeForest Hockey
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe vs. DeForest Hockey"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-02-02 08:30:35
 slug:
 tags:
-- sports
-- Monroe
-- Hockey
-excerpt:
+  - sports
+  - Monroe
+  - Hockey
+excerpt: ""
 image: /sports/images/2024/20240202-hockey/20240202-hockey-004.jpg
-gallery_base: /sports/images/2024/20240202-hockey/
-gallery-images: 
-- 20240202-hockey-001.jpg
-- 20240202-hockey-002.jpg
-- 20240202-hockey-003.jpg
-- 20240202-hockey-004.jpg
-- 20240202-hockey-005.jpg
-- 20240202-hockey-006.jpg
-- 20240202-hockey-007.jpg
-- 20240202-hockey-008.jpg
-- 20240202-hockey-009.jpg
-- 20240202-hockey-010.jpg
-- 20240202-hockey-011.jpg
-- 20240202-hockey-012.jpg
-- 20240202-hockey-013.jpg
-- 20240202-hockey-014.jpg
-- 20240202-hockey-015.jpg
+gallery-base: /sports/images/2024/20240202-hockey/
+gallery-images:
+  - filename: "20240202-hockey-001.jpg"
+  - filename: "20240202-hockey-002.jpg"
+  - filename: "20240202-hockey-003.jpg"
+  - filename: "20240202-hockey-004.jpg"
+  - filename: "20240202-hockey-005.jpg"
+  - filename: "20240202-hockey-006.jpg"
+  - filename: "20240202-hockey-007.jpg"
+  - filename: "20240202-hockey-008.jpg"
+  - filename: "20240202-hockey-009.jpg"
+  - filename: "20240202-hockey-010.jpg"
+  - filename: "20240202-hockey-011.jpg"
+  - filename: "20240202-hockey-012.jpg"
+  - filename: "20240202-hockey-013.jpg"
+  - filename: "20240202-hockey-014.jpg"
+  - filename: "20240202-hockey-015.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -101,19 +102,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240202-hockey/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240202-hockey/{{ image }}" alt="Monroe Hockey vs. DeForest, February 2nd, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

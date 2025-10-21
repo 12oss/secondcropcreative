@@ -1,67 +1,68 @@
 ---
-title: Monroe Soccer vs East Troy
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe Soccer vs East Troy"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-05-20 08:35:35
 slug:
 tags:
-- sports
-- Monroe
-- East Troy
-- Soccer
-excerpt:
+  - sports
+  - Monroe
+  - East Troy
+  - Soccer
+excerpt: ""
 image: /sports/images/2024/20240520-soccer/20240503-soccer-027.jpg
 gallery-base: /sports/images/2024/20240520-soccer/
 gallery-images:
-- 20240503-soccer-01.jpg
-- 20240503-soccer-02.jpg
-- 20240503-soccer-03.jpg
-- 20240503-soccer-04.jpg
-- 20240503-soccer-05.jpg
-- 20240503-soccer-06.jpg
-- 20240503-soccer-07.jpg
-- 20240503-soccer-08.jpg
-- 20240503-soccer-09.jpg
-- 20240503-soccer-010.jpg
-- 20240503-soccer-011.jpg
-- 20240503-soccer-012.jpg
-- 20240503-soccer-013.jpg
-- 20240503-soccer-014.jpg
-- 20240503-soccer-015.jpg
-- 20240503-soccer-016.jpg
-- 20240503-soccer-017.jpg
-- 20240503-soccer-018.jpg
-- 20240503-soccer-019.jpg
-- 20240503-soccer-020.jpg
-- 20240503-soccer-021.jpg
-- 20240503-soccer-022.jpg
-- 20240503-soccer-023.jpg
-- 20240503-soccer-024.jpg
-- 20240503-soccer-025.jpg
-- 20240503-soccer-026.jpg
-- 20240503-soccer-027.jpg
-- 20240503-soccer-028.jpg
-- 20240503-soccer-029.jpg
-- 20240503-soccer-030.jpg
-- 20240503-soccer-031.jpg
-- 20240503-soccer-032.jpg
-- 20240503-soccer-033.jpg
-- 20240503-soccer-034.jpg
-- 20240503-soccer-035.jpg
-- 20240503-soccer-036.jpg
-- 20240503-soccer-037.jpg
-- 20240503-soccer-038.jpg
-- 20240503-soccer-039.jpg
-- 20240503-soccer-040.jpg
-- 20240503-soccer-041.jpg
-- 20240503-soccer-042.jpg
-- 20240503-soccer-043.jpg
-- 20240503-soccer-044.jpg
-- 20240503-soccer-045.jpg
+  - filename: "20240503-soccer-01.jpg"
+  - filename: "20240503-soccer-02.jpg"
+  - filename: "20240503-soccer-03.jpg"
+  - filename: "20240503-soccer-04.jpg"
+  - filename: "20240503-soccer-05.jpg"
+  - filename: "20240503-soccer-06.jpg"
+  - filename: "20240503-soccer-07.jpg"
+  - filename: "20240503-soccer-08.jpg"
+  - filename: "20240503-soccer-09.jpg"
+  - filename: "20240503-soccer-010.jpg"
+  - filename: "20240503-soccer-011.jpg"
+  - filename: "20240503-soccer-012.jpg"
+  - filename: "20240503-soccer-013.jpg"
+  - filename: "20240503-soccer-014.jpg"
+  - filename: "20240503-soccer-015.jpg"
+  - filename: "20240503-soccer-016.jpg"
+  - filename: "20240503-soccer-017.jpg"
+  - filename: "20240503-soccer-018.jpg"
+  - filename: "20240503-soccer-019.jpg"
+  - filename: "20240503-soccer-020.jpg"
+  - filename: "20240503-soccer-021.jpg"
+  - filename: "20240503-soccer-022.jpg"
+  - filename: "20240503-soccer-023.jpg"
+  - filename: "20240503-soccer-024.jpg"
+  - filename: "20240503-soccer-025.jpg"
+  - filename: "20240503-soccer-026.jpg"
+  - filename: "20240503-soccer-027.jpg"
+  - filename: "20240503-soccer-028.jpg"
+  - filename: "20240503-soccer-029.jpg"
+  - filename: "20240503-soccer-030.jpg"
+  - filename: "20240503-soccer-031.jpg"
+  - filename: "20240503-soccer-032.jpg"
+  - filename: "20240503-soccer-033.jpg"
+  - filename: "20240503-soccer-034.jpg"
+  - filename: "20240503-soccer-035.jpg"
+  - filename: "20240503-soccer-036.jpg"
+  - filename: "20240503-soccer-037.jpg"
+  - filename: "20240503-soccer-038.jpg"
+  - filename: "20240503-soccer-039.jpg"
+  - filename: "20240503-soccer-040.jpg"
+  - filename: "20240503-soccer-041.jpg"
+  - filename: "20240503-soccer-042.jpg"
+  - filename: "20240503-soccer-043.jpg"
+  - filename: "20240503-soccer-044.jpg"
+  - filename: "20240503-soccer-045.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -132,20 +133,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<!--<h3 class="txt-center sport-names">Title</h3>-->
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240520-soccer/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240520-soccer/{{ image }}" alt="Monroe Soccer vs East Troy, May 20th, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

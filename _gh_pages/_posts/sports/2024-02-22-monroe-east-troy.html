@@ -1,44 +1,46 @@
 ---
-title: Monroe vs. East Troy Basketball
-description:
-author: ROSS HARRIED
-photographer: ROSS HARRIED for SECOND CROP SPORTS
+title: "Monroe vs. East Troy Basketball"
+description: ""
+author: "ROSS HARRIED"
+photographer: "ROSS HARRIED for SECOND CROP SPORTS"
 layout: blog-posts
 type: sports
 date: 2024-02-22 08:30:35
+slug:
 tags:
-- sports
-- Monroe
-- East Troy
-- Basketball
-excerpt:
+  - sports
+  - Monroe
+  - East Troy
+  - Basketball
+excerpt: ""
 image: /sports/images/2024/20240222-bball/20240222-bball-010.jpg
 gallery-base: /sports/images/2024/20240222-bball/
 gallery-images:
-- 20240222-bball-001.jpg
-- 20240222-bball-002.jpg
-- 20240222-bball-003.jpg
-- 20240222-bball-004.jpg
-- 20240222-bball-005.jpg
-- 20240222-bball-006.jpg
-- 20240222-bball-007.jpg
-- 20240222-bball-008.jpg
-- 20240222-bball-009.jpg
-- 20240222-bball-010.jpg
-- 20240222-bball-011.jpg
-- 20240222-bball-012.jpg
-- 20240222-bball-013.jpg
-- 20240222-bball-014.jpg
-- 20240222-bball-015.jpg
-- 20240222-bball-016.jpg
-- 20240222-bball-017.jpg
-- 20240222-bball-018.jpg
-- 20240222-bball-019.jpg
-- 20240222-bball-020.jpg
-- 20240222-bball-021.jpg
-- 20240222-bball-022.jpg
-- 20240222-bball-023.jpg
+  - filename: "20240222-bball-001.jpg"
+  - filename: "20240222-bball-002.jpg"
+  - filename: "20240222-bball-003.jpg"
+  - filename: "20240222-bball-004.jpg"
+  - filename: "20240222-bball-005.jpg"
+  - filename: "20240222-bball-006.jpg"
+  - filename: "20240222-bball-007.jpg"
+  - filename: "20240222-bball-008.jpg"
+  - filename: "20240222-bball-009.jpg"
+  - filename: "20240222-bball-010.jpg"
+  - filename: "20240222-bball-011.jpg"
+  - filename: "20240222-bball-012.jpg"
+  - filename: "20240222-bball-013.jpg"
+  - filename: "20240222-bball-014.jpg"
+  - filename: "20240222-bball-015.jpg"
+  - filename: "20240222-bball-016.jpg"
+  - filename: "20240222-bball-017.jpg"
+  - filename: "20240222-bball-018.jpg"
+  - filename: "20240222-bball-019.jpg"
+  - filename: "20240222-bball-020.jpg"
+  - filename: "20240222-bball-021.jpg"
+  - filename: "20240222-bball-022.jpg"
+  - filename: "20240222-bball-023.jpg"
 ---
+
 <style type="text/css">
 /* Main CSS */
 div.fancybox {
@@ -109,19 +111,8 @@ div.fancybox {
 	</div>
 </div>
 <div class="creative-content">
-	<section>
-		<div class="row max-850">
-			<div class="clearfix" style="padding: 20px"></div>
-			<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-			<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/sports/images/2024/20240222-bball/{{ image }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/sports/images/2024/20240222-bball/{{ image }}" alt="Monroe vs. East Troy Basketball February 22nd, 2024, photography by Ross Harried for Second Crop Sports" title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-			<div class="clearfix" style="padding: 20px"></div>
-		</div>
-	</section>
-	<div class="clearfix" style="padding: 30px;"></div>
+  <section>
+  {% include gallery-grid.html %} 
+</section>
+  <div class="clearfix" style="padding: 30px;"></div>
 </div>

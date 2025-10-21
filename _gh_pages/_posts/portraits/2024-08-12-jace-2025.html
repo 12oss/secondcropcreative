@@ -12,6 +12,7 @@ tags:
 -
 excerpt:
 image: /portraits/images/2024/20240812-jace/20241007-jace-on-ice-028.jpg
+gallery-base: /portraits/images/2024/20240812-jace/
 gallery-images:
   - filename: 20240812-jace-004.jpg
     caption: ""
@@ -68,49 +69,11 @@ gallery-images:
 ---
 <style type="text/css">
 /* Main CSS */
-.band-names {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-weight: 400;
+div.fancybox {
+	cursor: pointer;
 }
 
-.grid-wrapper>div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.grid-wrapper>div>img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 5px;
-}
-
-.grid-wrapper {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	/*grid-auto-rows: 200px;*/
-	grid-auto-flow: dense;
-}
-
-.grid-wrapper .wide {
-	grid-column: span 2;
-}
-
-.grid-wrapper .full {
-	grid-column: span 3;
-}
-
-.grid-wrapper .tall {
-	grid-row: span 2;
-}
-
-.grid-wrapper .big {
-	grid-column: span 2;
-	grid-row: span 2;
-}
 
 @media (min-width: 768px) {
 
@@ -174,22 +137,8 @@ gallery-images:
 	</div>
 </div>
 <div class="creative-content">
-	<div class="row max-850">
-		<div class="clearfix" style="padding: 20px"></div>
-		<section>
-			<div class="row max-1080">
-				<h3 class="txt-center txt-uppercase">Click to view full size...</h3>
-				<div class="grid-wrapper">
-				{% for image in page.gallery-images %}
-				<div src="{{ site.cdn_url }}/portraits/images/2024/20240812-jace/{{ image.filename }}" data-fancybox-group="gallery" class="fancybox">
-					<img src="{{ site.cdn_url }}/portraits/images/2024/20240812-jace/{{ image.filename }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Creative." title="Click to View Larger">
-				</div>
-				{% endfor %}
-			</div>
-				<div class="clearfix" style="padding: 20px"></div>
-			</div>
-		</section>
-		<p>Want more creative portrait inspiration? Follow me on Instagram <a href="https://instagram.com/secondcropcreative" target="_blank">@SecondCropCreative</a> for my latest shoots, behind-the-scenes, and exclusive photography tips! </p>
-	</div>
+	<section>
+	{% include gallery-grid.html %}	
+</section>
 	<div class="clearfix" style="padding: 30px;"></div>
 </div>

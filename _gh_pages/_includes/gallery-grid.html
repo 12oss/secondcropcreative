@@ -1,0 +1,62 @@
+{%- comment -%} 3-column responsive grid + clean URLs + Fancybox v3 div/href version {%- endcomment -%}
+<style>
+.grid-wrapper-new {
+  column-count: 1;
+  column-gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .grid-wrapper-new {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-wrapper-new {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid-wrapper-new {
+    column-count: 3;
+  }
+}
+
+.grid-wrapper-new div.fancybox {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 12px;
+  break-inside: avoid;
+  cursor: pointer;
+}
+
+.grid-wrapper-new img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  transition: opacity 0.25s ease;
+}
+
+.grid-wrapper-new img:hover {
+  opacity: 0.88;
+}
+</style>
+<div class="row">
+  <div class="clearfix" style="padding: 20px"></div>
+<!--  <h3 class="txt-center txt-uppercase">Click to view full size...</h3>-->
+  {%- comment -%} Build clean base URL from config + front matter {%- endcomment -%}
+  {% assign gallery_path = page['gallery-base'] %}
+  {% assign base = site.cdn_url | append: gallery_path %}
+  <div class="grid-wrapper-new">
+    {% for image in page['gallery-images'] %}
+    {% assign file = image.filename | strip | uri_escape %}
+    <div href="{{ base }}{{ file }}" data-fancybox-group="gallery" class="fancybox" data-caption="{{ image.caption }}">
+      <img src="{{ base }}{{ file }}" alt="{{ image.caption }} Photography by Ross Harried for Second Crop Creative." title="Click to View Larger Image" loading="lazy" decoding="async">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="clearfix" style="padding: 20px"></div>
+</div>
