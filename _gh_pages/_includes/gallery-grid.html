@@ -87,7 +87,7 @@
           src="{{ cf_prefix }}/width={{ fallback_w }},quality=85,format=auto/{{ origin_url }}"
           srcset="{{ srcset | strip }}"
           sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
-          alt="{% if caption != "" %}{{ caption | escape }}{% else %}Photography by Ross Harried{% endif %} for Second Crop Creative."
+          alt="{% if caption != "" %}{{ caption | escape }}{% else %}Photography by Ross Harried{% endif %}"
           title="Click to View Larger Image"
           loading="lazy"
           decoding="async">
