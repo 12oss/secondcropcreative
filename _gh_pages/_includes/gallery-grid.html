@@ -59,6 +59,9 @@
   {%- assign lightbox_w = 2000 -%}
   {%- assign cf_prefix = "https://cdn.secondcropcreative.com/cdn-cgi/image" -%}
 
+  {%- comment -%} Photographer credit from page front matter {%- endcomment -%}
+  {%- assign page_photographer = page.photographer | default: "Photography by Ross Harried" -%}
+
   <div class="grid-wrapper-new">
     {%- for image in page['gallery-images'] -%}
       {%- if image.filename -%}
@@ -69,6 +72,13 @@
         {%- assign caption  = "" -%}
       {%- endif -%}
       {%- assign file = file_raw | strip | remove_first: "/" | uri_escape -%}
+
+      {%- comment -%} Build combined caption: image caption + photographer credit {%- endcomment -%}
+      {%- if caption != "" -%}
+        {%- assign display_caption = caption | append: " — " | append: page_photographer -%}
+      {%- else -%}
+        {%- assign display_caption = page_photographer -%}
+      {%- endif -%}
 
       {%- comment -%} Absolute origin URL for the original image {%- endcomment -%}
       {%- assign origin_url = site.cdn_url | append: gallery_path | append: file -%}
@@ -82,12 +92,12 @@
       <div href="{{ cf_prefix }}/width={{ lightbox_w }},quality=90,format=auto/{{ origin_url }}"
            data-fancybox-group="gallery"
            class="fancybox"
-           {%- if caption != "" -%} data-caption="{{ caption | escape }}"{%- endif -%}>
+           data-caption="{{ display_caption | escape }}">
         <img
           src="{{ cf_prefix }}/width={{ fallback_w }},quality=85,format=auto/{{ origin_url }}"
           srcset="{{ srcset | strip }}"
           sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
-          alt="{% if caption != "" %}{{ caption | escape }}{% else %}Photography by Ross Harried{% endif %}"
+          alt="{{ display_caption | escape }}"
           title="Click to View Larger Image"
           loading="lazy"
           decoding="async">
