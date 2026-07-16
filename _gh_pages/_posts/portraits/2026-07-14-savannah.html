@@ -1,0 +1,123 @@
+---
+title: Savannah 2027
+description:
+author: ROSS HARRIED
+photographer: ROSS HARRIED for SECOND CROP CREATIVE
+layout: blog-posts
+type: portraits
+date: 2026-07-14 08:30:35
+slug:
+tags:
+- portraits
+
+excerpt:
+
+image: /portraits/images/2026/20260714-savannah/20260714-savannah-030.jpg
+gallery-base: /portraits/images/2026/20260714-savannah/
+gallery-images:
+  - filename: 20260714-savannah-001.jpg
+    caption: "Savannah Graves sits on a picnic table during a senior portrait session at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-005.jpg
+    caption: "Savannah Graves poses for a senior portrait while sitting on a picnic table at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-011.jpg
+    caption: "Savannah Graves poses for a senior portrait while sitting on a picnic table at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-017.jpg
+    caption: "Savannah Graves poses for a senior portrait at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-019.jpg
+    caption: "Savannah Graves poses for a senior portrait at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-021.jpg
+    caption: "Savannah Graves sits on the grass during a senior portrait session at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-022.jpg
+    caption: "Savannah Graves sits on the grass during a senior portrait session at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-024.jpg
+    caption: "Savannah Graves sits on the grass during a senior portrait session at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-030.jpg
+    caption: "Savannah Graves poses for a senior portrait against a tree at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-033.jpg
+    caption: "Savannah Graves poses for a senior portrait at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-036.jpg
+    caption: "Savannah Graves poses for a senior portrait while leaning against a wooden fence at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-042.jpg
+    caption: "Savannah Graves poses for a senior portrait in a field at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-044.jpg
+    caption: "Savannah Graves poses for a senior portrait at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+  - filename: 20260714-savannah-047.jpg
+    caption: "Savannah Graves poses for a senior portrait at Honey Creek Park in Monroe, Wisconsin on July 14, 2026."
+
+
+---
+<style type="text/css">
+/* Main CSS */
+div.fancybox {
+	cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+
+	/*Large Images for Desktops*/
+	#blog-hero {
+		background-color: rgba(5, 5, 5, .5)
+	}
+
+	/*use Pseudo-Elements to control bg-img opacity*/
+	#blog-hero:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.8;
+		/*1600x640 bg img for desktop*/
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*Small Images for Mobile*/
+	/*500x500 for mobile bg*/
+	#blog-hero {
+		background-image: url('{{ site.cdn_url }}{{ page.image }}');
+		background-position: center;
+	}
+}
+</style>
+<div class="featured-blog-img">
+	<div id="blog-hero" class="bg33-md bg40-sm bg-half-xs dark-boxshadow" itemprop="image" title="{{ page.title }}">
+		<div class="center-pos">
+			<header class="txt-center">
+				<h1 style="margin-bottom: 10px;">
+					{{ page.title }}
+				</h1>
+				<div class="post-details">
+					<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+				</div>
+				<ul class="tags">
+					<i class="fa fa-tags" aria-hidden="true"></i> {% for tag in page.tags %}
+					<li class="tag-item">
+						<a href="{{ site.baseurl }}/blog/tags/#{{ tag | replace: '/r/', 'r-' | remove: ' ' | remove: '.'}}">{{ tag }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</div>
+</div>
+<div class="creative-content">
+	<section>
+	{% include gallery-grid.html %}	
+</section>
+	<div class="clearfix" style="padding: 30px;"></div>
+</div>
