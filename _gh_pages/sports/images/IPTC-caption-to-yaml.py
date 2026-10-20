@@ -26,7 +26,7 @@ def generate_yaml_for_page(directory_path):
 # Main function
 if __name__ == "__main__":
     # Set your image directory path here
-    directory_path = '/Users/harriedr/Documents/github/secondcropcreative/_gh_pages/sports/images/2026/20261016-monroe-beaverdam'
+    directory_path = '/Users/harriedr/Documents/github/secondcropcreative/_gh_pages/sports/images/2026/20261018-packers-cowboys'
     
     # Generate YAML content
     yaml_data = generate_yaml_for_page(directory_path)
